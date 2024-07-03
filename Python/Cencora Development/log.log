@@ -1,0 +1,1932 @@
+2024-06-20 16:52:31  api_drug_channel.py  Line: 113  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 16:52:31  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 16:52:33  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 16:52:33  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 16:52:33  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 16:52:35  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:52:54  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:52:54  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 16:52:54  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 16:52:55  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:00  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:00  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 16:53:00  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 16:53:02  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:04  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:04  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 16:53:04  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 16:53:06  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:09  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:09  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 16:53:09  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 16:53:10  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:14  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:14  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 16:53:14  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 16:53:15  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:18  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:18  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 16:53:18  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 16:53:20  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 16:53:22  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 16:53:30  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News/tDatabase: SalesDigest 
+2024-06-20 16:53:30  api_drug_channel.py  Line: 150  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 17:02:45  api_drug_channel.py  Line: 113  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 17:02:45  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 17:02:48  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 17:02:48  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 17:02:48  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 17:02:50  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:11  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:11  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 17:03:11  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 17:03:13  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:17  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:17  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 17:03:17  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 17:03:18  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:22  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:22  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 17:03:22  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 17:03:24  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:27  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:27  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 17:03:27  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 17:03:29  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:34  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:34  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 17:03:34  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 17:03:36  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:40  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:40  api_drug_channel.py  Line: 118  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 17:03:40  api_drug_channel.py  Line: 123  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 17:03:42  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:03:47  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:03:54  cosmos_function.py  Line: 41  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 17:03:54  api_drug_channel.py  Line: 150  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 17:20:42  api_drug_channel.py  Line: 188  INFO  Function_Name: get_dc_data  Querying! 2024-06
+2024-06-20 17:20:42  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 17:20:47  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 17:20:47  api_drug_channel.py  Line: 197  ERROR  Function_Name: get_dc_data  Line No: 191  Error: 'date'
+Stack (most recent call last):
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 213, in <module>
+    data = asyncio.run(get_dc_data(read_data))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 197, in get_dc_data
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 17:22:02  api_drug_channel.py  Line: 188  INFO  Function_Name: get_dc_data  Querying! 2024-06
+2024-06-20 17:22:02  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 17:22:07  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 17:24:30  api_drug_channel.py  Line: 114  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 17:24:30  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/03
+2024-06-20 17:24:32  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 17:24:32  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/navigating-market-access-challenges-in.html
+2024-06-20 17:24:32  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 17:24:34  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:24:52  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:24:52  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/drug-channels-news-roundup-march-2024.html
+2024-06-20 17:24:52  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 17:24:53  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:24:58  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:24:58  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/three-digital-intake-strategies-for.html
+2024-06-20 17:24:58  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 17:25:00  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:02  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:02  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/mark-cuban-five-ways-that-big-pbms-hurt.html
+2024-06-20 17:25:02  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 17:25:03  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:07  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:07  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/now-available-2024-economic-report-on.html
+2024-06-20 17:25:07  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 17:25:09  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:13  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:13  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/informa-connects-life-sciences-pricing.html
+2024-06-20 17:25:13  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 17:25:15  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:17  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:17  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-four-key-factors-to-evaluate-when.html
+2024-06-20 17:25:17  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 17:25:19  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:22  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:22  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-top-15-us-pharmacies-of-2023-market.html
+2024-06-20 17:25:22  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 17:25:23  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:27  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:27  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/copay-comes-full-circle-industry-ready.html
+2024-06-20 17:25:27  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-20 17:25:29  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:31  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:31  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/available-for-preorder-2024-economic.html
+2024-06-20 17:25:31  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 17:25:33  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:35  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:35  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/drug-channel-implications-of-inflation.html
+2024-06-20 17:25:35  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 17:25:36  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:40  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:40  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-promise-and-challenges-of-workflow.html
+2024-06-20 17:25:40  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 17:25:42  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:25:45  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:25:45  api_drug_channel.py  Line: 157  ERROR  Function_Name: get_news_content_for_dc  Line No: 149  Error: 'charmap' codec can't encode character '\u30c4' in position 6808: character maps to <undefined>
+Stack (most recent call last):
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 212, in <module>
+    data = asyncio.run(get_news_content_for_dc(external_data))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 157, in get_news_content_for_dc
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 17:27:46  api_drug_channel.py  Line: 114  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 17:27:46  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/03
+2024-06-20 17:27:47  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 17:27:47  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/navigating-market-access-challenges-in.html
+2024-06-20 17:27:47  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 17:27:49  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:06  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:06  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/drug-channels-news-roundup-march-2024.html
+2024-06-20 17:28:06  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 17:28:08  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:13  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:13  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/three-digital-intake-strategies-for.html
+2024-06-20 17:28:13  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 17:28:14  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:16  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:16  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/mark-cuban-five-ways-that-big-pbms-hurt.html
+2024-06-20 17:28:16  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 17:28:18  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:22  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:22  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/now-available-2024-economic-report-on.html
+2024-06-20 17:28:22  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 17:28:23  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:28  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:28  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/informa-connects-life-sciences-pricing.html
+2024-06-20 17:28:28  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 17:28:29  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:34  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:34  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-four-key-factors-to-evaluate-when.html
+2024-06-20 17:28:34  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 17:28:36  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:40  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:40  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-top-15-us-pharmacies-of-2023-market.html
+2024-06-20 17:28:40  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 17:28:41  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:46  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:46  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/copay-comes-full-circle-industry-ready.html
+2024-06-20 17:28:46  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 17:28:47  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:52  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:52  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/available-for-preorder-2024-economic.html
+2024-06-20 17:28:52  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 17:28:53  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:28:56  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:28:56  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/drug-channel-implications-of-inflation.html
+2024-06-20 17:28:56  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 17:28:58  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:29:00  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:29:00  api_drug_channel.py  Line: 119  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/03/the-promise-and-challenges-of-workflow.html
+2024-06-20 17:29:00  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 17:29:02  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 17:29:04  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 17:29:15  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 17:29:15  api_drug_channel.py  Line: 151  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 17:30:11  api_drug_channel.py  Line: 188  INFO  Function_Name: get_dc_data  Querying! 2024-06
+2024-06-20 17:30:11  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 17:30:15  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 17:30:15  api_drug_channel.py  Line: 188  INFO  Function_Name: get_dc_data  Querying! 2024-03
+2024-06-20 17:30:15  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 17:30:18  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:13:08  api_drug_channel.py  Line: 115  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 18:13:08  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2023/01
+2024-06-20 18:13:10  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 18:13:10  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/drug-channels-news-roundup-january-2023.html
+2024-06-20 18:13:10  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:13:12  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:28  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:28  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/the-evolution-of-medical-benefit.html
+2024-06-20 18:13:28  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 18:13:30  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:32  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:32  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/the-state-of-employers-pharmacy.html
+2024-06-20 18:13:32  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 10s
+2024-06-20 18:13:34  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:38  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:38  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/informa-connects-pap-patient-assistance.html
+2024-06-20 18:13:38  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 18:13:40  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:43  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:43  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/harnessing-data-to-improve-patient.html
+2024-06-20 18:13:43  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 18:13:45  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:48  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:48  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/vertical-integration-in-healthcare-2023.html
+2024-06-20 18:13:48  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:13:50  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:52  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:52  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/a-new-point-of-prescribing-solution-to.html
+2024-06-20 18:13:52  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:13:54  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:13:57  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:13:57  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/the-big-three-pbms-2023-formulary.html
+2024-06-20 18:13:57  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 18:13:59  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:14:02  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:14:02  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/01/brand-name-drug-prices-fell-for-fifth.html
+2024-06-20 18:14:02  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 18:14:04  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:14:08  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:14:17  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 18:14:17  api_drug_channel.py  Line: 152  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 18:17:52  api_drug_channel.py  Line: 115  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 18:17:52  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2023/02
+2024-06-20 18:17:54  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 18:17:54  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/drug-channels-news-roundup-february.html
+2024-06-20 18:17:54  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 18:17:56  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:12  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:12  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/exclusive-report-manufacturers-identify.html
+2024-06-20 18:18:12  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:18:14  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:19  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:19  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/copay-accumulator-and-maximizer-update.html
+2024-06-20 18:18:19  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 18:18:21  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:23  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:23  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/available-for-preorder-2023-economic.html
+2024-06-20 18:18:23  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 18:18:24  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:27  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:27  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/improve-access-affordability-and-brand.html
+2024-06-20 18:18:27  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:18:29  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:32  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:32  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/exclusive-profiling-manufacturers.html
+2024-06-20 18:18:32  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 18:18:33  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:37  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:37  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/the-top-indicators-that-hub-launch-will.html
+2024-06-20 18:18:37  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 18:18:38  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:40  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:40  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/the-warped-incentives-behind-amgens.html
+2024-06-20 18:18:40  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 18:18:42  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:46  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:46  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2023/02/informa-connects-access-usa.html
+2024-06-20 18:18:46  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 18:18:48  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 18:18:51  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 18:18:57  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 18:18:57  api_drug_channel.py  Line: 152  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 18:47:18  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 18:47:18  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:47:21  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:47:21  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-02
+2024-06-20 18:47:21  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:47:24  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:49:13  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2024-01
+2024-06-20 18:49:13  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:49:16  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:49:16  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2024-02
+2024-06-20 18:49:16  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:49:19  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:49:34  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2024-01
+2024-06-20 18:49:34  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:49:37  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:49:37  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2024-02
+2024-06-20 18:49:37  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:49:40  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:50:48  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 18:50:48  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:50:51  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:50:51  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-02
+2024-06-20 18:50:51  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 18:50:54  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 18:54:23  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 18:54:23  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 19:12:30  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 19:12:30  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 19:12:33  cosmos_function.py  Line: 84  ERROR  Function_Name: query_items  Error querying data - Line No: 64  Error: (Forbidden) Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: dc145dad-5b4a-409a-820e-0b735288f241, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Code: Forbidden
+Message: Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: dc145dad-5b4a-409a-820e-0b735288f241, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 190, in get_dc_data
+    query_data = await query_items(input_date=input_date)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\cosmos_function.py", line 84, in query_items
+    logger.error(f"Error querying data - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:12:33  api_drug_channel.py  Line: 197  ERROR  Function_Name: get_dc_data  Line No: 190  Error: 
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 197, in get_dc_data
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:13:39  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 19:13:39  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 19:13:40  cosmos_function.py  Line: 84  ERROR  Function_Name: query_items  Error querying data - Line No: 64  Error: (Forbidden) Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: e6d550d3-0171-473b-b196-12f9fade7a1e, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Code: Forbidden
+Message: Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: e6d550d3-0171-473b-b196-12f9fade7a1e, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 190, in get_dc_data
+    query_data = await query_items(input_date=input_date)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\cosmos_function.py", line 84, in query_items
+    logger.error(f"Error querying data - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:13:40  api_drug_channel.py  Line: 197  ERROR  Function_Name: get_dc_data  Line No: 190  Error: 
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 197, in get_dc_data
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:17:57  api_drug_channel.py  Line: 115  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 19:17:57  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 19:17:58  base_events.py  Line: 1771  ERROR  Function_Name: default_exception_handler  Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000022A61333710>
+2024-06-20 19:17:58  base_events.py  Line: 1771  ERROR  Function_Name: default_exception_handler  Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000022A5C049B50>
+2024-06-20 19:17:58  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 19:17:58  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/copay-accumulator-and-maximizer-update.html
+2024-06-20 19:17:58  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 19:17:59  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:17  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/copay-accumulator-and-maximizer-update.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:17  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 19:18:17  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 9s
+2024-06-20 19:18:18  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:18  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:18  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 19:18:18  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 19:18:20  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:20  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:20  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 19:18:20  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 19:18:21  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:21  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:21  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 19:18:21  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 19:18:22  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:22  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:22  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 19:18:22  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 19:18:23  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:23  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:23  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 19:18:23  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 19:18:24  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:24  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:24  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 19:18:24  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 19:18:25  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 19:18:25  summarizer.py  Line: 41  ERROR  Function_Name: get_summary  Unable to summarize content.Hence Skipping! Url: https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html - Line No: 35  Error: Error code: 404 - {'statusCode': 404, 'message': 'Not Found'}
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 126, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 49, in extract_content_dc
+    summary = await get_summary(content, date=date, url=url)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\summarizer.py", line 41, in get_summary
+    logger.error(f"Unable to summarize content.Hence Skipping! Url: {url} - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:26  cosmos_function.py  Line: 43  ERROR  Function_Name: upsert_data  Error Uploading data - Line No: 30  Error: (Forbidden) Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: 7d29ffd6-2b42-427c-8c97-1f03518f417a, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Code: Forbidden
+Message: Request originated from IP 122.161.52.210 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: 7d29ffd6-2b42-427c-8c97-1f03518f417a, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 151, in get_news_content_for_dc
+    await upsert_data(data)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\cosmos_function.py", line 43, in upsert_data
+    logger.error(f"Error Uploading data - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:18:26  api_drug_channel.py  Line: 158  ERROR  Function_Name: get_news_content_for_dc  Line No: 151  Error: 
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 158, in get_news_content_for_dc
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 19:23:04  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-01
+2024-06-20 19:23:04  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 19:23:08  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 19:23:08  api_drug_channel.py  Line: 189  INFO  Function_Name: get_dc_data  Querying! 2023-02
+2024-06-20 19:23:08  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 19:23:11  cosmos_function.py  Line: 78  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 22:53:45  api_drug_channel.py  Line: 107  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 22:53:45  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 22:53:48  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 22:53:48  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/copay-accumulator-and-maximizer-update.html
+2024-06-20 22:53:48  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 22:53:49  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:11  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:11  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 22:54:11  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 22:54:12  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:15  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:15  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 22:54:15  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 22:54:16  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:20  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:20  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 22:54:20  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 22:54:21  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:24  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:24  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 22:54:24  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 22:54:25  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:29  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:29  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 22:54:29  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 22:54:30  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:33  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:33  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 22:54:33  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-20 22:54:35  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:37  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:37  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 22:54:37  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 22:54:39  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:54:41  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:54:41  api_drug_channel.py  Line: 156  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 22:58:21  api_drug_channel.py  Line: 107  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 22:58:21  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 22:58:23  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 22:58:23  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 22:58:27  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 22:58:27  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/copay-accumulator-and-maximizer-update.html
+2024-06-20 22:58:27  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 8s
+2024-06-20 22:58:28  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:32  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:32  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 22:58:32  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 22:58:34  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:37  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:37  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 22:58:37  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 22:58:39  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:42  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:42  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 22:58:42  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 10s
+2024-06-20 22:58:44  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:47  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:47  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 22:58:47  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-20 22:58:49  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:51  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:51  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 22:58:51  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 12s
+2024-06-20 22:58:53  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:56  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:56  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 22:58:56  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 22:58:57  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:58:59  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:58:59  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 22:58:59  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 22:59:01  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 22:59:02  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 22:59:08  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 22:59:08  api_drug_channel.py  Line: 156  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 23:04:20  api_drug_channel.py  Line: 107  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:04:20  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:04:23  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 23:04:23  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:04:26  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:04:26  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/copay-accumulator-and-maximizer-update.html
+2024-06-20 23:04:26  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 11s
+2024-06-20 23:04:28  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:32  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:32  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/independents-outshine-pbms-in.html
+2024-06-20 23:04:32  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-20 23:04:33  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:35  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:35  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-15-specialty-pharmacies-of-2023.html
+2024-06-20 23:04:35  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 23:04:37  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:40  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:40  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of.html
+2024-06-20 23:04:40  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 23:04:41  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:45  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:45  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/expanding-our-definitions-of-out-of.html
+2024-06-20 23:04:45  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-20 23:04:47  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:49  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:49  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 23:04:49  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-20 23:04:50  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:54  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:54  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 23:04:54  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 10s
+2024-06-20 23:04:56  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:04:59  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:04:59  api_drug_channel.py  Line: 120  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 23:04:59  api_drug_channel.py  Line: 125  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 6s
+2024-06-20 23:05:01  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:05:04  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:05:09  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 23:05:09  api_drug_channel.py  Line: 156  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!
+2024-06-20 23:11:25  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:11:25  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:11:27  get_article_list.py  Line: 81  INFO  Function_Name: get_articles_list_dc  Extracted the article list and links
+2024-06-20 23:11:27  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:11:31  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:11:31  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/choosing-right-hub-partner-blueprint.html
+2024-06-20 23:11:31  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 23:11:33  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:11:52  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:11:52  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/pharmacist-salaries-and-employment-in.html
+2024-06-20 23:11:52  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 10s
+2024-06-20 23:11:53  extract_article_content.py  Line: 46  INFO  Function_Name: extract_content_dc  Extracted Content
+2024-06-20 23:11:58  summarizer.py  Line: 36  INFO  Function_Name: get_summary  Summarization Complete
+2024-06-20 23:12:01  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 23:12:01  api_drug_channel.py  Line: 158  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 35.951905488967896
+2024-06-20 23:13:31  api_drug_channel.py  Line: 181  INFO  Function_Name: get_dc_data  Querying! 2024-06
+2024-06-20 23:13:31  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 23:13:34  cosmos_function.py  Line: 66  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 23:13:34  api_drug_channel.py  Line: 187  INFO  Function_Name: get_dc_data  Data Extraction Completed!  Total Time: {total_time}
+2024-06-20 23:14:46  api_drug_channel.py  Line: 181  INFO  Function_Name: get_dc_data  Querying! 2024-06
+2024-06-20 23:14:46  cosmos_function.py  Line: 49  INFO  Function_Name: query_items  Querying for items in database
+2024-06-20 23:14:50  cosmos_function.py  Line: 66  INFO  Function_Name: query_items  Items queried! Container: News	Database: SalesDigest 
+2024-06-20 23:14:50  api_drug_channel.py  Line: 187  INFO  Function_Name: get_dc_data  Data Extraction Completed!  Total Time: 4.216825485229492
+2024-06-20 23:16:34  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:16:34  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:17:18  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-20 23:17:18  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:17:21  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:17:23  cosmos_function.py  Line: 43  ERROR  Function_Name: upsert_data  Error Uploading data - Line No: 39  Error: cannot access local variable 'item' where it is not associated with a value
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 153, in get_news_content_for_dc
+    await upsert_data(data)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\cosmos_function.py", line 43, in upsert_data
+    logger.error(f"Error Uploading data - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 23:17:23  api_drug_channel.py  Line: 165  ERROR  Function_Name: get_news_content_for_dc  Line No: 153  Error: 
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 165, in get_news_content_for_dc
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 23:18:59  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:18:59  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:19:43  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-20 23:19:43  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:19:48  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:19:48  api_drug_channel.py  Line: 158  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 48.454843521118164
+2024-06-20 23:21:39  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:21:39  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:22:04  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-20 23:22:04  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:22:07  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:22:07  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 23:22:07  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 16s
+2024-06-20 23:23:09  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.860756 seconds
+2024-06-20 23:24:10  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 1.853871 seconds
+2024-06-20 23:25:12  llm_scrapper.py  Line: 50  ERROR  Function_Name: extract_article_content_llm  Line No: 43  Error: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <style type='text/css'>
+        body {
+            font-family: Arial;
+            margin-left: 40px;
+        }
+
+        img {
+            border: 0 none;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #message h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message p {
+            font-size: 13px;
+            color: #000000;
+            margin: 7px 0px 0px0px
+        }
+
+        #errorref {
+            font-size: 11px;
+            color: #737373;
+            margin-top: 41px
+        }
+    </style>
+    <title>Service unavailable</title>
+</head>
+
+<body>
+    <div id='content'>
+        <div id='message'>
+            <h2>Our services aren't available right now</h2>
+            <p>We're working to restore all services as soon as possible. Please check back soon.</p>
+        </div>
+        <div id='errorref'>
+            <span>20240620T175414Z-17649495c9582vlqhg13hc8pp0000000010g000000015f7n            </span>
+        </div>
+    </div>
+</body>
+</html>
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 127, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 24, in extract_content_dc
+    content,summary= await extract_article_content_llm(soup)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\llm_scrapper.py", line 50, in extract_article_content_llm
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 23:25:12  api_drug_channel.py  Line: 158  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 213.6627950668335
+2024-06-20 23:29:44  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:29:44  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:30:30  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-20 23:30:30  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:30:35  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:30:35  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of-2023.html
+2024-06-20 23:30:35  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 7s
+2024-06-20 23:30:36  extract_article_content.py  Line: 53  WARNING  Function_Name: extract_content_dc  Url not responding.Hence skipping! Url: https://www.drugchannels.net/2024/06/the-top-pharmacy-benefit-managers-of-2023.html Request status code: 404
+2024-06-20 23:30:36  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 23:30:36  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-20 23:31:41  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.833981 seconds
+2024-06-20 23:32:42  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 1.923522 seconds
+2024-06-20 23:33:45  llm_scrapper.py  Line: 50  ERROR  Function_Name: extract_article_content_llm  Line No: 43  Error: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <style type='text/css'>
+        body {
+            font-family: Arial;
+            margin-left: 40px;
+        }
+
+        img {
+            border: 0 none;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #message h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message p {
+            font-size: 13px;
+            color: #000000;
+            margin: 7px 0px 0px0px
+        }
+
+        #errorref {
+            font-size: 11px;
+            color: #737373;
+            margin-top: 41px
+        }
+    </style>
+    <title>Service unavailable</title>
+</head>
+
+<body>
+    <div id='content'>
+        <div id='message'>
+            <h2>Our services aren't available right now</h2>
+            <p>We're working to restore all services as soon as possible. Please check back soon.</p>
+        </div>
+        <div id='errorref'>
+            <span>20240620T180247Z-17748f7b57d5njvx34bsg1qpgc00000009rg00000000z29b            </span>
+        </div>
+    </div>
+</body>
+</html>
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 127, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 24, in extract_content_dc
+    content,summary= await extract_article_content_llm(soup)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\llm_scrapper.py", line 50, in extract_article_content_llm
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-20 23:33:45  api_drug_channel.py  Line: 161  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 241.23807215690613 Success: 0 Failure: 2
+2024-06-20 23:52:56  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-20 23:52:56  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/06
+2024-06-20 23:53:42  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-20 23:53:42  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-20 23:53:46  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-20 23:53:46  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/06/hospitals-are-relying-more-on-pbms-to.html
+2024-06-20 23:53:46  api_drug_channel.py  Line: 126  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-20 23:54:09  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-20 23:54:12  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-20 23:54:12  api_drug_channel.py  Line: 161  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 76.07817769050598 Success: 1 Failure: 0
+2024-06-21 11:16:43  api_drug_channel.py  Line: 108  INFO  Function_Name: get_news_content_for_dc  Extracting information from drug channels
+2024-06-21 11:16:43  get_article_list.py  Line: 20  INFO  Function_Name: get_articles_list_dc  Extracting list from https://www.drugchannels.net/2024/05
+2024-06-21 11:17:30  llm_scrapper.py  Line: 37  INFO  Function_Name: extract_article_list_llm  Extracted the article list and links using LLM
+2024-06-21 11:17:30  cosmos_function.py  Line: 79  INFO  Function_Name: query_urls  Querying urls in database 
+2024-06-21 11:17:34  cosmos_function.py  Line: 94  INFO  Function_Name: query_urls  Urls queried! Container: News	Database: SalesDigest 
+2024-06-21 11:17:34  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/shifting-strategies-tackling-patient.html
+2024-06-21 11:17:34  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-21 11:18:47  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:18:47  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/drug-channels-news-roundup-may-2024-cvs.html
+2024-06-21 11:18:47  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-21 11:19:56  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.913897 seconds
+2024-06-21 11:20:18  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:20:18  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/why-ira-will-encourage-part-d-plans-to.html
+2024-06-21 11:20:18  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-21 11:20:41  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:20:41  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/the-340b-drug-pricing-program-trends.html
+2024-06-21 11:20:41  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 5s
+2024-06-21 11:21:41  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:21:41  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/hcp-perspectives-access-challenges-in.html
+2024-06-21 11:21:41  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 13s
+2024-06-21 11:22:45  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:22:45  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/another-ira-surprise-part-b-coinsurance.html
+2024-06-21 11:22:45  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-21 11:24:03  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.935602 seconds
+2024-06-21 11:25:05  _base_client.py  Line: 1047  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 1.609944 seconds
+2024-06-21 11:26:07  llm_scrapper.py  Line: 51  ERROR  Function_Name: extract_article_content_llm  Line No: 44  Error: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <style type='text/css'>
+        body {
+            font-family: Arial;
+            margin-left: 40px;
+        }
+
+        img {
+            border: 0 none;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        #message h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #000000;
+            margin: 34px 0px 0px 0px
+        }
+
+        #message p {
+            font-size: 13px;
+            color: #000000;
+            margin: 7px 0px 0px0px
+        }
+
+        #errorref {
+            font-size: 11px;
+            color: #737373;
+            margin-top: 41px
+        }
+    </style>
+    <title>Service unavailable</title>
+</head>
+
+<body>
+    <div id='content'>
+        <div id='message'>
+            <h2>Our services aren't available right now</h2>
+            <p>We're working to restore all services as soon as possible. Please check back soon.</p>
+        </div>
+        <div id='errorref'>
+            <span>20240621T055508Z-17649495c95d5wmftr6n0wrzhc00000001ng000000018s63            </span>
+        </div>
+    </div>
+</body>
+</html>
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\2339455\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\api_drug_channel.py", line 127, in get_news_content_for_dc
+    content, summary = await extract_content_dc(url=item['url'], date=item['date'], headers=url_headers(),
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\extract_article_content.py", line 24, in extract_content_dc
+    content,summary= await extract_article_content_llm(soup)
+  File "C:\Users\2339455\Downloads\Development\Cencora Development\utils\llm_scrapper.py", line 51, in extract_article_content_llm
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-06-21 11:26:07  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/solving-access-barriers-in-biomarker.html
+2024-06-21 11:26:07  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-21 11:27:10  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:27:10  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/mapping-vertical-integration-of.html
+2024-06-21 11:27:10  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 14s
+2024-06-21 11:28:04  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:28:04  api_drug_channel.py  Line: 121  INFO  Function_Name: get_news_content_for_dc  Drug channel URL - https://www.drugchannels.net/2024/05/bracing-for-impact-future-of-hub-pap.html
+2024-06-21 11:28:04  api_drug_channel.py  Line: 124  INFO  Function_Name: get_news_content_for_dc  Script put to sleep for 15s
+2024-06-21 11:29:15  llm_scrapper.py  Line: 47  INFO  Function_Name: extract_article_content_llm  Extracted Content and Summarized using LLM
+2024-06-21 11:29:21  cosmos_function.py  Line: 40  INFO  Function_Name: upsert_data  Items uploaded! Container: News	Database: SalesDigest 
+2024-06-21 11:29:21  api_drug_channel.py  Line: 161  INFO  Function_Name: get_news_content_for_dc  Batch Extraction Completed!  Total Time: 757.8297209739685 Success: 8 Failure: 1
