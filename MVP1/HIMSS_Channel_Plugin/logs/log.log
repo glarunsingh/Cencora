@@ -1,0 +1,207 @@
+2024-07-08 17:08:05  db_function.py  Line: 33  ERROR  Function_Name: __init__  Line No: 28  Error: (Forbidden) Request originated from IP 115.96.213.136 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: 8be2435c-843a-4eea-8740-b6ccdbfc2c86, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Code: Forbidden
+Message: Request originated from IP 115.96.213.136 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: 8be2435c-843a-4eea-8740-b6ccdbfc2c86, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 49, in <module>
+    db_ops = DBOPS()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\utils\db_function.py", line 33, in __init__
+    logger.error(f"Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-10 18:05:08  himss_app.py  Line: 21  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 18:05:13  cosmos_function.py  Line: 35  ERROR  Function_Name: __init__  Unable to Connnect to Database - Line No: 27  Error: 'COSMOS_NEWS_DATABASE_DC'
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 32, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 28, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 23, in himss_scrapping_function
+    db_ops = HIMSSDBOPS()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\utils\cosmos_function.py", line 35, in __init__
+    logger.error(f"Unable to Connnect to Database - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-10 18:06:11  himss_app.py  Line: 21  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 18:06:17  cosmos_function.py  Line: 35  ERROR  Function_Name: __init__  Unable to Connnect to Database - Line No: 27  Error: 'COSMOS_NEWS_DATABASE_DC'
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 32, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 28, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 23, in himss_scrapping_function
+    db_ops = HIMSSDBOPS()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\utils\cosmos_function.py", line 35, in __init__
+    logger.error(f"Unable to Connnect to Database - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-10 18:07:58  himss_app.py  Line: 21  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 18:08:26  cosmos_function.py  Line: 35  ERROR  Function_Name: __init__  Unable to Connnect to Database - Line No: 27  Error: 'COSMOS_NEWS_DATABASE_DC'
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 32, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 28, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 23, in himss_scrapping_function
+    db_ops = HIMSSDBOPS()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\utils\cosmos_function.py", line 35, in __init__
+    logger.error(f"Unable to Connnect to Database - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-10 18:22:41  himss_app.py  Line: 21  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 18:22:59  cosmos_function.py  Line: 35  ERROR  Function_Name: __init__  Unable to Connnect to Database - Line No: 30  Error: <urllib3.connection.HTTPSConnection object at 0x000002077CBD7970>: Failed to resolve 'cosmos-keyaccount-qa.documents.azure.com' ([Errno 11004] getaddrinfo failed)
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 32, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 28, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 23, in himss_scrapping_function
+    db_ops = HIMSSDBOPS()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\utils\cosmos_function.py", line 35, in __init__
+    logger.error(f"Unable to Connnect to Database - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-10 18:34:12  himss_app.py  Line: 21  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 19:41:25  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 19:41:44  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-10 19:42:38  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-10 19:50:10  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-10 19:50:17  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-10 19:50:19  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 09:58:20  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:05:37  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:06:00  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 10:09:04  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:09:26  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:09:28  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 10:18:28  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:18:29  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:18:31  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 10:21:30  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:21:36  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:21:38  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 10:27:56  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:27:58  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:27:59  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-11 10:36:23  himss_app.py  Line: 22  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-11 10:36:25  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-11 10:36:26  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 

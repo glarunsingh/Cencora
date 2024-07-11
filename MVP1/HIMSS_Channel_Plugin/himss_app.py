@@ -1,90 +1,67 @@
-import os
 import logging
 import random
-import re
 import sys
 import time
-from datetime import datetime
-from typing import Optional, List, Literal
+from datetime import datetime, timedelta
+#import azure.functions as func
+import os
+from dotenv import load_dotenv
+import asyncio
 
-import uvicorn
-from fastapi import FastAPI, BackgroundTasks, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
-from pydantic import BaseModel, Field, model_validator
-
-from utils.cosmos_function import HIMSSDBOPS
-#from utils.excel_functions import  ExcelFunc
-#from utils.extract_article_content import extract_content_dc
-#from utils.get_article_list import get_articles_list_dc
-from utils.himss_scraper import get_news_items, extract_news_content
-from utils.save_json_format import save_news_data
 from utils.logs import create_log
-from utils.url_parameters import url_headers
+from utils.cosmos_function import HIMSSDBOPS
+from utils.himss_scraper import get_news_items, extract_news_content
+from utils.himss_data_extraction import himss_extraction
+
+_ = load_dotenv('./config/db.env')
 
 logger = create_log(name="HIMSS", level=logging.INFO)
 
-origins = [
-    "http://localhost:8000",
-    "http://localhost:4200",
-    "http://127.0.0.1:4200",
-    "http://127.0.0.1:8000",
-    "http://127.0.0.1:4700",
-    "http://localhost:4700"
-]
+async def himss_scrapping_function():
+    start_time = time.time()
+    logger.info("Extracting information from HIMSS website")
 
-app = FastAPI()
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"])
+    db_ops = HIMSSDBOPS()
 
-failure_count = 0
-total_count = 0
+    # get current month and year
+    today_date = datetime.now()
 
-db_ops = HIMSSDBOPS()
-#exc_func=ExcelFunc()
+    # Function Arguments
+    month_list = [today_date.month]
+    year_list = [today_date.year]
+    use_db = True
+    use_llm = False
+    department = None
 
-class dc_inputs(BaseModel):
-    month: Optional[int] = Field(default=datetime.now().month, ge=1, le=12,
-                                 description="Article month.Default is set to present month.")
-    year: Optional[int] = Field(default=datetime.now().year, ge=2006, le=datetime.now().year,
-                                description="Article year.Default is set to present year.")
-    department: Optional[Literal["Health", "Government"]] = Field(default="Health",
-                                                                  description="Department Name")
-    use_db: Optional[bool] = Field(default=True,
-                                   description="Flag to indicate whether to call the database(Fast scrapping if "
-                                               "enabled.Default is set to True)")
-    use_llm_scrapping: Optional[bool] = Field(default=False,
-                                              description="Flag to indicate whether to use LLM to scrape the "
-                                                          "content.Default is set to False")
+    # to avoid missing the article published on last date of month
+    if today_date.date == 1:
+        one_day_ago = today_date - timedelta(days=1)
+        month_list.append(one_day_ago.month)
+        year_list.append(one_day_ago.year)
 
-def main():
-    url = "https://www.himss.org/news"
-    news_items = get_news_items(url)
+    content = ""
 
-    news_data = []
-    for date, news_link in news_items:
-        news_topic_text, content_text = extract_news_content(news_link)
-        news_data.append({"news_url": news_link,
-                          "news_title":news_topic_text,
-                          "news_date":date.strftime('%Y-%m-%d:%H'),
-                          "news_content":content_text,
-                          "news_summary":"",
-                          "sentiment":"",
-                          "keywords_list":""
-                          })
-        
-    temp_folder_path = os.path.join(os.getcwd(), "temp")
-    if not os.path.exists(temp_folder_path):
-        os.makedirs(temp_folder_path)
+    success_cnt = 0
+    failure_cnt = 0
+    data = []
+    new_data = {}
+    
+    #get the list of key words
+    key_list = db_ops.query_keyword_list(department_name=department)
+    
+    data =  himss_extraction(key_list=key_list)
+    print(data)
 
-    json_file_path = os.path.join(temp_folder_path,"himss_news_data.json")
-    save_news_data(news_data, json_file_path)
+    # call the extracted function
+    # pass the keywords, url, hash it and return the data.
+    # upload the information in to the database
 
-    print(f'News data saved to {json_file_path}')
 
+####################################################################
+# Define an asynchronous function to call the scrapping function
+async def main():
+    await himss_scrapping_function()
+
+# Run the main function using asyncio
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

@@ -61,7 +61,7 @@ async def get_news_items(url):
     news_items.sort(key=lambda x: x[0], reverse=True)
     return news_items
 
-def extract_news_content(news_link):
+async def extract_news_content(news_link):
     """
     Extracts the main content of a news article from the given URL.
     
@@ -88,7 +88,7 @@ def extract_news_content(news_link):
     
     return news_topic_text, content_text
 
-def save_news_data(news_data, json_file_path):
+async def save_news_data(news_data, json_file_path):
     """
     Saves the news data to a JSON file.
     
@@ -102,23 +102,26 @@ def save_news_data(news_data, json_file_path):
     except IOError as e:
         print(f"Error saving JSON file: {e}")
 
-def main():
+async def himss_extraction(key_list=[]):
     url = "https://www.himss.org/news"
     news_items = get_news_items(url)
     
     news_data = []
     for date, news_link in news_items:
         news_topic_text, content_text = extract_news_content(news_link)
+        sum_key_sent = await llm_content_sum_key_sent(content_text, url=news_link, key_list=key_list)
+        content = sum_key_sent.content_schema
+
         news_data.append({
             "news_url": news_link,
             "news_title": news_topic_text,
             "news_date": date.strftime('%Y-%m-%d:%H'),
             "news_content": content_text,
-            "news_summary": "",
-            "sentiment": "",
-            "keywords_list": ""
+            "news_summary": sum_key_sent.summary_schema,
+            "sentiment": sum_key_sent.sentiment_schema,
+            "keywords_list": sum_key_sent.keyword_schema,
         })
-    
+
     temp_folder_path = os.path.join(os.getcwd(), "temp")
     if not os.path.exists(temp_folder_path):
         os.makedirs(temp_folder_path)
@@ -127,6 +130,6 @@ def main():
     save_news_data(news_data, json_file_path)
     
     print(f"News data saved to {json_file_path}")
+    return news_data
 
-if __name__ == "__main__":
-    main()
+    
