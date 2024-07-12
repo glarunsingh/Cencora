@@ -93,8 +93,8 @@ async def llm_article_list(raw_text):
 class Llm_Content_Schema(BaseModel):
     content_schema: str = Field(description="Article content from the website raw content provided")
     summary_schema: str = Field(description="Concise summary of the of the news article from the article scrapped")
-    sentiment_schema: Literal["positive", "negative", "neutral"] = Field(
-        description="Overall sentiment of the article content whether it's positive, negative or neutral")
+    sentiment_schema: Literal["Positive", "Negative", "Neutral"] = Field(
+        description="Overall sentiment of the article content whether it's Positive, Negative or Neutral")
     keyword_schema: List[str] = Field(
         description="Python List of matching keywords from the article content based on a list of keywords provided.")
 

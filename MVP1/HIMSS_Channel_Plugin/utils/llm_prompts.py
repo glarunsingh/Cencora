@@ -13,7 +13,7 @@ From the above given data extract the following information
     ---------------
     Response Instructions:
     1. Generate the concise summary of the of the news item from the given context and rewrite the article summary.
-    2. Identify the overall sentiment of the content, it’s  should be either positive, negative, or neutral.
+    2. Identify the overall sentiment of the content, it’s  should be either Positive, Negative, or Neutral.
     3. List of matching keywords from the content based on a list of keywords provided.
     4. Avoid section that contains the advertisement and is not related to the news content provided.
 
@@ -39,8 +39,8 @@ From the above given data extract the following information
     2. Avoid putting the date, posted by, labels and article heading title but sub-heading inside article content should
        be kept in the content.
     3. Generate the concise summary of the article scrapped.
-    4. Identify the overall sentiment of the article scrapped content, it’s  should be either positive, negative, or 
-       neutral.
+    4. Identify the overall sentiment of the article scrapped content, it’s  should be either Positive, Negative, or 
+       Neutral.
     5. List of matching keywords from the article scrapped based on a list of keywords provided.
     6. Avoid section that contains the advertisement and is not related to the article content provided.
 
