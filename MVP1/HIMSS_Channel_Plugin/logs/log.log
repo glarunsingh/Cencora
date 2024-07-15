@@ -602,3 +602,332 @@ Stack (most recent call last):
 2024-07-11 13:49:37  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
 2024-07-11 13:49:37  himss_app.py  Line: 78  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\temp\himss_data_20240711_134937.json
 2024-07-11 13:49:37  himss_app.py  Line: 83  INFO  Function_Name: himss_scrapping_function  Total execution time: 473.1795222759247 seconds
+2024-07-12 13:48:26  himss_app.py  Line: 30  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-12 13:48:28  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-12 13:48:30  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 13:48:31  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_news_items  Found 16 news items
+2024-07-12 13:48:34  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 13:48:34  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 13:48:35  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 13:48:35  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 13:48:37  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 13:48:37  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 13:48:40  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 13:48:40  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 13:48:43  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 13:48:43  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 13:48:46  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 13:48:46  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 13:48:48  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 13:48:48  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 13:48:50  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 13:48:50  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 13:48:54  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 13:48:54  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 13:48:56  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 13:48:56  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 13:48:59  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 13:48:59  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 13:49:01  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 13:49:01  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 13:49:04  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 13:49:04  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 13:49:07  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 13:49:07  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 13:49:10  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 13:49:10  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 13:49:13  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 13:49:13  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 13:49:13  himss_data_extraction.py  Line: 117  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-12 13:49:24  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:49:24  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 13:49:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:49:38  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 13:49:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:49:51  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 13:50:23  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:50:23  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 13:50:45  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:50:45  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 13:51:12  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:51:12  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 13:51:43  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:51:43  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 13:51:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:51:58  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 13:52:24  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:52:24  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 13:52:48  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:52:48  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 13:53:12  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:53:12  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 13:53:35  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:53:35  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 13:54:07  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:54:07  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 13:54:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:54:38  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 13:55:28  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:55:28  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 13:55:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 13:55:58  himss_app.py  Line: 82  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 13:56:07  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 13:56:07  himss_app.py  Line: 97  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\temp\himss_data_20240712_135607.json
+2024-07-12 13:56:07  himss_app.py  Line: 102  INFO  Function_Name: himss_scrapping_function  Total execution time: 461.0894546508789 seconds
+2024-07-12 17:41:12  himss_app.py  Line: 30  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-12 17:41:19  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_news_items  Found 16 news items
+2024-07-12 17:41:21  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 17:41:21  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 17:41:25  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 17:41:25  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 17:41:27  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 17:41:27  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 17:41:31  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 17:41:31  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 17:41:34  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 17:41:34  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 17:41:36  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 17:41:36  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 17:41:38  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 17:41:38  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 17:41:41  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 17:41:41  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 17:41:43  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 17:41:43  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 17:41:46  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 17:41:46  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 17:41:49  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 17:41:49  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 17:41:53  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 17:41:53  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 17:41:56  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 17:41:56  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 17:41:59  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 17:41:59  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 17:42:02  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 17:42:02  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 17:42:05  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 17:42:05  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 17:42:05  himss_data_extraction.py  Line: 117  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-12 17:42:05  cosmos_function.py  Line: 118  INFO  Function_Name: query_urls  Querying urls in database 
+2024-07-12 17:42:07  cosmos_function.py  Line: 127  INFO  Function_Name: query_urls  Urls queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 18:01:01  himss_app.py  Line: 31  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-12 18:01:07  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_news_items  Found 16 news items
+2024-07-12 18:01:10  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:01:10  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:01:14  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:01:14  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:01:17  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:01:17  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:01:28  himss_data_extraction.py  Line: 72  ERROR  Function_Name: extract_news_content  Error fetching the news article: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards. Error: HTTPSConnectionPool(host='www.himss.org', port=443): Read timed out. (read timeout=10)
+2024-07-12 18:01:28  himss_data_extraction.py  Line: 113  WARNING  Function_Name: himss_extraction  Skipped item due to missing content: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 18:01:30  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:01:30  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:01:33  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:01:33  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:01:35  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:01:35  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:01:38  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:01:38  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:01:41  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:01:41  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:01:44  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:01:44  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:01:46  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:01:46  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:01:49  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:01:49  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:01:52  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:01:52  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:01:54  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:01:54  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:01:58  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:01:58  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:02:00  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:02:00  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:02:00  himss_data_extraction.py  Line: 117  INFO  Function_Name: himss_extraction  Extracted 15 items from HIMSS
+2024-07-12 18:02:00  cosmos_function.py  Line: 118  INFO  Function_Name: query_urls  Querying urls in database 
+2024-07-12 18:02:02  cosmos_function.py  Line: 127  INFO  Function_Name: query_urls  Urls queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 18:03:19  himss_app.py  Line: 120  ERROR  Function_Name: himss_scrapping_function  Unhandled Exception: Line No: 63  Error: 'url'
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 129, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 125, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 120, in himss_scrapping_function
+    logger.error(f"Unhandled Exception: Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-12 18:05:11  himss_app.py  Line: 31  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-12 18:06:09  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_news_items  Found 16 news items
+2024-07-12 18:06:13  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:06:13  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:06:16  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:06:16  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:06:18  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:06:18  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:06:20  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 18:06:20  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 18:06:24  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:06:24  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:06:28  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:06:28  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:06:31  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:06:31  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:06:34  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:06:34  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:06:37  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:06:37  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:06:39  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:06:39  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:06:43  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:06:43  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:06:45  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:06:45  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:06:49  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:06:49  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:06:52  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:06:52  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:06:54  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:06:54  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:06:57  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:06:57  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:06:57  himss_data_extraction.py  Line: 117  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-12 18:07:47  cosmos_function.py  Line: 118  INFO  Function_Name: query_urls  Querying urls in database 
+2024-07-12 18:08:34  cosmos_function.py  Line: 127  INFO  Function_Name: query_urls  Urls queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 18:08:45  himss_app.py  Line: 120  ERROR  Function_Name: himss_scrapping_function  Unhandled Exception: Line No: 63  Error: 'url'
+Stack (most recent call last):
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\817840\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\817840\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 129, in <module>
+    asyncio.run(main())
+  File "C:\Users\817840\Anaconda3\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\817840\Anaconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 125, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\himss_app.py", line 120, in himss_scrapping_function
+    logger.error(f"Unhandled Exception: Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-12 18:42:47  himss_app.py  Line: 31  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-12 18:43:12  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_news_items  Found 16 news items
+2024-07-12 18:43:15  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:43:15  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 18:43:17  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:43:17  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 18:43:20  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:43:20  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 18:43:24  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 18:43:24  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 18:43:27  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:43:27  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 18:43:30  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:43:30  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 18:43:35  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:43:35  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 18:43:37  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:43:37  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 18:43:41  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:43:41  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 18:43:44  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:43:44  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 18:43:47  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:43:47  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 18:43:50  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:43:50  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 18:43:53  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:43:53  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 18:43:56  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:43:56  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 18:43:59  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:43:59  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 18:44:02  himss_data_extraction.py  Line: 83  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:44:02  himss_data_extraction.py  Line: 111  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 18:44:02  himss_data_extraction.py  Line: 117  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-12 18:44:12  cosmos_function.py  Line: 118  INFO  Function_Name: query_urls  Querying urls in database 
+2024-07-12 18:44:14  cosmos_function.py  Line: 127  INFO  Function_Name: query_urls  Urls queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 19:17:55  cosmos_function.py  Line: 148  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-12 19:17:56  cosmos_function.py  Line: 157  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 19:18:08  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:18:08  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/inaugural-cohort-cpdhts-certificants-recognized-digital-health-transformation-strategy
+2024-07-12 19:18:23  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:18:23  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-dr-anwar-jebran-md-primary-care-physician-informaticist-oak-street-health-and
+2024-07-12 19:18:39  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:18:39  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-apac-designed-enhance-knowledge-and-foster-innovation
+2024-07-12 19:19:13  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:19:13  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-celebrates-recipients-univants-healthcare-excellence-awards
+2024-07-12 19:19:34  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:19:34  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-dr-william-hayes-md-mba-recently-retired-cmo-trubridge
+2024-07-12 19:19:46  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:19:46  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/join-healthcare-revolution-himss-ai-healthcare-forum
+2024-07-12 19:20:10  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:20:10  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-apac-leading-voices-digital-health-converge-seoul
+2024-07-12 19:20:48  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:20:48  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/calderdale-and-huddersfield-nhs-foundation-trust-achieves-amam-stage-6-validation
+2024-07-12 19:21:06  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:21:06  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/hhs-releases-final-rule-establishing-provider-disincentives-information-blocking
+2024-07-12 19:21:16  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:21:16  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-cybersecurity-expert-lee-kim-running-isc2-board-directors
+2024-07-12 19:21:27  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:21:27  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-recommends-onc-ensure-true-health-equity-design
+2024-07-12 19:21:37  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:21:37  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/apac-healthcare-professionals-invited-complete-emr-experience-survey
+2024-07-12 19:21:54  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:21:54  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/cut-through-hype-2024-himss-ai-healthcare-forum
+2024-07-12 19:22:19  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:22:19  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-12 19:22:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:22:38  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-12 19:22:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-12 19:22:51  himss_app.py  Line: 96  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-12 19:23:00  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-12 19:23:00  himss_app.py  Line: 111  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Channel_Plugin\temp\himss_data_20240712_192300.json
+2024-07-12 19:23:00  himss_app.py  Line: 116  INFO  Function_Name: himss_scrapping_function  Total execution time: 2413.61496591568 seconds
