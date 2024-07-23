@@ -1,0 +1,22 @@
+[
+    {
+        "news_url": "https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response",
+        "news_title": "HIMSS Calls for Significant Investment for Public Health Data Modernization in Annual IPPS Response",
+        "news_date": "2024-06-11T16:34:15.000000Z",
+        "news_content": "HIMSS has reiterated its call for significant investment in public health information data modernization and interoperability capability. HIMSS submitted its call to action through public comments responding to a request for information (RFI) from the Centers for Medicare and Medicaid Services about methods to improve electronic reporting of public health data to state and local public health agencies. The RFI, which was part of CMS\u2019s annual Inpatient Prospective Payment System proposed rule , asked stakeholders about potential methods, including changing the attestation measure for capability to report public health data electronically to a numerator/denominator quality measure. HIMSS indicated measuring success in reporting public health data is a goal, but the current lack of capability in many public health agencies to receive the data electronically would require a wide range of exemptions, limiting the value of a measure while placing additional burden on health systems. HIMSS continues to endorse significant IT infrastructure funding, with corresponding technical support and workforce development by HHS, as recommended in HIMSS 2022 Public Health Information and Technology Infrastructure Funding Report . In the response, HIMSS also supported proposed changes by CMS for electronic clinical quality measure (eCQM) reporting for both the Promoting Interoperability Program and the Inpatient Quality Reporting Program. The proposed changes included the addition of patient safety focused measures (measuring patient falls and post-surgical respiratory failure) to the self-selected menu for quality reporting starting in 2026, and increasing the number of eCQMs required for reporting, going from six to nine in 2026 and nine to eleven in 2027. HIMSS\u2019s assessment of the new measures determined that the timeline to successfully implement the mechanisms for capturing and reporting the needed data to meet the measures was appropriate, and each of the new measures are meaningful and actionable, meaning improving measure performance should positively impact patient outcomes. HIMSS Public Policy and Advocacy The HIMSS policy team works closely with the U.S. Congress, federal decision makers, state legislatures and governments, and other organizations to recommend policy, and legislative and regulatory solutions to improve health through information and technology. Help Advance Health IT Policy",
+        "news_summary": "HIMSS has called for significant investment in public health information data modernization and interoperability. They responded to a CMS request for information on improving electronic public health data reporting. HIMSS supports IT infrastructure funding and proposed changes for electronic clinical quality measure reporting. They believe the new measures are meaningful and will positively impact patient outcomes. HIMSS's policy team works with various stakeholders to recommend health IT policy improvements.",
+        "sentiment": "Positive",
+        "keywords_list": [
+            "RFQ RFI RFP pharmaceuticals, vaccines, storage, distribution",
+            "Legislative advocacy healthcare",
+            "healthcare policy changes",
+            "Improving patient outcomes",
+            "Public health emergency preparedness",
+            "Program evaluation public health",
+            "population health"
+        ],
+        "source_name": "HIMSS",
+        "client_name": "",
+        "id": "02c047f06d78a880fd15e2e2242039e34a2b9f7aac8c93ae5bdf06ea7da2492e"
+    }
+]

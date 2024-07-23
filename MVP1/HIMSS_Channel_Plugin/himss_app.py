@@ -12,6 +12,9 @@ from utils.cosmos_function import HIMSSDBOPS
 from utils.himss_data_extraction import himss_extraction
 from utils.summarizer import llm_content_sum_key_sent
 
+from fastapi import FastAPI
+app = FastAPI()
+
 #from azure.functions import func
 #app = func.FunctionApp()
 
@@ -19,8 +22,8 @@ _ = load_dotenv('./config/db.env')
 
 logger = create_log(name="HIMSS", level=logging.INFO)
 
-failure_count = 0
-total_count = 0
+#failure_count = 0
+#total_count = 0
 cron_time=os.getenv('HIMSS_CRON')
 #@app.timer_trigger(schedule=cron_time, arg_name="myTimer", run_on_startup=False,use_monitor=False) 
 
@@ -33,30 +36,30 @@ async def himss_scrapping_function():#myTimer: func.TimerRequest) -> None:
     db_ops = HIMSSDBOPS()
 
     # get current month and year
-    today_date = datetime.now()
+    #today_date = datetime.now()
 
     # Function Arguments
-    month_list = [today_date.month]
-    year_list = [today_date.year]
-    use_db = True
-    use_llm = False
-    department = None
+    #month_list = [today_date.month]
+    #year_list = [today_date.year]
+    #use_db = True
+    #use_llm = False
+    #department = None
 
     # to avoid missing the article published on last date of month
-    if today_date.day == 1:
-        one_day_ago = today_date - timedelta(days=1)
-        month_list.append(one_day_ago.month)
-        year_list.append(one_day_ago.year)
+    #if today_date.day == 1:
+    #    one_day_ago = today_date - timedelta(days=1)
+    #    month_list.append(one_day_ago.month)
+    #    year_list.append(one_day_ago.year)
     
-    content = ""
+    #content = ""
 
-    success_cnt = 0
-    failure_cnt = 0
-    data = []
-    new_data = {}
+    #success_cnt = 0
+    #failure_cnt = 0
+    #data = []
+    #new_data = {}
 
     try:
-        for month, year in zip(month_list, year_list):
+        #for month, year in zip(month_list, year_list):
             extracted_data = await himss_extraction()
             if use_db:
                 item_list, url_list = db_ops.query_urls(month=month, year=year)

@@ -132,6 +132,36 @@ class HIMSSDBOPS:
             logger.error(f"Error querying urls - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
             return []
 
+
+    def query_and_sort_items_by_date(self, source_name='HIMSS', limit=10):
+        """Query items from the database based on the given source name and sort them by date.
+
+        Parameters:
+        - container: The Cosmos DB container client.
+        - source_name (str): The source name to filter items (default: 'HIMSS').
+        - limit (int): Number of top items to retrieve (default: 10).
+
+        Returns:
+        - list: A list of items sorted by date (latest date first).
+        """
+        try:
+            container = self.database.get_container_client(self.NEWS_CONTAINER_NAME)
+            query_text = f"SELECT * FROM c WHERE c.source_name = @source_name ORDER BY c.news_date DESC OFFSET 0 LIMIT @limit"
+            query_params = [
+                {"name": "@source_name", "value": source_name},
+                {"name": "@limit", "value": limit}
+            ]
+            item_list = list(container.query_items(query=query_text, parameters=query_params))
+            
+            for item in item_list:
+                print(item['news_title'], item['news_date'])
+
+            return item_list
+        except Exception as e:
+            logger.error(f"Error querying and sorting items: {str(e)}")
+            return []
+
+
     def query_keyword_list(self, department_name):
         """
         Query keywords in the database based on the department name.
