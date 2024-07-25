@@ -1208,3 +1208,984 @@ Stack (most recent call last):
 2024-07-22 20:43:46  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
 2024-07-22 20:43:46  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240722_204346.json
 2024-07-22 20:43:46  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 126.78017568588257 seconds
+2024-07-24 11:35:37  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 11:35:47  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 11:35:49  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 7, 0, 0), 'https://www.himss.org/news/public-voting-begins-2024-himss-changemaker-health-awards')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 6, 0, 0), 'https://www.himss.org/news/transforming-healthcare-artificial-intelligence-and-machine-learning-2023-himss-ai-healthcare')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 3, 0, 0), 'https://www.himss.org/news/engaged-healthcare-professionals-form-committee-support-himss24-europe')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 2, 0, 0), 'https://www.himss.org/news/empowering-equitable-data-sharing-tribes')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 31, 0, 0), 'https://www.himss.org/news/proposed-information-blocking-rule-would-discern-disincentives-healthcare-providers')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 26, 0, 0), 'https://www.himss.org/news/global-health-equity-week-spotlight-maya-crauderueff')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 25, 0, 0), 'https://www.himss.org/news/global-health-equity-week-spotlight-faith-adole')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 25, 0, 0), 'https://www.himss.org/news/washington-state-department-health-earns-2023-davies-award-exposure-notification-tool')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 24, 0, 0), 'https://www.himss.org/news/global-health-equity-week-spotlight-marina-el-khawand')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 23, 0, 0), 'https://www.himss.org/news/johns-hopkins-aramco-healthcare-dhahran-achieves-emram-stage-7-validation')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 23, 0, 0), 'https://www.himss.org/news/global-health-equity-week-spotlight-marianna-petrea-imenokhoeva')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 23, 0, 0), 'https://www.himss.org/news/dallas-county-health-and-human-leverages-data-modernization-address-public-health-conditions')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 20, 0, 0), 'https://www.himss.org/news/himss-calls-congress-adopt-comprehensive-privacy-law-framework-ai-implementation-healthcare')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 17, 0, 0), 'https://www.himss.org/news/himss-names-new-general-counsel-and-new-chief-financial-officer')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 16, 0, 0), 'https://www.himss.org/news/new-hosted-buyer-program-himss24-connecting-healthcare-executives-solutions')
+2024-07-24 11:35:49  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 10, 16, 0, 0), 'https://www.himss.org/news/support-healthy-communities-throughout-global-health-equity-week-oct-23-27-2023')
+2024-07-24 11:35:54  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/public-voting-begins-2024-himss-changemaker-health-awards
+2024-07-24 11:35:54  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/public-voting-begins-2024-himss-changemaker-health-awards
+2024-07-24 11:35:59  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/transforming-healthcare-artificial-intelligence-and-machine-learning-2023-himss-ai-healthcare
+2024-07-24 11:35:59  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/transforming-healthcare-artificial-intelligence-and-machine-learning-2023-himss-ai-healthcare
+2024-07-24 11:36:03  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/engaged-healthcare-professionals-form-committee-support-himss24-europe
+2024-07-24 11:36:03  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/engaged-healthcare-professionals-form-committee-support-himss24-europe
+2024-07-24 11:36:08  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/empowering-equitable-data-sharing-tribes
+2024-07-24 11:36:08  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/empowering-equitable-data-sharing-tribes
+2024-07-24 11:36:11  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/proposed-information-blocking-rule-would-discern-disincentives-healthcare-providers
+2024-07-24 11:36:11  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/proposed-information-blocking-rule-would-discern-disincentives-healthcare-providers
+2024-07-24 11:36:14  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-health-equity-week-spotlight-maya-crauderueff
+2024-07-24 11:36:14  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-health-equity-week-spotlight-maya-crauderueff
+2024-07-24 11:36:18  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-health-equity-week-spotlight-faith-adole
+2024-07-24 11:36:18  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-health-equity-week-spotlight-faith-adole
+2024-07-24 11:36:21  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/washington-state-department-health-earns-2023-davies-award-exposure-notification-tool
+2024-07-24 11:36:21  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/washington-state-department-health-earns-2023-davies-award-exposure-notification-tool
+2024-07-24 11:36:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-health-equity-week-spotlight-marina-el-khawand
+2024-07-24 11:36:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-health-equity-week-spotlight-marina-el-khawand
+2024-07-24 11:36:27  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/johns-hopkins-aramco-healthcare-dhahran-achieves-emram-stage-7-validation
+2024-07-24 11:36:27  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/johns-hopkins-aramco-healthcare-dhahran-achieves-emram-stage-7-validation
+2024-07-24 11:36:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-health-equity-week-spotlight-marianna-petrea-imenokhoeva
+2024-07-24 11:36:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-health-equity-week-spotlight-marianna-petrea-imenokhoeva
+2024-07-24 11:36:32  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/dallas-county-health-and-human-leverages-data-modernization-address-public-health-conditions
+2024-07-24 11:36:32  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/dallas-county-health-and-human-leverages-data-modernization-address-public-health-conditions
+2024-07-24 11:36:35  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-congress-adopt-comprehensive-privacy-law-framework-ai-implementation-healthcare
+2024-07-24 11:36:35  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-congress-adopt-comprehensive-privacy-law-framework-ai-implementation-healthcare
+2024-07-24 11:36:38  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-names-new-general-counsel-and-new-chief-financial-officer
+2024-07-24 11:36:38  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-names-new-general-counsel-and-new-chief-financial-officer
+2024-07-24 11:36:40  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/new-hosted-buyer-program-himss24-connecting-healthcare-executives-solutions
+2024-07-24 11:36:40  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/new-hosted-buyer-program-himss24-connecting-healthcare-executives-solutions
+2024-07-24 11:36:44  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/support-healthy-communities-throughout-global-health-equity-week-oct-23-27-2023
+2024-07-24 11:36:44  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/support-healthy-communities-throughout-global-health-equity-week-oct-23-27-2023
+2024-07-24 11:36:44  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 11:36:44  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 11:36:45  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 11:37:00  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:37:00  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/public-voting-begins-2024-himss-changemaker-health-awards
+2024-07-24 11:37:08  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:37:08  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/transforming-healthcare-artificial-intelligence-and-machine-learning-2023-himss-ai-healthcare
+2024-07-24 11:37:26  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:37:26  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/engaged-healthcare-professionals-form-committee-support-himss24-europe
+2024-07-24 11:37:37  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:37:37  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/empowering-equitable-data-sharing-tribes
+2024-07-24 11:37:47  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:37:47  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/proposed-information-blocking-rule-would-discern-disincentives-healthcare-providers
+2024-07-24 11:38:06  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:38:06  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-health-equity-week-spotlight-maya-crauderueff
+2024-07-24 11:38:30  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:38:30  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-health-equity-week-spotlight-faith-adole
+2024-07-24 11:38:47  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:38:47  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/washington-state-department-health-earns-2023-davies-award-exposure-notification-tool
+2024-07-24 11:39:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:39:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-health-equity-week-spotlight-marina-el-khawand
+2024-07-24 11:39:35  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:39:35  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/johns-hopkins-aramco-healthcare-dhahran-achieves-emram-stage-7-validation
+2024-07-24 11:39:52  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:39:52  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-health-equity-week-spotlight-marianna-petrea-imenokhoeva
+2024-07-24 11:40:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:40:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/dallas-county-health-and-human-leverages-data-modernization-address-public-health-conditions
+2024-07-24 11:40:28  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:40:28  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-calls-congress-adopt-comprehensive-privacy-law-framework-ai-implementation-healthcare
+2024-07-24 11:40:42  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:40:42  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-names-new-general-counsel-and-new-chief-financial-officer
+2024-07-24 11:40:54  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:40:54  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/new-hosted-buyer-program-himss24-connecting-healthcare-executives-solutions
+2024-07-24 11:41:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:41:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/support-healthy-communities-throughout-global-health-equity-week-oct-23-27-2023
+2024-07-24 11:41:14  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 11:41:14  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_114114.json
+2024-07-24 11:41:14  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 336.7508969306946 seconds
+2024-07-24 11:42:36  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 11:42:41  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 11:42:42  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 16, 0, 0), 'https://www.himss.org/news/cybersecurity-threats-and-legislation-explored-himss24-europe-rome')
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 9, 0, 0), 'https://www.himss.org/news/himss-supports-information-blocking-disincentives-calls-more-resources-response-cms-provider')
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 5, 0, 0), 'https://www.himss.org/news/himss-physician-committee-2023-year-review')
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 2, 0, 0), 'https://www.himss.org/news/himss-professional-development-committee-reflects-year-growth-impact-gratitude')
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 15, 0, 0), 'https://www.himss.org/news/himss-analysis-healthcare-implications-eu-artificial-intelligence-act')
+2024-07-24 11:42:42  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 13, 0, 0), 'https://www.himss.org/news/onc-publishes-hti-1-certification-final-rule')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 12, 0, 0), 'https://www.himss.org/news/hhs-announces-first-qhins-part-push-tefca-enabled-nationwide-health-data-exchange')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 11, 0, 0), 'https://www.himss.org/news/himss-analysis-european-cybersecurity-scheme-cloud-services-should-foster-not-prohibit-sharing')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 5, 0, 0), 'https://www.himss.org/news/onc-publishes-updated-common-agreement-tefca')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 12, 4, 0, 0), 'https://www.himss.org/news/healthcare-leaders-invited-submit-proposals-himss24-europe-rome')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 20, 0, 0), 'https://www.himss.org/news/digital-healthcare-leaders-meet-himss24-europe-deliver-solutions-tomorrows-health-challenges')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 17, 0, 0), 'https://www.himss.org/news/bidens-executive-order-prompts-hhs-create-artificial-intelligence-task-force')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 14, 0, 0), 'https://www.himss.org/news/tribal-nations-face-unique-healthcare-challenges-based-circumstances-and-history')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 13, 0, 0), 'https://www.himss.org/news/himss-and-taiwans-national-health-insurance-administration-form-agreement-drive-digital')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 10, 0, 0), 'https://www.himss.org/news/honoring-veterans-fighting-better-access-healthcare')
+2024-07-24 11:42:43  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2023, 11, 9, 0, 0), 'https://www.himss.org/news/new-indian-health-service-ehr-system-will-have-multi-generational-impact-native-american')
+2024-07-24 11:42:48  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cybersecurity-threats-and-legislation-explored-himss24-europe-rome
+2024-07-24 11:42:48  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cybersecurity-threats-and-legislation-explored-himss24-europe-rome
+2024-07-24 11:42:50  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-supports-information-blocking-disincentives-calls-more-resources-response-cms-provider
+2024-07-24 11:42:50  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-supports-information-blocking-disincentives-calls-more-resources-response-cms-provider
+2024-07-24 11:42:54  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-physician-committee-2023-year-review
+2024-07-24 11:42:54  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-physician-committee-2023-year-review
+2024-07-24 11:42:57  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-professional-development-committee-reflects-year-growth-impact-gratitude
+2024-07-24 11:42:57  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-professional-development-committee-reflects-year-growth-impact-gratitude
+2024-07-24 11:43:00  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-analysis-healthcare-implications-eu-artificial-intelligence-act
+2024-07-24 11:43:00  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-analysis-healthcare-implications-eu-artificial-intelligence-act
+2024-07-24 11:43:03  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/onc-publishes-hti-1-certification-final-rule
+2024-07-24 11:43:03  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/onc-publishes-hti-1-certification-final-rule
+2024-07-24 11:43:05  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/hhs-announces-first-qhins-part-push-tefca-enabled-nationwide-health-data-exchange
+2024-07-24 11:43:05  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/hhs-announces-first-qhins-part-push-tefca-enabled-nationwide-health-data-exchange
+2024-07-24 11:43:09  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-analysis-european-cybersecurity-scheme-cloud-services-should-foster-not-prohibit-sharing
+2024-07-24 11:43:09  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-analysis-european-cybersecurity-scheme-cloud-services-should-foster-not-prohibit-sharing
+2024-07-24 11:43:12  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/onc-publishes-updated-common-agreement-tefca
+2024-07-24 11:43:12  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/onc-publishes-updated-common-agreement-tefca
+2024-07-24 11:43:15  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-leaders-invited-submit-proposals-himss24-europe-rome
+2024-07-24 11:43:15  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-leaders-invited-submit-proposals-himss24-europe-rome
+2024-07-24 11:43:18  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/digital-healthcare-leaders-meet-himss24-europe-deliver-solutions-tomorrows-health-challenges
+2024-07-24 11:43:18  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/digital-healthcare-leaders-meet-himss24-europe-deliver-solutions-tomorrows-health-challenges
+2024-07-24 11:43:20  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/bidens-executive-order-prompts-hhs-create-artificial-intelligence-task-force
+2024-07-24 11:43:20  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/bidens-executive-order-prompts-hhs-create-artificial-intelligence-task-force
+2024-07-24 11:43:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/tribal-nations-face-unique-healthcare-challenges-based-circumstances-and-history
+2024-07-24 11:43:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/tribal-nations-face-unique-healthcare-challenges-based-circumstances-and-history
+2024-07-24 11:43:26  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-and-taiwans-national-health-insurance-administration-form-agreement-drive-digital
+2024-07-24 11:43:26  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-and-taiwans-national-health-insurance-administration-form-agreement-drive-digital
+2024-07-24 11:43:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/honoring-veterans-fighting-better-access-healthcare
+2024-07-24 11:43:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/honoring-veterans-fighting-better-access-healthcare
+2024-07-24 11:43:32  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/new-indian-health-service-ehr-system-will-have-multi-generational-impact-native-american
+2024-07-24 11:43:32  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/new-indian-health-service-ehr-system-will-have-multi-generational-impact-native-american
+2024-07-24 11:43:32  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 11:43:32  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 11:43:33  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 11:43:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:43:58  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/cybersecurity-threats-and-legislation-explored-himss24-europe-rome
+2024-07-24 11:44:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:44:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-supports-information-blocking-disincentives-calls-more-resources-response-cms-provider
+2024-07-24 11:45:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:45:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-physician-committee-2023-year-review
+2024-07-24 11:45:27  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:45:27  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-professional-development-committee-reflects-year-growth-impact-gratitude
+2024-07-24 11:45:41  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:45:41  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-analysis-healthcare-implications-eu-artificial-intelligence-act
+2024-07-24 11:46:01  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:46:01  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/onc-publishes-hti-1-certification-final-rule
+2024-07-24 11:46:21  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:46:21  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/hhs-announces-first-qhins-part-push-tefca-enabled-nationwide-health-data-exchange
+2024-07-24 11:46:34  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:46:34  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-analysis-european-cybersecurity-scheme-cloud-services-should-foster-not-prohibit-sharing
+2024-07-24 11:46:46  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:46:46  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/onc-publishes-updated-common-agreement-tefca
+2024-07-24 11:47:03  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:47:03  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/healthcare-leaders-invited-submit-proposals-himss24-europe-rome
+2024-07-24 11:47:21  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:47:21  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/digital-healthcare-leaders-meet-himss24-europe-deliver-solutions-tomorrows-health-challenges
+2024-07-24 11:47:36  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:47:36  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/bidens-executive-order-prompts-hhs-create-artificial-intelligence-task-force
+2024-07-24 11:48:00  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:48:00  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/tribal-nations-face-unique-healthcare-challenges-based-circumstances-and-history
+2024-07-24 11:48:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:48:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-and-taiwans-national-health-insurance-administration-form-agreement-drive-digital
+2024-07-24 11:48:52  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:48:52  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/honoring-veterans-fighting-better-access-healthcare
+2024-07-24 11:49:20  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:49:20  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/new-indian-health-service-ehr-system-will-have-multi-generational-impact-native-american
+2024-07-24 11:49:30  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 11:49:30  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_114930.json
+2024-07-24 11:49:30  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 414.6614544391632 seconds
+2024-07-24 11:57:39  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 11:57:49  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 11:57:51  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 27, 0, 0), 'https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 23, 0, 0), 'https://www.himss.org/news/himss-board-directors-announces-two-new-members')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 22, 0, 0), 'https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 22, 0, 0), 'https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 20, 0, 0), 'https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 15, 0, 0), 'https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 13, 0, 0), 'https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 12, 0, 0), 'https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 9, 0, 0), 'https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 6, 0, 0), 'https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 5, 0, 0), 'https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 5, 0, 0), 'https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 25, 0, 0), 'https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 23, 0, 0), 'https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 22, 0, 0), 'https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation')
+2024-07-24 11:57:51  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 19, 0, 0), 'https://www.himss.org/news/2024-predictions-healthcare-cybersecurity')
+2024-07-24 11:57:54  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 11:57:54  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 11:57:57  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 11:57:57  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 11:58:01  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 11:58:01  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 11:58:04  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 11:58:04  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 11:58:07  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 11:58:07  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 11:58:09  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 11:58:09  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 11:58:12  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 11:58:12  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 11:58:14  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 11:58:14  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 11:58:17  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 11:58:17  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 11:58:20  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 11:58:20  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 11:58:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 11:58:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 11:58:26  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 11:58:26  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 11:58:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 11:58:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 11:58:33  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 11:58:33  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 11:58:36  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 11:58:36  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 11:58:40  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 11:58:40  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 11:58:40  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 11:58:40  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 11:58:41  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 11:58:57  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:58:57  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 11:59:14  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:59:14  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 11:59:30  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:59:30  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 11:59:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:59:38  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 11:59:55  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 11:59:55  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 12:00:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:00:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 12:00:36  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:00:36  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 12:00:47  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:00:47  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 12:01:04  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:01:04  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 12:01:32  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:01:32  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 12:01:53  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:01:53  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 12:02:14  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:02:14  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 12:02:46  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:02:46  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 12:03:00  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:03:00  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 12:03:23  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:03:23  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 12:03:48  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:03:48  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 12:03:58  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:03:58  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_120358.json
+2024-07-24 12:03:58  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 378.42998361587524 seconds
+2024-07-24 12:18:49  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 12:18:57  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 12:18:59  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 10, 0, 0), 'https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 10, 0, 0), 'https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 5, 0, 0), 'https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 3, 0, 0), 'https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 2, 0, 0), 'https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 2, 0, 0), 'https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 1, 0, 0), 'https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 25, 0, 0), 'https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 21, 0, 0), 'https://www.himss.org/news/himss24-where-healthcare-technology-news-made')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 19, 0, 0), 'https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 19, 0, 0), 'https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 18, 0, 0), 'https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 11, 0, 0), 'https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 6, 0, 0), 'https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 29, 0, 0), 'https://www.himss.org/news/join-artificial-intelligence-innovators-himss24')
+2024-07-24 12:18:59  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 27, 0, 0), 'https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care')
+2024-07-24 12:19:02  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 12:19:02  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 12:19:05  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 12:19:05  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 12:19:08  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 12:19:08  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 12:19:12  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 12:19:12  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 12:19:15  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 12:19:15  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 12:19:17  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 12:19:17  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 12:19:22  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 12:19:22  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 12:19:25  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 12:19:25  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 12:19:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 12:19:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 12:19:31  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 12:19:31  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 12:19:35  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 12:19:35  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 12:19:38  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 12:19:38  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 12:19:44  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 12:19:44  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 12:19:47  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 12:19:47  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 12:19:52  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 12:19:52  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 12:19:55  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 12:19:55  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 12:19:55  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 12:19:55  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 12:19:56  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:20:11  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:20:11  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 12:20:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:20:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 12:20:44  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:20:44  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 12:20:55  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:20:55  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 12:21:07  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:21:07  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 12:21:32  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:21:32  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 12:21:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:21:58  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 12:22:47  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:22:47  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 12:23:20  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:23:20  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 12:23:34  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:23:34  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 12:23:49  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:23:49  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 12:24:06  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:24:06  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 12:24:24  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:24:24  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 12:25:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:25:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 12:25:40  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:25:40  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 12:25:49  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:25:49  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 12:25:58  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:25:58  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_122558.json
+2024-07-24 12:25:58  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 429.08939385414124 seconds
+2024-07-24 12:26:38  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 12:26:45  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 12:26:47  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 9, 0, 0), 'https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 8, 0, 0), 'https://www.himss.org/news/himss-celebrates-national-nurses-month-2024')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 6, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 1, 0, 0), 'https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 1, 0, 0), 'https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 30, 0, 0), 'https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 29, 0, 0), 'https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 25, 0, 0), 'https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 25, 0, 0), 'https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 24, 0, 0), 'https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 24, 0, 0), 'https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 23, 0, 0), 'https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 22, 0, 0), 'https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 22, 0, 0), 'https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 17, 0, 0), 'https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe')
+2024-07-24 12:26:47  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 15, 0, 0), 'https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai')
+2024-07-24 12:26:50  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 12:26:50  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 12:26:53  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 12:26:53  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 12:26:56  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 12:26:56  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 12:27:00  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 12:27:00  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 12:27:03  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 12:27:03  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 12:27:06  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 12:27:06  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 12:27:08  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 12:27:08  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 12:27:11  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 12:27:11  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 12:27:14  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 12:27:14  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 12:27:17  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 12:27:17  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 12:27:19  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 12:27:19  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 12:27:22  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 12:27:22  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 12:27:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 12:27:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 12:27:26  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 12:27:26  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 12:27:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 12:27:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 12:27:32  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 12:27:32  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 12:27:32  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 12:27:32  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 12:27:32  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:27:45  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:27:45  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 12:28:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:28:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 12:28:28  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:28:28  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 12:28:42  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:28:42  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 12:28:54  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:28:54  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 12:29:36  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:29:36  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 12:29:52  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:29:52  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 12:30:04  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:30:04  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 12:30:18  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:30:18  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 12:30:43  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:30:43  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 12:30:59  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:30:59  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 12:31:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:31:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 12:31:35  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:31:35  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 12:31:57  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:31:57  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 12:32:11  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:32:11  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 12:32:23  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:32:23  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 12:32:32  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:32:32  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_123232.json
+2024-07-24 12:32:32  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 354.0136504173279 seconds
+2024-07-24 12:36:01  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 12:36:08  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 12:36:09  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 11, 0, 0), 'https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 6, 0, 0), 'https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 5, 0, 0), 'https://www.himss.org/news/himss24-europe-rome-makes-global-headlines')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 3, 0, 0), 'https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 31, 0, 0), 'https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 30, 0, 0), 'https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 30, 0, 0), 'https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 29, 0, 0), 'https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 24, 0, 0), 'https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 24, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 23, 0, 0), 'https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 20, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 15, 0, 0), 'https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 15, 0, 0), 'https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs')
+2024-07-24 12:36:09  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25')
+2024-07-24 12:36:13  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 12:36:13  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 12:36:16  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 12:36:16  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 12:36:19  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 12:36:19  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 12:36:22  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 12:36:22  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 12:36:25  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 12:36:25  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 12:36:27  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 12:36:27  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 12:36:30  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 12:36:30  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 12:36:33  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 12:36:33  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 12:36:36  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 12:36:36  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 12:36:39  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 12:36:39  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 12:36:43  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 12:36:43  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 12:36:46  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 12:36:46  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 12:36:49  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 12:36:49  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 12:36:52  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 12:36:52  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 12:36:54  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 12:36:54  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 12:36:58  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 12:36:58  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 12:36:58  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 12:36:58  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 12:36:58  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:37:27  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:37:27  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 12:37:42  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:37:42  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 12:37:55  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:37:55  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 12:38:11  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:38:11  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 12:38:28  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:38:28  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 12:38:46  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:38:46  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 12:39:14  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:39:14  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 12:39:36  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:39:36  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 12:39:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:39:51  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 12:40:07  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:40:07  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 12:40:17  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:40:17  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 12:40:37  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:40:37  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 12:40:45  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:40:45  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 12:53:02  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:53:02  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 12:53:05  _base_client.py  Line: 1068  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.898327 seconds
+2024-07-24 12:53:06  _base_client.py  Line: 1068  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 1.918430 seconds
+2024-07-24 12:53:09  summarizer.py  Line: 125  ERROR  Function_Name: llm_content_sum_key_sent  Unable to generate and summarize using LLM.Hence Skipping! Url: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs - Line No: 119  Error: Connection error.
+Stack (most recent call last):
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 118, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 114, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 65, in himss_scrapping_function
+    llm_result = await llm_content_sum_key_sent(item['news_content'], item['news_url'], key_list)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\utils\summarizer.py", line 125, in llm_content_sum_key_sent
+    logger.error(
+2024-07-24 12:53:09  himss.py  Line: 82  ERROR  Function_Name: himss_scrapping_function  Error processing item https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs: 'NoneType' object has no attribute 'summary_schema'
+2024-07-24 12:53:09  _base_client.py  Line: 1068  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 0.769892 seconds
+2024-07-24 12:53:09  _base_client.py  Line: 1068  INFO  Function_Name: _retry_request  Retrying request to /chat/completions in 1.952911 seconds
+2024-07-24 12:53:11  summarizer.py  Line: 125  ERROR  Function_Name: llm_content_sum_key_sent  Unable to generate and summarize using LLM.Hence Skipping! Url: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25 - Line No: 119  Error: Connection error.
+Stack (most recent call last):
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 118, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 114, in main
+    await himss_scrapping_function()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\himss.py", line 65, in himss_scrapping_function
+    llm_result = await llm_content_sum_key_sent(item['news_content'], item['news_url'], key_list)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\utils\summarizer.py", line 125, in llm_content_sum_key_sent
+    logger.error(
+2024-07-24 12:53:11  himss.py  Line: 82  ERROR  Function_Name: himss_scrapping_function  Error processing item https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25: 'NoneType' object has no attribute 'summary_schema'
+2024-07-24 12:53:45  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:53:45  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_125345.json
+2024-07-24 12:53:45  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 1063.5816156864166 seconds
+2024-07-24 12:54:26  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 12:54:32  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 12:54:36  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:2
+2024-07-24 12:54:36  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs')
+2024-07-24 12:54:36  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25')
+2024-07-24 12:54:41  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 12:54:41  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 12:54:46  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 12:54:46  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 12:54:46  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 2 items from HIMSS
+2024-07-24 12:54:46  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 12:54:47  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:55:30  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:55:30  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 12:55:45  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:55:45  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 12:55:52  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:55:52  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_125552.json
+2024-07-24 12:55:52  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 85.44502854347229 seconds
+2024-07-24 12:57:25  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 12:57:31  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 12:57:32  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:1
+2024-07-24 12:57:32  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 11, 0, 0), 'https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response')
+2024-07-24 12:57:35  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-24 12:57:35  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-24 12:57:35  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 1 items from HIMSS
+2024-07-24 12:57:35  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 12:57:36  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:57:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 12:57:51  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-calls-significant-investment-public-health-data-modernization-annual-ipps-response
+2024-07-24 12:57:56  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 12:57:56  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_125756.json
+2024-07-24 12:57:56  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 31.2919020652771 seconds
+2024-07-24 13:00:29  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:00:39  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:00:41  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:0
+2024-07-24 13:00:41  himss.py  Line: 104  INFO  Function_Name: himss_scrapping_function  No new news items found
+2024-07-24 13:04:20  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:04:25  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:04:27  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 11, 0, 0), 'https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 6, 0, 0), 'https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 5, 0, 0), 'https://www.himss.org/news/himss24-europe-rome-makes-global-headlines')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 6, 3, 0, 0), 'https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 31, 0, 0), 'https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 30, 0, 0), 'https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 30, 0, 0), 'https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 29, 0, 0), 'https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 24, 0, 0), 'https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 24, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 23, 0, 0), 'https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 20, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 15, 0, 0), 'https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 15, 0, 0), 'https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs')
+2024-07-24 13:04:27  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 13, 0, 0), 'https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25')
+2024-07-24 13:04:32  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 13:04:32  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 13:04:37  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 13:04:37  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 13:04:44  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 13:04:44  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 13:04:49  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 13:04:49  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 13:04:56  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 13:04:56  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 13:05:01  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 13:05:01  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 13:05:07  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 13:05:07  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 13:05:14  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 13:05:14  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 13:05:20  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 13:05:20  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 13:05:26  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 13:05:26  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 13:05:32  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 13:05:32  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 13:05:35  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 13:05:35  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 13:05:39  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 13:05:39  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 13:05:42  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 13:05:42  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 13:05:46  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 13:05:46  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 13:05:49  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 13:05:49  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 13:05:49  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 13:05:49  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 13:05:49  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:06:07  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:06:07  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/healthcare-students-practice-advocacy-himss-government-relations-team-during-dc-trip-hosted
+2024-07-24 13:06:20  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:06:20  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-signs-letter-supporting-oncs-mission-promote-adoption-health-it
+2024-07-24 13:06:47  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:06:47  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-rome-makes-global-headlines
+2024-07-24 13:07:08  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:07:08  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-draws-together-thousands-healthcare-leaders-build-tomorrows-health
+2024-07-24 13:07:24  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:07:24  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-selects-paris-2025-host-city-annual-himss-european-healthcare-technology-conference
+2024-07-24 13:07:40  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:07:40  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-digital-maturity-awards-ceremony-recognizes-exceptional-healthcare-systems
+2024-07-24 13:08:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:08:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-reza-ryan-sadeghian-md-mba-msc-cpe-cphimss-chcio-cdh-e-chisl-faap-fhimss
+2024-07-24 13:08:46  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:08:46  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-danny-lee-md-facp-chief-medical-information-officer-johns-hopkins-community
+2024-07-24 13:09:03  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:09:03  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/office-civil-rights-announces-final-rule-protect-reproductive-healthcare-data-privacy
+2024-07-24 13:09:41  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:09:41  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-jesus-diaz-mba-msn-rn
+2024-07-24 13:09:54  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:09:54  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nominate-innovative-health-leaders-2025-himss-changemaker-health-awards
+2024-07-24 13:10:21  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:10:21  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-c-j-garst-msn-rn-ni-bc-cphims
+2024-07-24 13:10:40  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:10:40  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-ai-healthcare-forum-unlocks-potential-ai-across-healthcare-continuum
+2024-07-24 13:10:57  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:10:57  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/senate-ai-workgroup-calls-32-billion-ai-research-new-ai-policy-framework
+2024-07-24 13:11:22  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:11:22  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-taylor-diani-mba-msn-rn-director-clinical-care-medical-affairs
+2024-07-24 13:11:35  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:11:35  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/health-and-tech-experts-invited-shape-future-healthcare-himss25
+2024-07-24 13:11:46  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:11:46  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_131146.json
+2024-07-24 13:11:46  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 446.15941095352173 seconds
+2024-07-24 13:13:56  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:14:03  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:14:05  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 9, 0, 0), 'https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 8, 0, 0), 'https://www.himss.org/news/himss-celebrates-national-nurses-month-2024')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 6, 0, 0), 'https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 1, 0, 0), 'https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 5, 1, 0, 0), 'https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 30, 0, 0), 'https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 29, 0, 0), 'https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 25, 0, 0), 'https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 25, 0, 0), 'https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 24, 0, 0), 'https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 24, 0, 0), 'https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 23, 0, 0), 'https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 22, 0, 0), 'https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 22, 0, 0), 'https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 17, 0, 0), 'https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe')
+2024-07-24 13:14:05  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 15, 0, 0), 'https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai')
+2024-07-24 13:14:10  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 13:14:10  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 13:14:13  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 13:14:13  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 13:14:17  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 13:14:17  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 13:14:20  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 13:14:20  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 13:14:23  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 13:14:23  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 13:14:27  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 13:14:27  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 13:14:31  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 13:14:31  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 13:14:36  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 13:14:36  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 13:14:40  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 13:14:40  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 13:14:44  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 13:14:44  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 13:14:48  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 13:14:48  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 13:14:51  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 13:14:51  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 13:14:54  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 13:14:54  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 13:14:57  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 13:14:57  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 13:15:00  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 13:15:00  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 13:15:03  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 13:15:03  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 13:15:03  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 13:15:03  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 13:15:04  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:15:18  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:15:18  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/indiana-hospital-systems-predictive-analytics-program-cut-costs-and-infections
+2024-07-24 13:15:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:15:38  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-celebrates-national-nurses-month-2024
+2024-07-24 13:16:02  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:16:02  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/nurses-month-member-spotlight-olga-kagan-phd-rn-cimi-fhimss-faaaai
+2024-07-24 13:16:12  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:16:12  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-deepti-pandita-md-facp-famia
+2024-07-24 13:16:26  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:16:26  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/member-spotlight-roosevelt-de-los-santos-md-mba-ms-faap-fache-famia-chcio-cdh-e
+2024-07-24 13:16:50  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:16:50  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/innovative-digital-health-solutions-showcased-himss24-europe-startup-pitchfest-competition
+2024-07-24 13:17:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:17:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/north-carolina-hospital-system-reduces-sepsis-cases-using-predictive-analytics
+2024-07-24 13:17:16  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:17:16  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/policymakers-shape-healthcare-himss24-europe
+2024-07-24 13:17:27  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:17:27  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/national-volunteer-week-member-spotlight-howard-rosen
+2024-07-24 13:17:53  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:17:53  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/highlighting-cutting-edge-eu-healthcare-projects-himss24-europe
+2024-07-24 13:18:15  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:18:15  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/european-health-data-space-regulation-passes-european-parliament
+2024-07-24 13:18:35  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:18:35  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/national-volunteer-week-member-spotlight-kendall-brown
+2024-07-24 13:19:05  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:19:05  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-advancing-interoperability-european-healthcare
+2024-07-24 13:19:17  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:19:17  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/best-asia-pacific-health-and-tech-will-converge-himss24-apac
+2024-07-24 13:19:33  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:19:33  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/empowering-nurses-and-workforce-development-himss24-europe
+2024-07-24 13:19:45  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:19:45  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/shaping-future-healthcare-himss-executive-summit-dubai
+2024-07-24 13:19:57  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:19:57  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_131957.json
+2024-07-24 13:19:57  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 361.2896018028259 seconds
+2024-07-24 13:20:53  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:21:03  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:21:06  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 10, 0, 0), 'https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 10, 0, 0), 'https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 5, 0, 0), 'https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 3, 0, 0), 'https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 2, 0, 0), 'https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 2, 0, 0), 'https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 4, 1, 0, 0), 'https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 25, 0, 0), 'https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 21, 0, 0), 'https://www.himss.org/news/himss24-where-healthcare-technology-news-made')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 19, 0, 0), 'https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 19, 0, 0), 'https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 18, 0, 0), 'https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 11, 0, 0), 'https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 3, 6, 0, 0), 'https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 29, 0, 0), 'https://www.himss.org/news/join-artificial-intelligence-innovators-himss24')
+2024-07-24 13:21:06  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 27, 0, 0), 'https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care')
+2024-07-24 13:21:09  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 13:21:09  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 13:21:11  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 13:21:11  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 13:21:14  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 13:21:14  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 13:21:19  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 13:21:19  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 13:21:21  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 13:21:21  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 13:21:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 13:21:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 13:21:29  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 13:21:29  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 13:21:33  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 13:21:33  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 13:21:36  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 13:21:36  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 13:21:41  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 13:21:41  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 13:21:47  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 13:21:47  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 13:21:51  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 13:21:51  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 13:21:56  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 13:21:56  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 13:22:01  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 13:22:01  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 13:22:06  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 13:22:06  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 13:22:10  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 13:22:10  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 13:22:10  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 13:22:10  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 13:22:11  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:22:33  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:22:33  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/italian-healthcare-leaders-and-communities-collaborate-himss24-europe
+2024-07-24 13:22:53  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:22:53  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/industry-updates-eu-ai-act-and-circia-proposed-rule
+2024-07-24 13:23:15  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:23:15  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-native-american-health-it-symposium-fulfills-promise-continued-tribal-community-advocacy
+2024-07-24 13:23:32  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:23:32  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-co-leads-letter-dea-urging-timely-action-proposed-rule-support-remote-prescribing
+2024-07-24 13:23:41  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:23:41  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-europe-spearheading-innovation-digital-health
+2024-07-24 13:23:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:23:58  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/university-california-davis-health-pioneers-framework-ethical-health-ai-and-data-governance
+2024-07-24 13:24:12  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:24:12  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/omb-issues-guidance-federal-agency-use-artificial-intelligence
+2024-07-24 13:24:58  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:24:58  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-recap-celebrating-high-performing-health-systems-achievements-digital-health
+2024-07-24 13:25:15  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:25:15  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-where-healthcare-technology-news-made
+2024-07-24 13:25:28  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:25:28  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/digital-health-integration-economic-pathways-explored-dhage-advisory-group
+2024-07-24 13:25:42  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:25:42  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/ministry-national-guard-health-affairs-first-world-earn-c-comm-stage-6-validation
+2024-07-24 13:26:07  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:26:07  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/creating-tomorrows-health-2024-himss-global-health-conference-exhibition
+2024-07-24 13:26:38  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:26:38  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/report-cybersecurity-programs-face-challenges-genai-risks-ransomware-attacks
+2024-07-24 13:27:23  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:27:23  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/intermountain-health-makes-history-receives-worlds-first-modernized-infram-stage-7-validation
+2024-07-24 13:27:41  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:27:41  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/join-artificial-intelligence-innovators-himss24
+2024-07-24 13:27:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:27:51  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/cms-issues-guidance-ai-use-determining-medicare-advantage-care
+2024-07-24 13:28:00  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:28:00  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_132800.json
+2024-07-24 13:28:00  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 426.387490272522 seconds
+2024-07-24 13:36:00  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:36:10  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:36:11  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:16
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 27, 0, 0), 'https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 23, 0, 0), 'https://www.himss.org/news/himss-board-directors-announces-two-new-members')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 22, 0, 0), 'https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 22, 0, 0), 'https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 20, 0, 0), 'https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 15, 0, 0), 'https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 13, 0, 0), 'https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 12, 0, 0), 'https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 9, 0, 0), 'https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 6, 0, 0), 'https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 5, 0, 0), 'https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 2, 5, 0, 0), 'https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 25, 0, 0), 'https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 23, 0, 0), 'https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 22, 0, 0), 'https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation')
+2024-07-24 13:36:11  himss.py  Line: 52  INFO  Function_Name: himss_scrapping_function  Non-Matching URLs: (datetime.datetime(2024, 1, 19, 0, 0), 'https://www.himss.org/news/2024-predictions-healthcare-cybersecurity')
+2024-07-24 13:36:15  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 13:36:15  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 13:36:17  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 13:36:17  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 13:36:20  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 13:36:20  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 13:36:24  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 13:36:24  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 13:36:26  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 13:36:26  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 13:36:30  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 13:36:30  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 13:36:33  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 13:36:33  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 13:36:37  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 13:36:37  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 13:36:41  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 13:36:41  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 13:36:45  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 13:36:45  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 13:36:47  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 13:36:47  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 13:36:53  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 13:36:53  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 13:36:55  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 13:36:55  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 13:36:59  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 13:36:59  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 13:37:03  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 13:37:03  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 13:37:09  himss_data_extraction.py  Line: 100  INFO  Function_Name: extract_news_content  Extracted content from: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 13:37:09  himss_data_extraction.py  Line: 129  INFO  Function_Name: himss_extraction  Extracted item: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 13:37:09  himss_data_extraction.py  Line: 135  INFO  Function_Name: himss_extraction  Extracted 16 items from HIMSS
+2024-07-24 13:37:09  cosmos_function.py  Line: 151  INFO  Function_Name: query_keyword_list  Querying keywords in database
+2024-07-24 13:37:10  cosmos_function.py  Line: 160  INFO  Function_Name: query_keyword_list  Keywords queried! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:37:30  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:37:30  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-member-spotlight-burgess-harrison
+2024-07-24 13:37:56  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:37:56  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-board-directors-announces-two-new-members
+2024-07-24 13:38:08  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:38:08  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-names-dr-ernst-kuipers-himss-board-directors
+2024-07-24 13:38:27  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:38:27  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/solutions-dutch-health-challenges-discussed-round-table-sessions-himss23
+2024-07-24 13:38:40  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:38:40  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-supports-match-it-act-2024-bipartisan-bill-address-patient-misidentification
+2024-07-24 13:38:51  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:38:51  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-start-ups-entrepreneurs-and-innovation-connect-venture-connect-program
+2024-07-24 13:39:10  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:39:10  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-himss-member-spotlight-angela-ross-dnp-mph-pmp-dasm-phcns-bc-fhimss
+2024-07-24 13:39:20  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:39:20  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/global-leaders-discuss-healthcare-policy-and-regulations-himss24
+2024-07-24 13:39:48  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:39:48  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss24-sessions-decode-depression-addiction-sustainability-gender-identity-workflows
+2024-07-24 13:40:24  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:40:24  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/black-history-month-member-spotlight-sean-michaels-dnp-mba-hca-msn-rn-chcio-cdh-e-cphims
+2024-07-24 13:40:43  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:40:43  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/brightest-minds-nursing-share-solutions-himss24
+2024-07-24 13:41:01  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:41:01  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/ministry-national-guard-health-affairs-reaches-milestones-along-digital-health-transformation
+2024-07-24 13:41:34  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:41:34  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/celebrating-2024-himss-changemaker-health-award-and-scholarship-recipients
+2024-07-24 13:41:44  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:41:44  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-launches-modernized-infrastructure-adoption-model-support-global-digital-health
+2024-07-24 13:42:08  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:42:08  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/himss-supports-maternal-health-through-digital-transformation
+2024-07-24 13:42:26  summarizer.py  Line: 120  INFO  Function_Name: llm_content_sum_key_sent  Article Content, Summarization, Sentiment and Keywords Extraction Complete
+2024-07-24 13:42:26  himss.py  Line: 80  INFO  Function_Name: himss_scrapping_function  Processed item: https://www.himss.org/news/2024-predictions-healthcare-cybersecurity
+2024-07-24 13:42:36  cosmos_function.py  Line: 63  INFO  Function_Name: upsert_data  Items uploaded! Container: news_data	Database: keyaccount_digest_db 
+2024-07-24 13:42:36  himss.py  Line: 95  INFO  Function_Name: himss_scrapping_function  Processed data saved to C:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP1\HIMSS_Plugin_test\temp\himss_data_20240724_134236.json
+2024-07-24 13:42:36  himss.py  Line: 100  INFO  Function_Name: himss_scrapping_function  Total execution time: 396.34732389450073 seconds
+2024-07-24 13:43:03  himss.py  Line: 23  INFO  Function_Name: himss_scrapping_function  Extracting information from HIMSS website
+2024-07-24 13:43:11  himss_data_extraction.py  Line: 55  INFO  Function_Name: get_himss_news_url_list  Found 16 news items
+2024-07-24 13:43:13  himss.py  Line: 48  INFO  Function_Name: himss_scrapping_function  Non-matching URLs:0
+2024-07-24 13:43:13  himss.py  Line: 104  INFO  Function_Name: himss_scrapping_function  No new news items found
