@@ -25,8 +25,8 @@ async def himss_scrapping_function():
     db_ops = HIMSSDBOPS()
 
     try:
-        #url = "https://www.himss.org/news"
-        url = "https://www.himss.org/news?page=0"
+        url = "https://www.himss.org/news"
+        #url = "https://www.himss.org/news?page=0"
         # Gets the Date and URL from the HIMSS News
         news_items_in_web = await get_himss_news_url_list(url)
 
