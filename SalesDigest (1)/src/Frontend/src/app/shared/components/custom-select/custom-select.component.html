@@ -1,0 +1,13 @@
+<div class="custom-select form-control" [ngClass]="{'border4':dropdownOpen}" (click)="toggleDropdown()" (document:click)="closeDropdown($event)">
+    <div class="selected-option" [ngClass]="{'italic': selectedOption}">
+        {{ selectedOption || placeholder }}
+        <span class="arrow">
+            <img src="assets/icons/dropdown-downarrow.svg">
+        </span>
+    </div>
+    <ul *ngIf="dropdownOpen" class="options p-1">
+        <li *ngFor="let option of options" (click)="selectOption(option,$event)">
+            {{ option }}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,29 @@
+.regular-top {
+    position: relative;
+    // top: 165px;
+    top: 145px;
+}
+
+.onboarding-top {
+    position: relative;
+    // top: 80px;
+    top: 52px;
+}
+
+.manage-top {
+    position: relative;
+    // top: 80px;
+    top: 70px;
+}
+
+.chatbot-icon {
+    position: fixed;
+    bottom: 50px;
+    right: 45px;
+    cursor: pointer;
+    z-index: 9999;
+    img {
+        height: 64px;
+        width: 64px;
+    }
+}

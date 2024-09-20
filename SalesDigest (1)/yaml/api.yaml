@@ -1,0 +1,30 @@
+trigger:
+ branches:
+  include:
+  - main
+ paths:
+  include:
+  - src/Backend/AzureWebApp_App/*
+resources:
+  repositories:
+  - repository: Shared
+    type: git
+    name: KeyAccounts\SalesDigest
+    ref: 'refs/heads/main'
+extends:
+ template: pythonv1.yaml@Shared
+ parameters:
+  deployenvironments: 
+   - stage: 'QA'
+     templateContext: 
+      appname: 'app-keyaccount-qa'
+      svcpri: 'IAAZNPD-KeyAccounts'
+   - stage: 'PROD'
+     templateContext: 
+      appname: 'app-keyaccountsite-prod'
+      svcpri: 'IASalesDigestProd-KeyAccounts'
+  versionSpec: '3.11.4'
+  sonarCubeID: ''
+  solnSourceDirectory: 'src/Backend/AzureWebApp_App'
+  projSourceDirectory: ''
+  submitToCheckmarx: true

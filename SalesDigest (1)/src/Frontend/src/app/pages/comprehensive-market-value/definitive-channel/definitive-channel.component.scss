@@ -1,0 +1,26 @@
+.table-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.76px;
+    color: #461e96;
+}
+
+.table-headers tr th {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3b3b3b;
+}
+
+.table-data tr td {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    color: #3b3b3b;
+    border-bottom: 1px solid #cacaca;
+}
+
+.wid-350 {
+    min-width: 350px !important;
+    width: 350px !important;
+    max-width: 350px !important;
+}

@@ -1,0 +1,126 @@
+.choose-text-box {
+    .form-control {
+        border-color: #3b3b3b;
+        box-shadow: none;
+        &:focus {
+            border-color: #3b3b3b;
+            box-shadow: none;
+        }
+    }
+
+    .cust-height-32p {
+        height: 32px;
+    }
+}
+
+::ng-deep .dropdown-menu {
+    .dropdown-item {
+        color: #3b3b3b !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: #3b3b3b !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+        background-color: #e8e8e8 !important;
+    }
+}
+
+.keywords {
+    display: flex;
+    align-items: baseline;
+    .keywordsLabel {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16.7px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .keyword-buttons {
+        .btn:focus,
+        .btn:hover,
+        .btn:active:focus,
+        .btn.active:focus,
+        .btn.focus,
+        .btn:active.focus,
+        .btn.active.focus {
+            border-color: #cacaca;
+            outline: none;
+            background-color: #461e96;
+            font-size: 14px;
+            color: white;
+        }
+
+        button {
+            border-color: #cacaca;
+            outline: none;
+            background-color: #461e96;
+            font-size: 14px;
+            color: white;
+        }
+    }
+
+    .keywords-container {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        &::-webkit-scrollbar {
+           height: 15px;
+        }
+    }
+
+    .keywords-flex-list {
+        white-space: nowrap;
+        cursor: pointer;
+        padding: 0px 7px;
+        color: #999999;
+        font-weight: 600;
+        &:hover,
+        &:active,
+        &:visited,
+        &:focus {
+            color: #3b3b3b;
+            font-weight: 700;
+        }
+    }
+}
+
+.mt-1p5 {
+    margin-top: 1.5%;
+}
+
+.time-stamp-box,
+.client-box,
+.source-box,
+.category-box {
+    width: 100%;
+    /* Remove fixed height */
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cross-icon-searchbar {
+    position: absolute;
+    top: 3px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.search-text-tabs {
+    font-size: 16px;
+    font-weight: 700;
+    color: #461e96;
+}
+
+.search-summary-tabs {
+    color: #3b3b3b;
+    font-weight: 500;
+    font-size: 14px;
+}

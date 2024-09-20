@@ -1,0 +1,17 @@
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-input {
+    background-color: #ffffff;
+    background-image: url("../../../../assets/icons/Radio_unchecked.svg");
+    height: 20px;
+    width: 20px;
+}
+
+.form-check-input:checked {
+    background-color: #ffffff;
+    background-image: url("../../../../assets/icons/Radio_checked.svg");
+    height: 20px;
+    width: 20px;
+}

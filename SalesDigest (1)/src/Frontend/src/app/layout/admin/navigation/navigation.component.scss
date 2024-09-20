@@ -1,0 +1,84 @@
+.navbar-wrapper {
+    width: auto;
+    // height: 78px;
+    height: 65px;
+    gap: 0px;
+    opacity: 0px;
+    background: #461e96;
+    color: white;
+
+    .app-logo {
+        width: 133px;
+        height: 19px;
+        top: 29px;
+        left: 100px;
+        gap: 0px;
+        opacity: 0px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .profile-icon {
+        width: auto;
+        height: auto;
+        top: 18px;
+        left: 1697px;
+        gap: 0px;
+        opacity: 0px;
+        cursor: pointer;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.break-box-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 999;
+}
+
+.custom-pl-pr-pd3 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.profile-avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px 5px 5px 7px;
+    cursor: pointer;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+}
+
+.pos-left {
+    //left: -94px;
+    left: -144%;
+    z-index: 999;
+}
+
+.page-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-left: 16px;
+}
+
+.dropdown {
+    .dropdown-menu {
+        background-color: white;
+        color: #3b3b3b;
+    }
+}
+
+.dropdown-item {
+    cursor: pointer;
+    &:active {
+        background-color: white;
+        color: #3b3b3b;
+    }
+}

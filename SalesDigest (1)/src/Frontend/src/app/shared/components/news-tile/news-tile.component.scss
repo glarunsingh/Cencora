@@ -1,0 +1,112 @@
+.card {
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.news-tile-card {
+    .source-info {
+        opacity: 0px;
+        // margin-bottom: 1rem !important;
+    }
+
+    .source-headline {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19.34px;
+        text-align: left;
+        color: #461e96;
+        padding-top: 2px;
+        padding-bottom: 10px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .source-data {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #666666;
+        max-height: 200px;
+        overflow: auto;
+    }
+
+    // sentiment buttons
+
+    @mixin button-style($background, $text-color, $border-color) {
+        background-color: $background;
+        color: $text-color;
+        border: 1px dotted $border-color;
+        border-radius: 4px;
+        &:hover,
+        &:focus {
+            background-color: $background;
+            color: $text-color;
+            border: 1px dotted $border-color;
+        }
+    }
+    
+    // Additional mixin for active state
+    @mixin button-active-style {
+        &:hover,
+        &:focus {
+            @content;
+        }
+    }
+
+    .btn {
+        &.cust-sentiment-btn-neutral {
+            width: 70px;
+            padding: 1px;
+            @include button-style(#fff2d9, #a04223, #a04223);
+        }
+
+        &.cust-sentiment-btn-positive {
+            width: 70px;
+            padding: 1px;
+            @include button-style(#e5f2ed, #095f3b, #095f3b);
+        }
+
+        &.cust-sentiment-btn-negative {
+            width: 70px;
+            padding: 1px;
+            @include button-style(#fae5e8, #d0021b, #d0021b);
+        }
+
+        &.active {
+            @include button-active-style {
+                width: 70px;
+                padding: 1px;
+                @include button-style(#fff2d9, #a04223, #a04223);
+            }
+        }
+    }
+
+    // sentiment buttons
+
+    .share-ic {
+        // width: 20px;
+        // height: 30px;
+        height: 18px;
+        width: 18px;
+        top: 1.5px;
+        left: 1px;
+        gap: 0px;
+        opacity: 0px;
+        color: #461e96;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 1300px) {
+        .share-ic {
+            height: 17px;
+            width: 17px;
+            top: 1.5px;
+            left: 1px;
+            gap: 0px;
+            opacity: 0px;
+            color: #461e96;
+            cursor: pointer;
+        }
+    }
+}

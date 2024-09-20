@@ -1,0 +1,42 @@
+.time-stamp-box,
+.client-box,
+.source-box,
+.category-box,
+.sentiment-box {
+    width: 100%;
+    /* Remove fixed height */
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .col-md-3 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-md-9 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-lg-9 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+}
+
+.mt-1p5 {
+    margin-top: 1.5%;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

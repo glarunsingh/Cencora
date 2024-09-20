@@ -1,0 +1,15 @@
+<div id="container">
+    <div *ngIf="enableLayout()">
+        <app-navigation [graph_details_obj]="graph_details_obj"></app-navigation>
+        <ng-container
+            *ngIf="current_route!='/sign-in' && current_route!='/onboarding' && current_route!='/manage-account'">
+            <app-breaking-news-bar></app-breaking-news-bar>
+        </ng-container>
+    </div>
+    <div [ngClass]="getTopCssByRoute()">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="chatbot-icon" *ngIf="current_route!='/manage-account'">
+        <img src="assets/icons/Ai-Chat.svg" alt="">
+    </div>
+</div>

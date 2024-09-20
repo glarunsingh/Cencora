@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg fixed-top custom-nav-mt-top p-0" style="min-width: 104vw;z-index: 10;">
+    <div class="container-fluid">
+        <div class="row w-100">
+            <!-- Logo column -->
+            <div class="col-auto logo">
+                Breaking news
+            </div>
+            <!-- Content column -->
+            <div class="content-col">
+                <!-- Example content with arrows -->
+                <span class="arrow arrow-left pe-1">
+                    <img src="assets/icons/arrow-right-latest.svg" alt="Left Arrow" (click)="scrollLeft()">
+                </span>
+                <div class="scrollable-container">
+                    <div *ngIf="isLoading">
+                        <app-loader [isLoading]="isLoading" [loadingPlaceholderText]="'Fetching breaking news......'">
+                        </app-loader>
+                    </div>
+                    <div *ngIf="headlines.length && !isLoading">
+                        <div class="scrollable-content" #scrollableContent>
+                            <ng-container *ngFor="let headline of headlines;let i=index">
+                                <span class="headline-wrapper" (click)="toggleMenu(i)">
+                                    <span><img src="assets/icons/Vector.svg"></span>
+                                    <span class="headline" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                        aria-expanded="false" aria-controls="collapseExample" placement="auto"
+                                        ngbTooltip="{{headline.client_name}}"
+                                        container="body">{{headline.news_title}}</span>
+                                    <span class="headlineHyphen">-</span>
+                                    <span class="headline-date">{{headline.news_date}}</span>
+                                    <span class="headlineWhiteSpace"></span>
+                                </span>
+                            </ng-container>
+                        </div>
+                    </div>
+                    <div *ngIf="isLoading == false && errorMessage!=''" class="opacity-50 text-center">
+                        <p>{{errorMessage}}</p>
+                    </div>
+                </div>
+                <span class="arrow arrow-right ps-2">
+                    <img src="assets/icons/arrow-right-latest.svg" alt="Left Arrow" (click)="scrollRight()">
+                </span>
+            </div>
+        </div>
+    </div>
+</nav>
+<ng-container *ngIf="isMenuOpen">
+    <app-mega-box [currentIndex]="selectedIndex" [newsList]="headlines" (emitCloseEvent)="collectCloseEvent($event)">
+    </app-mega-box>
+</ng-container>

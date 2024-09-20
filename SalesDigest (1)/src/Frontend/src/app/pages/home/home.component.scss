@@ -1,0 +1,204 @@
+$desc1-color: #461e96;
+$desc2-color: #461e96;
+$desc3-color: #666666;
+
+.leftpane {
+    // width: 25%;
+    // height: calc(100vh - 10px);
+    position: relative;
+    left: 0px;
+    top: 1px;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    background: #ffffff;
+}
+
+.app-description {
+    opacity: 0px;
+}
+
+.desc1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49.92px;
+    text-align: left;
+    color: $desc1-color;
+}
+
+.spanWhiteSpace {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.36px;
+    text-align: left;
+}
+
+.desc2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49.92px;
+    text-align: left;
+    color: $desc1-color;
+}
+
+.desc2-clr {
+    color: $desc1-color;
+}
+
+.desc3 {
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    color: $desc3-color;
+}
+
+.home-icon-image {
+    max-height: 50vh;
+    min-width: 25vw;
+    object-fit: cover;
+}
+
+.last-section {
+    margin-top: 5px;
+}
+
+.last-info-1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.47px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.last-subinfo-1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #666666;
+}
+
+.all-apps {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.76px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.all-apps1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.all-apps2 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+// cards
+.all-apps1d {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24.18px;
+    text-align: left;
+    color: #3b3b3b;
+    text-wrap: pretty;
+}
+
+.all-apps2d {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.last-accessed {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #999999;
+}
+
+.access {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+//
+
+.tempcard-pd-5 {
+    padding: 5px !important;
+}
+
+.title-pd-10 {
+    padding-top: 10px !important;
+}
+
+.access-pd-15 {
+    padding-top: 15px !important;
+}
+
+//app-name
+.app-name-latest {
+    // width: 354px;
+    width: auto;
+    height: 48px;
+    top: 108px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 47.72px;
+    color: #461e96;
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+}
+
+//app-name boostrap side bar changes
+.app-name-latestv2 {
+    // width: 354px;
+    position: relative;
+    left: 65px;
+    top: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #461e96;
+}
+
+/* Ensure full height for viewport */
+.vh-100 {
+    height: 100vh;
+}
+ 
+/* Sidebar styles */
+.sidebar {
+    padding: 10px;
+    overflow-x: hidden; /* Enable vertical scrolling if needed */
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+ 
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .app-name-latestv2 {
+        font-size: 20px;
+    }
+}

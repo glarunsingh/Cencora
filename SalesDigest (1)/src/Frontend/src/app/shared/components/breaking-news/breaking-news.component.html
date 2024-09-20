@@ -1,0 +1,82 @@
+<!-- <a class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="btn breaking-news-btn d-flex align-items-center ms-2">
+        <img src="assets/icons/Group.svg">
+        <span class="br-text">Breaking News !</span>
+    </button>
+    <div class="break-space-div"></div>
+    <div class="wrapper">
+        <div class="marquee" [ngClass]="{'paused':isAnimationPaused == true}" (mouseenter)="pauseAnimation()"
+            (mouseleave)="resumeAnimation()" (click)="toggleMenu()">
+            <ng-container *ngFor="let headline of headlines;let i=index">
+                <span class="headline-wrapper">
+                    <span><img src="assets/icons/Vector.svg"></span>
+                    <span class="headline" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">{{headline.headlineText}}</span>
+                    <span class="headlineHyphen"> - </span>
+                    <span class="headline-date">{{headline.headlineDate}}</span>
+                    <span class="headlineWhiteSpace"></span>
+                </span>
+            </ng-container>
+        </div>
+    </div>
+</a> -->
+<a class="navbar navbar-expand-lg" style="height: 80px;text-decoration: none;">
+    <div class="container-fluid">
+        <div class="row w-100">
+            <div class="col-auto logo">
+                <div>Breaking News</div>
+            </div>
+            <div class="col content-col">
+                <span class="arrow-test arrow-testleft">
+                    <img src="assets/icons/arrow-right-1.svg" alt="Left Arrow" (click)="showPrevItem()">
+                </span>
+                <span class="headline-container">
+                    <ng-container *ngFor="let headline of headlines;let i=index">
+                        <span class="headline-wrapper" (click)="toggleMenu()">
+                            <span><img src="assets/icons/Vector.svg"></span>
+                            <span class="headline" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                aria-expanded="false" aria-controls="collapseExample">{{headline.headlineText}}</span>
+                            <span class="headlineHyphen"> - </span>
+                            <span class="headline-date">{{headline.headlineDate}}</span>
+                            <span class="headlineWhiteSpace"></span>
+                        </span>
+                    </ng-container>
+                </span>
+                <span class="arrow-test arrow-test-right">
+                    <img src="assets/icons/arrow-right-1.svg" alt="Right Arrow" (click)="showNextItem()">
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<div class="mega-box" *ngIf="isMenuOpen">
+    <div class="content">
+        <div class="d-flex justify-content-end close-icon">
+            <img src="assets/icons/home-icons/remove.svg" alt="Close Icon" (click)="toggleMenu()">
+        </div>
+        <div class="d-flex cust-news-padding position-relative">
+            <!-- Left Arrow -->
+            <div class="arrow arrow-left">
+                <img src="assets/icons/arrow-right-1.svg" alt="Left Arrow" (click)="showPrevItem()">
+            </div>
+            <div class="flex-shrink-0">
+                <img src="assets/icons/home-icons/Mask Group 261 1.png" class="breaking-news-img me-2"
+                    alt="Breaking News Image">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <div>
+                    <h4 class="news-header">{{currentNews['header']}}</h4>
+                    <span class="summary-header">Summary :</span>
+                    <span class="summary-text">
+                        {{currentNews['summary']}}
+                    </span>
+                </div>
+            </div>
+            <!-- Right Arrow -->
+            <div class="arrow arrow-right">
+                <img src="assets/icons/arrow-right-1.svg" alt="Right Arrow" (click)="showNextItem()">
+            </div>
+        </div>
+    </div>
+</div>

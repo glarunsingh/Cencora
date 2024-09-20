@@ -1,0 +1,28 @@
+<div class="basic-pd">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="mt-3">
+                <ul class="d-webkit ps-0 mb-0">
+                    <li class="d-flex align-items-center" *ngFor="let item of manageTopics;let i = index"
+                        [ngClass]="{'active':activeIndex == i }" (click)="activeIndex = i">{{item}}</li>
+                </ul>
+                <div *ngIf="userMetaData['role']=='Admin'">
+                    <div *ngIf="activeIndex == 0">
+                        <app-manage-client-admin></app-manage-client-admin>
+                    </div>
+                    <div *ngIf="activeIndex == 1">
+                        <app-manage-keyword-admin></app-manage-keyword-admin>
+                    </div>
+                    <div *ngIf="activeIndex==2">
+                        <app-personalize></app-personalize>
+                    </div>
+                </div>
+                <div *ngIf="userMetaData['role']=='User'">
+                    <div *ngIf="activeIndex == 0">
+                        <app-manage-client></app-manage-client>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

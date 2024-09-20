@@ -1,0 +1,25 @@
+trigger:
+ branches:
+  include:
+  - main
+ paths:
+  include:
+  - src/Frontend/*
+resources:
+  repositories:
+  - repository: Shared
+    type: git
+    name: KeyAccounts\SalesDigest
+    ref: 'refs/heads/main'
+extends:
+ template: angulardeployv1.yaml@Shared
+ parameters:
+  deployenvironments: 
+   - stage: 'QA'
+   - stage: 'PROD'
+  sonarCubeID: ''
+  solnSourceDirectory: '$(System.DefaultWorkingDirectory)/src/Frontend'
+  projSourceDirectory: ''
+  submitToCheckmarx: false
+  output_location: 'dist/key-account-digest'
+  environmentpath: 'src/Frontend'

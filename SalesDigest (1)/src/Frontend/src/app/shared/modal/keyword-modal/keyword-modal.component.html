@@ -1,0 +1,52 @@
+<div class="modal-header">
+    <h1 class="addEditTitle fs-5">
+        <div>
+            <span> <img [src]="getImagePath(title)" class="me-1"></span>
+            <span>{{title}}</span>
+        </div>
+    </h1>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+</div>
+<div class="modal-body">
+    <ng-container *ngIf="adminKeywordDetails.type == 'add'">
+        <form [formGroup]="adminKeywordFormGrp" #f="ngForm">
+            <div formArrayName="items">
+                <div *ngFor="let item of adminKeyGetControls().controls; let i = index">
+                    <div [formGroupName]="i" class="mt-1">
+                        <div class="row mt-2">
+                            <div class="col-10">
+                                <label for="inputEmail4" class="form-label">keyword</label>
+                                <input type="text" class="form-control mb-0" formControlName="keyword"
+                                    placeholder="keyword" aria-label="First name">
+                            </div>
+                            <div class="col-2">
+                                <label class="form-label"></label>
+                                <div class="mt-1">
+                                    <span class="me-2"><img src="assets/icons/manage-add-row.svg"
+                                            (click)="adminKeywordAddNewRow()"></span>
+                                    <span *ngIf="i > 0"><img src="assets/icons/manage-row-delete.svg"
+                                            (click)="adminKeywordDelRow(i)"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ng-container>
+    <ng-container *ngIf="adminKeywordDetails.type == 'edit'">
+        <form [formGroup]="adminEditKeyFormGroup" #f="ngForm">
+            <div class="row">
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Keyword</label>
+                    <input type="text" class="form-control mb-0" formControlName="keyword" placeholder="Keyword"
+                        aria-label="Keyword">
+                </div>
+            </div>
+        </form>
+    </ng-container>
+</div>
+<div class="modal-footer custom-btn-cls">
+    <span class="cancelText" (click)="closeModal()">Cancel</span>
+    <button type="button" class="btn btn-block btn-sm" (click)="submitModal()">Submit</button>
+</div>

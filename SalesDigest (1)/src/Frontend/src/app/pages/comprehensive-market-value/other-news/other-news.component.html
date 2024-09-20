@@ -1,0 +1,128 @@
+<div class="row mt-2 filter-item-container">
+    <div class="col-6 col-sm-12 col-md-6 d-flex justify-content-start align-items-center flex-wrap">
+        <ng-container *ngIf="sourceNamesFilterCountObj.total > 0">
+            <div class="filters-item-box">
+                {{sourceNamesFilterCountObj['name']}}&nbsp;(&nbsp;<b>{{sourceNamesFilterCountObj['total']}}</b>&nbsp;)
+                <span (click)="clearAllSelectedFilter('Source')">
+                    <img src="assets/icons/home-icons/remove.svg" class="ms-1 mb-1 cross-icon">
+                </span>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="sentimentFilterCountObj.total > 0">
+            <div class="filters-item-box">
+                {{sentimentFilterCountObj['name']}}&nbsp;(&nbsp;<b>{{sentimentFilterCountObj['total']}}</b>&nbsp;)
+                <span (click)="clearAllSelectedFilter('Sentiment')">
+                    <img src="assets/icons/home-icons/remove.svg" class="ms-1 mb-1 cross-icon">
+                </span>
+            </div>
+        </ng-container>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 d-flex align-items-center justify-content-end" *ngIf="drugChannelList.length">
+        <app-results-count-widget [displayItemsList]="drugChannelList"
+            (emitSelectedCount)="collectSelectedCount($event)"></app-results-count-widget>
+        <span class="download-ic">
+            <button class="btn btn-download btn-sm d-flex align-items-center" (click)="downloadOtherNews()">
+                <img src="assets/icons/Download button_2.svg" class="me-1"> Download</button>
+        </span>
+    </div>
+</div>
+<div class="mt-2">
+    <app-loader [isLoading]="showLoading" [loadingPlaceholderText]="'Fetching records for the selected months'">
+    </app-loader>
+    <div class="px-1">
+        <div *ngIf="showBanner">
+            <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none" role="alert">
+                <strong>{{bannerText}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+        <div *ngIf="drugChannelDisplayList.length && showLoading == false">
+            <div class="row article-ht-scr">
+                <ng-container *ngFor="let article of drugChannelDisplayList;let i=index">
+                    <div class="col-12 col-lg-6 col-md-6 py-2">
+                        <app-news-tile [newsTileData]="article" [maxLength]="maxLength"
+                        (emitThumbsUpEvent)="collectThumbsupEvent($event)"
+                        (emitThumbsDownEvent)="collectThumbsDownEvent($event)" [displayTitle]="'Source'"
+                        [displayKey]="'source_name'"></app-news-tile>
+                        <!-- <div class="card h-100">
+                            <div class="card-body">
+                                <div>
+                                    <div class="source-info mb-1">
+                                        <div class="d-flex justify-content-between align-items-center gap-1">
+                                            <div>
+                                                <span class="me-1">
+                                                    <button class="btn btn-block btn-sm date-section">
+                                                        {{commonService.modifyNewsDate(article.news_date,'ddd,
+                                                        MMM D, YYYY')}}
+                                                    </button>
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <span class="me-1">
+                                                    <button class="btn btn-block btn-sm"
+                                                        [ngClass]="commonService.getSentimentBtnCls(article.sentiment)">
+                                                        {{commonService.modifySentimentTitleCase(article.sentiment)}}
+                                                    </button>
+                                                </span>
+                                                <span class="opacity-25 ms-1">|</span>
+                                                <span class="ms-1">
+                                                    <ng-container *ngIf="article.isThumbsUp == false">
+                                                        <img src="assets/icons/Like-mvp2.svg" class="share-ic"
+                                                            (click)="thumbsUpHandler(article)">
+                                                    </ng-container>
+                                                    <ng-container *ngIf="article.isThumbsUp">
+                                                        <img src="assets/icons/Like-mvp2-fill.svg" class="share-ic"
+                                                            (click)="thumbsUpHandler(article)">
+                                                    </ng-container>
+                                                </span>
+                                                <span class="opacity-25 ms-1">|</span>
+                                                <span class="ms-1">
+                                                    <ng-container *ngIf="article.isThumbsDown == false">
+                                                        <img src="assets/icons/Dislike-mvp2.svg"
+                                                            class="share-ic" (click)="thumbsDownHandler(article)">
+                                                    </ng-container>
+                                                    <ng-container *ngIf="article.isThumbsDown">
+                                                        <img src="assets/icons/Dislike-mvp2-fill.svg" class="share-ic"
+                                                            (click)="thumbsDownHandler(article)">
+                                                    </ng-container>
+                                                </span>
+                                                <span class="opacity-25 ms-1">|</span>
+                                                <span class="ms-1" (click)="commonService.copyUrl(article.news_url)">
+                                                    <img src="assets/icons/Copy_Paste.svg" placement="top"
+                                                        ngbTooltip="Copy url" container="body" class="share-ic">
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="addonInfo">Source : {{article.source_name}}</span>
+                                    <div>
+                                        <span class="source-headline" (click)="commonService.goToLink(article.news_url)"
+                                            placement="top" ngbTooltip="{{article.source_name}}" container="body">
+                                            {{article.news_title}}
+                                        </span>
+                                        <span>&nbsp;-&nbsp;</span>
+                                        <span><img src="{{article.favIcon}}"></span>
+                                    </div>
+                                    <div class="source-data" [ngClass]="{'truncate':!article.isActive}"
+                                        [style.max-height.px]="!article.isActive ? maxLength:'none'">
+                                        {{article.news_summary}}
+                                    </div>
+                                    <div class="flex-grow-1 ms-0">
+                                        <a href="_blank" class="showMore" (click)="showMore(i);$event.preventDefault()"
+                                            *ngIf="article.isActive == false">
+                                            Show more
+                                        </a>
+                                        <a href="_blank" class="showMore" (click)="showLess(i);$event.preventDefault()"
+                                            *ngIf="article.isActive == true">
+                                            Show less
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>

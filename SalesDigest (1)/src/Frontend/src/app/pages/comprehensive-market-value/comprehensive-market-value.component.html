@@ -1,0 +1,83 @@
+<div class="basic-pd">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <ng-container *ngIf="activeIndex == 0">
+                <div class="filter-box">
+                    <div class="filter-header">
+                        <span class="filter-text">Filter by :</span>
+                    </div>
+                    <div class="client-box mt-4">
+                        <div class="p-4">
+                            <app-custom-radiobutton [radioItemsList]="clientNamesList"
+                                (emitRadioButtonChange)="collectClientButtonChange($event)" [title]="'Client names'"
+                                [instanceId]="'client'" [defaultItem]="selectedClientName" [isFilterEnabled]="true">
+                            </app-custom-radiobutton>
+                        </div>
+                    </div>
+                    <div class="source-box mt-4">
+                        <div class="p-4">
+                            <app-custom-checkbox [checkboxItemsList]="definitiveTableList"
+                                (emitCheckboxChnage)="toggleTableCheckbox($event)" [title]="'Table'"
+                                [instanceId]="'Table'" [isFilterEnabled]="true">
+                            </app-custom-checkbox>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="activeIndex == 1">
+                <div class="filter-box">
+                    <div class="filter-header">
+                        <span class="filter-text">Filter by :</span>
+                    </div>
+                    <div class="source-box mt-4">
+                        <div class="p-4">
+                            <app-custom-checkbox [checkboxItemsList]="sourceList"
+                                (emitCheckboxChnage)="toggleCheckbox($event)" [title]="'Source'" [instanceId]="'source'"
+                                [isFilterEnabled]="true">
+                            </app-custom-checkbox>
+                        </div>
+                    </div>
+                    <div class="time-stamp-box mt-4">
+                        <div class="p-4">
+                            <app-custom-radiobutton [radioItemsList]="timeStampsList"
+                                (emitRadioButtonChange)="collectRadioButtonChange($event)"
+                                [defaultItem]="selectedTimeFrame" [title]="'Time frame'" [instanceId]="'timeStamp'"
+                                [isFilterEnabled]="false">
+                            </app-custom-radiobutton>
+                        </div>
+                    </div>
+                    <div class="source-box mt-4">
+                        <div class="p-4">
+                            <app-custom-checkbox [checkboxItemsList]="sentimentList"
+                                (emitCheckboxChnage)="toggleCheckbox($event)" [title]="'Sentiment'"
+                                [instanceId]="'sentiment'" [isFilterEnabled]="true">
+                            </app-custom-checkbox>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="mt-3">
+                <ul class="d-webkit ps-0 mb-0">
+                    <li class="d-flex align-items-center" *ngFor="let item of subTopics;let i = index"
+                        [ngClass]="{'active':subTopics.length == 1 ? activeIndex : activeIndex == i }"
+                        (click)="changeTab(i)">{{item}}</li>
+                </ul>
+                <div *ngIf="activeIndex == 0">
+                    <app-definitive-channel [selectedClientName]="selectedClientName"
+                        [appliedTablesList]="appliedTablesList"
+                        (emitClearAllTableFilters)="clearAllTableFilters($event)"
+                        [definitiveTableFilterObj]="definitiveTableFilterObj">
+                    </app-definitive-channel>
+                </div>
+                <div *ngIf="activeIndex == 1">
+                    <app-other-news [selectedTimeFrame]="selectedTimeFrame"
+                        [sourceNamesFilterCountObj]="sourceNamesFilterCountObj"
+                        [sentimentFilterCountObj]="sentimentFilterCountObj" [appliedSourcesList]="appliedSourcesList"
+                        (emitClearAllFilters)="collectSourceClearAll($event)"></app-other-news>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

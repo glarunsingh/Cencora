@@ -1,0 +1,43 @@
+.custom-btn-cls {
+    button {
+        background-color: #461e96;
+        color: white;
+        &:hover,
+        &:focus {
+            background-color: #461e96;
+            color: white;
+            border: 1px dotted #461e96;
+        }
+    }
+}
+
+.addEditTitle {
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+.cancelText {
+    color: #461e96;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+img {
+    height: 18px;
+    width: 18px;
+}
+
+.btn-close {
+    box-shadow: none;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3b3b3b;
+}

@@ -1,0 +1,142 @@
+<div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="row vh-100">
+                <div class="d-flex flex-column flex-shrink-0 p-1 bg-white">
+                    <a href="/"
+                        class="d-flex align-items-center mb-3 me-md-auto link-body-emphasis text-decoration-none">
+                        <span class="app-name-latestv2">Key account digest</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mt-4">
+                        <img src="assets/icons/home-v2.svg" class="image-fluid pb-20">
+                    </ul>
+                    <div class="mt-3">
+                        <ul>
+                            <ng-container *ngFor="let item of homeInfoData">
+                                <div class="last-section d-flex align-items-center {{item.style.marginBottom}}">
+                                    <div class="flex-shrink-0">
+                                        <img src="assets/icons/home-icons/{{item.icon}}.svg" alt="" class="image-fluid">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="mb-0 last-info-1">
+                                            {{item.title}}
+                                        </h5>
+                                        <span class="text-sm last-subinfo-1">
+                                            {{item.subField}}
+                                        </span>
+                                    </div>
+                                </div>
+                            </ng-container>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="leftpane">
+                <div class="text-center m-3 app-name-latest">
+                    <span>Key account digest</span>
+                </div>
+                <img src="assets/icons/home-v2.svg" class="home-icon-image">
+                <div class="px-4 py-4 mx-3">
+                    <div class="last-section d-flex align-items-center mb-3">
+                        <div class="flex-shrink-0">
+                            <img src="../../../assets/icons/home-icons/touch-id-1.svg" alt="" class="image-fluid">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="mb-0 last-info-1">
+                                Acess application
+                            </h5>
+                            <span class="text-sm last-subinfo-1">
+                                Log in effortlessly to our intuitive platform
+                            </span>
+                        </div>
+                    </div>
+                    <div class="last-section d-flex align-items-center mb-3">
+                        <div class="flex-shrink-0">
+                            <img src="../../../assets/icons/ask-domain.svg" alt="" class="image-fluid">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="mb-0 last-info-1">
+                                Ask domain specific questions/prompts
+                            </h5>
+                            <span class="text-sm last-subinfo-1">
+                                Tailor research to your domain with ease
+                            </span>
+                        </div>
+                    </div>
+                    <div class="last-section d-flex align-items-center mb-5">
+                        <div class="flex-shrink-0">
+                            <img src="../../../assets/icons/home-icons/task-list-pen.svg" alt="" class="image-fluid">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="mb-0 last-info-1">
+                                Consume response
+                            </h5>
+                            <span class="text-sm last-subinfo-1">
+                                Get insightful, relevant responses instantly
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="pe-4">
+                <div class="ps-3 py-3 pe-3">
+                    <div>
+                        <img src="assets/icons/home-icons/app-window-layout.svg" class="me-2">
+                        <span class="all-apps">All apps</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <h5 class="all-apps1">Showing result 0-3 of 3</h5>
+                        <!-- <h5 class="all-apps2">Sort by</h5> -->
+                    </div>
+
+                    <div class="mt-2">
+                        <div class="row">
+                            <ng-container *ngFor="let item of cardsData">
+                                <div class="col-12 col-lg-4 mt-2">
+                                    <div class="card tempcard-pd-5 h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <img src="assets/icons/{{item.icon}}.svg" alt="">
+                                                <!-- <div>
+                                                    <img src="assets/icons/home-icons/Tech_Approval.svg" class="me-1">
+                                                    <span class="access">{{item.accessGrantedStatus}}</span>
+                                                </div> -->
+                                            </div>
+                                            <div class="my-2 title-pd-10">
+                                                <span class="all-apps1d">{{item.title}}</span>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-between access-pd-15">
+                                                    <span class="all-apps2d">
+                                                        <span>Department : </span>
+                                                        <span>{{metaData?.['department_name']}}
+                                                        </span>
+                                                    </span>
+                                                    <img src="assets/icons/home-icons/Group 131.svg"
+                                                        style="height: 5vh;cursor: pointer;"
+                                                        (click)="goToPage(item.route)">
+                                                </div>
+                                            </div>
+                                            <!-- <div class="d-flex align-items-center justify-content-end access-pd-15">
+                                                <span>
+                                                    <img src="assets/icons/home-icons/time-clock-circle.svg"
+                                                        class="me-1">
+                                                    <span class="last-accessed">Last accessed {{item.lastAccessed}}
+                                                        min ago
+                                                    </span>
+                                                </span>
+                                                <img src="assets/icons/home-icons/Group 131.svg"
+                                                    style="height: 5vh;cursor: pointer;" (click)="goToPage(item.route)">
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

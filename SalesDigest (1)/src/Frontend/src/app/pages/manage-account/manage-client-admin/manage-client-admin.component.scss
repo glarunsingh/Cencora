@@ -1,0 +1,95 @@
+.department-box {
+    width: 343px;
+    height: 57px;
+    gap: 0px;
+    opacity: 0px;
+
+    .department-text {
+        color: #3b3b3b;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 15.51px;
+        text-align: left;
+    }
+
+    sup {
+        color: #e22f00;
+    }
+
+    select {
+        width: 343px;
+        height: 28px;
+        top: 29px;
+        padding: 4px 18px 4px 13px;
+        gap: 0px;
+        border-radius: 4px;
+        border: 1px;
+        opacity: 0px;
+    }
+
+    .form-select {
+        width: 343px; /* Adjust select width as needed */
+        height: 30px; /* Adjust height as needed */
+        padding: 4px 18px 4px 13px;
+        border-radius: 4px;
+        border: 1px solid #8a8a8a;
+        color: #8a8a8a;
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    .form-select:focus {
+        box-shadow: none;
+    }
+
+    option {
+        font-style: normal !important;
+        border-radius: 0 !important;
+        margin-bottom: 15px;
+    }
+}
+
+.choose-text-box {
+    .form-control:focus {
+        border-color: #3b3b3b;
+        box-shadow: none;
+    }
+
+    .cust-height-32p {
+        height: 32px;
+    }
+}
+
+.custom-btn-cls {
+    button {
+        background-color: #461e96;
+        color: white;
+        &:hover,
+        &:focus {
+            background-color: #461e96;
+            color: white;
+            border: 1px dotted #461e96;
+        }
+    }
+}
+
+.custom-btn {
+    .btn:focus,
+    .btn:hover,
+    .btn:active:focus,
+    .btn.active:focus,
+    .btn.focus,
+    .btn:active.focus,
+    .btn.active.focus {
+        border-color: #cacaca;
+        outline: none;
+        color: #461e96;
+        font-size: 14px;
+    }
+
+    button {
+        border-color: #cacaca;
+        outline: none;
+        color: #461e96;
+    }
+}

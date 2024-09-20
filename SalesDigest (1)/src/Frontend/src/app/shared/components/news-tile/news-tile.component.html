@@ -1,0 +1,73 @@
+<div class="card h-100">
+    <div class="card-body news-tile-card">
+        <div class="source-info mb-1">
+            <div class="d-flex justify-content-between align-items-center gap-1">
+                <div>
+                    <span class="me-1">
+                        <button class="btn btn-block btn-sm date-section">
+                            {{commonService.modifyNewsDate(article.news_date,'ddd,
+                            MMM D, YYYY')}}
+                        </button>
+                    </span>
+                </div>
+                <div>
+                    <span class="me-1">
+                        <button class="btn btn-block btn-sm"
+                            [ngClass]="commonService.getSentimentBtnCls(article.sentiment)">
+                            {{commonService.modifySentimentTitleCase(article.sentiment)}}
+                        </button>
+                    </span>
+                    <span class="opacity-25 ms-1">|</span>
+                    <span class="ms-1">
+                        <ng-container *ngIf="article.isThumbsUp == false">
+                            <img src="assets/icons/Like-mvp2.svg" class="share-ic" (click)="thumbsUpHandler(article)">
+                        </ng-container>
+                        <ng-container *ngIf="article.isThumbsUp">
+                            <img src="assets/icons/Like-mvp2-fill.svg" class="share-ic"
+                                (click)="thumbsUpHandler(article)">
+                        </ng-container>
+                    </span>
+                    <span class="opacity-25 ms-1">|</span>
+                    <span class="ms-1">
+                        <ng-container *ngIf="article.isThumbsDown == false">
+                            <img src="assets/icons/Dislike-mvp2.svg" class="share-ic"
+                                (click)="thumbsDownHandler(article)">
+                        </ng-container>
+                        <ng-container *ngIf="article.isThumbsDown">
+                            <img src="assets/icons/Dislike-mvp2-fill.svg" class="share-ic"
+                                (click)="thumbsDownHandler(article)">
+                        </ng-container>
+                    </span>
+                    <span class="opacity-25 ms-1">|</span>
+                    <span class="ms-1" (click)="commonService.copyUrl(article.news_url)">
+                        <img src="assets/icons/Copy_Paste.svg" placement="top" ngbTooltip="Copy link" container="body"
+                            class="share-ic">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <span class="addonInfo">{{displayTitle}} : {{article[displayKey]}}</span>
+        <div>
+            <span class="source-headline" (click)="commonService.goToLink(article.news_url)" placement="top"
+                ngbTooltip="{{article[displayKey]}}" container="body">
+                {{article.news_title}}
+            </span>
+            <span>&nbsp;-&nbsp;</span>
+            <span><img src="{{article.favIcon}}"></span>
+        </div>
+        <div class="source-data" [ngClass]="{'truncate':!article.isActive}"
+            [style.max-height.px]="!article.isActive ? maxLength:'none'">
+            {{article.news_summary}}
+        </div>
+        <div class="flex-grow-1 ms-0">
+            <a href="_blank" class="showMore" (click)="showMore();$event.preventDefault()"
+                *ngIf="article.isActive == false">
+                Show more
+            </a>
+            <a href="_blank" class="showMore" (click)="showLess();$event.preventDefault()"
+                *ngIf="article.isActive == true">
+                Show less
+            </a>
+        </div>
+    </div>
+</div>

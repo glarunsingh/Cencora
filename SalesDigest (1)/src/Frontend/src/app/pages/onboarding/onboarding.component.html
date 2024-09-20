@@ -1,0 +1,240 @@
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="row vh-100">
+            <div class="d-flex flex-column flex-shrink-0 p-1 bg-white">
+                <a href="/" class="d-flex align-items-center mb-3 me-md-auto link-body-emphasis text-decoration-none">
+                    <span class="app-name-latestv2">Key account digest</span>
+                </a>
+                <ul class="nav nav-pills flex-column mt-4">
+                    <img src="assets/icons/on-boarding-image.svg" class="image-fluid pb-20">
+
+                </ul>
+                <div class="mt-3">
+                    <ul>
+                        <ng-container *ngFor="let item of onBoardingInfoData">
+                            <div class="last-section d-flex align-items-center {{item.style.marginBottom}}">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/icons/{{item.icon}}.svg" alt="" class="image-fluid">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="mb-0 last-info-1">
+                                        {{item.title}}
+                                    </h5>
+                                    <span class="text-sm last-subinfo-1">
+                                        {{item.subField}}
+                                    </span>
+                                </div>
+                            </div>
+                        </ng-container>
+                    </ul>
+                    <!-- <ul>
+                        <div class="last-section d-flex align-items-center mb-3">
+                            <div class="flex-shrink-0">
+                                <img src="assets/icons/onboarding-people.svg" class="image-fluid">
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <h5 class="mb-0 last-info-1">
+                                    Client digest
+                                </h5>
+                                <span class="text-sm last-subinfo-1">
+                                    Access customized insights on preferred clients for targeted research.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="last-section d-flex align-items-center mb-3">
+                            <div class="flex-shrink-0">
+                                <img src="assets/icons/onboarding-keyword-digest.svg" class="image-fluid">
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <h5 class="mb-0 last-info-1">
+                                    Keyword digest
+                                </h5>
+                                <span class="text-sm last-subinfo-1">
+                                    Research efficiently with focused keyword-based data analysis.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="last-section d-flex align-items-center mb-0">
+                            <div class="flex-shrink-0">
+                                <img src="assets/icons/Globe.svg" class="image-fluid">
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <h5 class="mb-0 last-info-1">
+                                    Comprehensive market value
+                                </h5>
+                                <span class="text-sm last-subinfo-1">
+                                    Utilize social analytics to evaluate market trends and sentiment.
+                                </span>
+                            </div>
+                        </div>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="leftpane">
+            <div class="text-center m-3 app-name-latest">
+                <span>Key account digest</span>
+            </div>
+            <img src="assets/icons/on-boarding-image.svg" class="home-icon-image">
+            <div class="px-4 py-4 mx-4">
+                <div class="last-section d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <img src="assets/icons/onboarding-people.svg" class="image-fluid">
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                        <h5 class="mb-0 last-info-1">
+                            Client digest
+                        </h5>
+                        <span class="text-sm last-subinfo-1">
+                            Access customized insights on preferred clients for targeted research.
+                        </span>
+                    </div>
+                </div>
+                <div class="last-section d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <img src="assets/icons/onboarding-keyword-digest.svg" class="image-fluid">
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                        <h5 class="mb-0 last-info-1">
+                            Keyword digest
+                        </h5>
+                        <span class="text-sm last-subinfo-1">
+                            Research efficiently with focused keyword-based data analysis.
+                        </span>
+                    </div>
+                </div>
+                <div class="last-section d-flex align-items-center mb-5">
+                    <div class="flex-shrink-0">
+                        <img src="assets/icons/Globe.svg" class="image-fluid">
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                        <h5 class="mb-0 last-info-1">
+                            Comprehensive market value
+                        </h5>
+                        <span class="text-sm last-subinfo-1">
+                            Utilize social analytics to evaluate market trends and sentiment.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="col-lg-9 col-md-8 col-sm-6">
+        <div class="pe-4">
+            <div class="ps-5 py-4 pe-3 d-flex flex-column">
+                <div class="hello-user-box mb-4">
+                    <div class="hello-user mb-2">Hello {{userName}}</div>
+                    <div class="hello-user-helper">Let us help you customize your experience.</div>
+                </div>
+                <div class="department-box mb-3">
+                    <div class="department-text" *ngIf="userMetaData['role'] == 'Admin'">
+                        <div>
+                            <sup>*</sup>
+                            <label class="form-label">Select your department</label>
+                            <!-- <select class="form-control form-select" aria-label="Default select example" #mySelect
+                                (change)='setDepartment(mySelect.value)'>
+                                <option value="">Select department</option>
+                                <option [value]="item" class="dropdown-item" *ngFor="let item of departmentList">
+                                    {{item}}</option>
+                            </select> -->
+                            <app-custom-select (emitSelectedItem)="setDepartment($event)" [options]="departmentList" placeholder="Select deparment">
+                            </app-custom-select>
+                        </div>
+                    </div>
+                    <div *ngIf="userMetaData['role'] != 'Admin'" class="choose-text-box">
+                        <label class="form-label">Department</label>
+                        <input type="email" class="form-control" [(ngModel)]="userMetaData['department_name']" readonly>
+                    </div>
+                </div>
+                <div *ngIf="clientBoxList.length && showLoading == false">
+                    <ng-container *ngIf="clientBoxList.length">
+                        <div class="search-client-box mb-4">
+                            <div class="client-search-text mb-2">
+                                Choose your top preferred clients.
+                            </div>
+                            <div class="choose-text-box">
+                                <div class="input-group flex-nowrap">
+                                    <input type="text" class="form-control" placeholder="Client name"
+                                        aria-label="client name" aria-describedby="addon-wrapping"
+                                        [(ngModel)]="searchText">
+                                    <span><img src="assets/icons/input__button.svg"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-box-layout p-4 container-fluid">
+                            <div class="row bg-client-box">
+                                <ng-container *ngFor="let item of clientBoxList | search:searchText;let i=index">
+                                    <div class="col-md-3 col-xl-3 col-sm-12 mb-3">
+                                        <div class="card h-100 w-100">
+                                            <div class="card-body p-4">
+                                                <span>
+                                                    <img src="assets/icons/onboarding-people.svg"
+                                                        class="group-icon img-fluid">
+                                                </span>
+                                                <div class="m-b-0 mt-4">
+                                                    <div class="row justify-content-between align-items-start">
+                                                        <div class="col-8 card-ttl">
+                                                            <div class="client-name">
+                                                                {{item.clientName}}
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div *ngIf="item.isFavourite" class="float-end"
+                                                                (click)="markOrDemarkFav(item)">
+                                                                <img src="assets/icons/onboarding-fav-fill.svg"
+                                                                    class="favourite-nofill">
+                                                            </div>
+                                                            <div *ngIf="item.isFavourite == false" class="float-end"
+                                                                (click)="markOrDemarkFav(item)">
+                                                                <img src="assets/icons/onboarding-fav-nofill.svg"
+                                                                    class="favourite-nofill">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ng-container>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div class="d-flex justify-content-between">
+                                <div class="consent-box mb-3">
+                                    <div class="form-check custom-checkbox d-flex align-items-center">
+                                        <input class="form-check-input" type="checkbox" id="flexCheckChecked"
+                                            [(ngModel)]="isConsentChecked">
+                                        <label class="form-check-label" for="flexCheckChecked"
+                                            checked="isConsentChecked">
+                                            <div class="ps-2 consent">
+                                                I would like to receive a daily newsletter in my personal inbox.</div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <span class="skip" (click)="submitOrSkip('skip')">Skip</span>
+                                </div>
+                            </div>
+                            <div class="submit-response">
+                                <button class="btn btn-block" (click)="submitOrSkip('submit')">
+                                    Submit
+                                    <img src="assets/icons/submit_arrow.svg" class="ps-1">
+                                </button>
+                            </div>
+                        </div>
+                    </ng-container>
+                    <ng-container *ngIf="showAlert">
+                        <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none" role="alert">
+                            <strong>No results were found!!.</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </ng-container>
+                </div>
+                <div *ngIf="showLoading">
+                    <app-loader [isLoading]="showLoading" [loadingPlaceholderText]="'Fetching client names'">
+                    </app-loader>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

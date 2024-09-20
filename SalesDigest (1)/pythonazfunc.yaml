@@ -1,0 +1,85 @@
+parameters:
+- name: deployenvironments
+  displayName: Environments to deploy
+  type: stageList 
+  default: []
+- name: versionSpec
+  displayName: Python Version
+  type: string
+  default: '3.11.4'
+- name: sonarCubeID #If No Sonarqube, Use Empty String and Sonarqube will not execute
+  displayName: If No Sonarqube, Use Empty String and Sonarqube will not execute
+  type: string
+  default: ''
+- name: solnSourceDirectory
+  displayName: Path to Solution Source relative to solution
+  type: string
+  default: ''
+- name: projSourceDirectory
+  displayName: Path to Solution Source relative to project
+  type: string
+  default: ''
+- name: submitToCheckmarx
+  displayName: If No CheckMarx, Use false else true
+  type: boolean
+  default: false
+  
+stages:
+- stage: Build
+  displayName: Build Solution
+  pool:
+    vmImage: 'ubuntu-latest'
+
+  jobs:
+  - job: Build
+    displayName: Build Python Project
+    steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '${{ parameters.versionSpec}}'  # Replace with the desired Python version, e.g., '3.8', '3.9', etc.
+        addToPath: true
+    - script: |
+        cd ${{ parameters.solnSourceDirectory}}
+        dir
+        python -m venv env
+        source env/bin/activate
+        pip install --target="./.python_packages/lib/site-packages" -r ./requirements.txt
+      displayName: 'Install Python dependencies'
+
+    - task: ArchiveFiles@2
+      displayName: 'Archive $(Build.BuildId)'
+      inputs:
+        rootFolderOrFile: '$(Build.SourcesDirectory)/${{ parameters.solnSourceDirectory}}'
+        includeRootFolder: false 
+        archiveType: 'zip' 
+        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId)/PROJ.zip'
+        replaceExistingArchive: true    
+    - publish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId)/PROJ.zip'
+      artifact: '$(System.TeamProject)prjdata'
+
+
+
+- ${{ each stage in parameters.deployenvironments }}:
+  - stage: 'Release${{ stage.stage }}'
+    displayName: 'Release ${{ stage.stage }} for Project'  
+    
+    condition: succeeded()
+    jobs:
+      - deployment: 'Release${{ stage.stage }}'
+        displayName: 'Release ${{ stage.stage }}'
+        environment: '${{ stage.stage }}'
+        variables:
+          - group: ${{ stage.stage }}
+        pool:
+          vmImage: 'ubuntu-latest'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureFunctionApp@1
+                  displayName: 'Azure functions app deploy'
+                  inputs:
+                     azureSubscription:  ${{stage.templateContext.svcpri}}
+                     appType: functionApp
+                     appName: ${{stage.templateContext.appname}}
+                     package: '$(Pipeline.Workspace)/$(System.TeamProject)prjdata/PROJ.zip'

@@ -1,0 +1,35 @@
+.help-info-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.51px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.title {
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-close {
+    box-shadow: none;
+}
+
+.custom-btn-cls {
+    button {
+        background-color: #461e96;
+        color: white;
+        &:hover,
+        &:focus {
+            background-color: #461e96;
+            color: white;
+            border: 1px dotted #461e96;
+        }
+        img {
+            height: 14px;
+            width: 14px;
+            rotate: -180deg;
+        }
+    }
+}

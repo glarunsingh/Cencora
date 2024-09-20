@@ -1,0 +1,39 @@
+.showing-results {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.48px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.results-show-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.form-select-sm:focus {
+    box-shadow: none;
+}
+
+.filter-dropdown select {
+    border-radius: 4px;
+    opacity: 0px;
+    border-color: #8a8a8a;
+    color: #8a8a8a;
+    font-style: italic;
+
+    option {
+        font-style: normal !important;
+        border-radius: 0px;
+    }
+}
+
+.pt-2 {
+    padding-top: 2px;
+}
+
+.min-ht-44p {
+    min-height: 44px;
+}

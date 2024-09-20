@@ -1,0 +1,30 @@
+trigger:
+ branches:
+  include:
+  - main
+ paths:
+  include:
+  - src/Backend/AzureFunctions/*
+resources:
+  repositories:
+  - repository: Shared
+    type: git
+    name: KeyAccounts\SalesDigest
+    ref: 'refs/heads/main'
+extends:
+ template: pythonazfunc.yaml@Shared
+ parameters:
+  deployenvironments: 
+   - stage: 'QA'
+     templateContext: 
+      appname: 'func-keyaccounttimer-qa'
+      svcpri: 'IAAZNPD-KeyAccounts'
+   - stage: 'PROD'
+     templateContext: 
+      appname: 'func-keyaccounttimer-prod'
+      svcpri: 'IASalesDigestProd-KeyAccounts'
+  versionSpec: '3.11.4'
+  sonarCubeID: ''
+  solnSourceDirectory: 'src/Backend/AzureFunctions'
+  projSourceDirectory: ''
+  submitToCheckmarx: true

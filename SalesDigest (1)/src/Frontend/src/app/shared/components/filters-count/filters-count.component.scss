@@ -1,0 +1,25 @@
+.filter-item-container {
+    min-height: 24px;
+    .filters-item-box {
+        font-size: 14px;
+        width: auto;
+        text-wrap: nowrap;
+        height: auto;
+        padding: 4px;
+        gap: 10px;
+        border-radius: 3px;
+        opacity: 0px;
+        background-color: #ffffff;
+        color: #666666;
+        border: 1px solid #999999;
+        display: inline-block;
+        margin: 10px 10px 0px 0px;
+        // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        cursor: pointer;
+
+        .cross-icon {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

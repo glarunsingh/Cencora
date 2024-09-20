@@ -1,0 +1,282 @@
+<div class="basic-pd">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="filter-box">
+                <div class="filter-header">
+                    <span class="filter-text">Filter by :</span>
+                </div>
+                <div class="client-box mt-4" *ngIf="clientNamesFilterList.length">
+                    <div class="p-4">
+                        <app-custom-checkbox [checkboxItemsList]="clientNamesFilterList"
+                            (emitCheckboxChnage)="toggleCheckbox($event)" [title]="'Client names'"
+                            [instanceId]="'client'" [isFilterEnabled]="true">
+                        </app-custom-checkbox>
+                    </div>
+                </div>
+                <div class="category-box mt-4" *ngIf="sentimentFilterList.length">
+                    <div class="p-4">
+                        <app-custom-checkbox [checkboxItemsList]="sentimentFilterList"
+                            (emitCheckboxChnage)="toggleCheckbox($event)" [title]="'Sentiment'"
+                            [instanceId]="'sentiment'" [isFilterEnabled]="false">
+                        </app-custom-checkbox>
+                    </div>
+                </div>
+                <div class="time-stamp-box mt-4">
+                    <div class="p-4">
+                        <app-custom-radiobutton [radioItemsList]="timeStampsList"
+                            (emitRadioButtonChange)="collectRadioButtonChange($event)" [defaultItem]="selectedTimeFrame"
+                            [title]="'Time Frame'" [instanceId]="'timeStamp'" [isFilterEnabled]="false">
+                        </app-custom-radiobutton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="mt-2">
+                <ul class="d-webkit ps-0 mb-0">
+                    <li class="d-flex align-items-center" *ngFor="let item of keywordDigestTabs;let i = index"
+                        [ngClass]="{'active':activeIndex==i }" (click)="changeTab(i)">{{item}}</li>
+                </ul>
+                <div class="mt-2">
+                    <div *ngIf="activeIndex == 0">
+                        <div class="row mb-1">
+                            <div class="col-md-9">
+                                <div class="keywords mb-2">
+                                    <span>
+                                        <h5 class="keywordsLabel">Top used keywords: &nbsp;</h5>
+                                    </span>
+                                    <div class="keywords-container">
+                                        <ng-container *ngFor="let item of topKeywords">
+                                            <span class="keywords-flex-list"
+                                                (click)="setTopKeyword(item)">{{item}}</span>
+                                        </ng-container>
+                                    </div>
+                                </div>
+                                <div class="choose-text-box">
+                                    <div class="input-group flex-nowrap cust-height-32p">
+                                        <input type="text" class="form-control" placeholder="Search keywords"
+                                            [(ngModel)]="model" [ngbTypeahead]="search" (keyup.enter)="callApi()">
+                                        <img *ngIf="model" src="assets/icons/home-icons/remove.svg"
+                                            class="cross-icon-searchbar" (click)="clearInputSearch()">
+                                        <span><img src="assets/icons/input__button.svg" (click)="callApi()"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-offset-3"></div>
+                        </div>
+                        <div class="row mb-1 filter-item-container">
+                            <div
+                                class="col-6 col-sm-12 col-md-6 d-flex justify-content-start align-items-center flex-wrap">
+                                <ng-container *ngIf="clientNamesFilterCountObj.total > 0">
+                                    <div class="filters-item-box">
+                                        {{clientNamesFilterCountObj['name']}}&nbsp;(&nbsp;<b>{{clientNamesFilterCountObj['total']}}</b>&nbsp;)
+                                        <span (click)="clearAllSelectedFilter('Client names')">
+                                            <img src="assets/icons/home-icons/remove.svg" class="ms-1 mb-1 cross-icon">
+                                        </span>
+                                    </div>
+                                </ng-container>
+                                <ng-container *ngIf="sentimentFilterCountObj.total > 0">
+                                    <div class="filters-item-box">
+                                        {{sentimentFilterCountObj['name']}}&nbsp;(&nbsp;<b>{{sentimentFilterCountObj['total']}}</b>&nbsp;)
+                                        <span (click)="clearAllSelectedFilter('Sentiment')">
+                                            <img src="assets/icons/home-icons/remove.svg" class="ms-1 mb-1 cross-icon">
+                                        </span>
+                                    </div>
+                                </ng-container>
+                            </div>
+                            <div class="col-6 col-sm-12 col-md-6 d-flex align-items-center justify-content-end"
+                                *ngIf="keywordDigestRecords_clone.length">
+                                <app-results-count-widget [displayItemsList]="countWidgetResultsInput"
+                                    (emitSelectedCount)="collectSelectedCount($event)"></app-results-count-widget>
+                                <span class="download-ic" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="Tooltip on top" (click)="downloadClientNewsUpdate()">
+                                    <button class="btn btn-download btn-sm d-flex align-items-center">
+                                        <img src="assets/icons/Download button_2.svg" class="me-1"> Download</button>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <app-loader [isLoading]="showTilesLoader"
+                                [loadingPlaceholderText]="'Fetching records for the selected filters'">
+                            </app-loader>
+                            <div class="px-1">
+                                <div *ngIf="showTilesBanner">
+                                    <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none"
+                                        role="alert">
+                                        <strong>{{tilesBannerText}}</strong>
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                            aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <div *ngIf="keywordDigestRecords_clone.length && showTilesLoader == false">
+                                    <div class="row article-ht-scr">
+                                        <ng-container *ngFor="let article of keywordDigestRecords_clone;let i=index">
+                                            <div class="col-12 col-lg-6 col-md-6 py-2">
+                                                <app-news-tile [newsTileData]="article" [maxLength]="maxLength"
+                                                    (emitThumbsUpEvent)="collectThumbsupEvent($event)"
+                                                    (emitThumbsDownEvent)="collectThumbsDownEvent($event)"
+                                                    [displayTitle]="'Client'" [displayKey]="'client_name'">
+                                                </app-news-tile>
+                                                <!-- <div class="card h-100">
+                                                    <div class="card-body">
+                                                        <div class="source-info mb-1">
+                                                            <div
+                                                                class="d-flex justify-content-between align-items-center gap-1">
+                                                                <div>
+                                                                    <span class="me-1">
+                                                                        <button
+                                                                            class="btn btn-block btn-sm date-section">
+                                                                            {{commonService.modifyNewsDate(article.news_date,'ddd,
+                                                                            MMM D, YYYY')}}
+                                                                        </button>
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span class="me-1">
+                                                                        <button class="btn btn-block btn-sm"
+                                                                            [ngClass]="commonService.getSentimentBtnCls(article.sentiment)">
+                                                                            {{commonService.modifySentimentTitleCase(article.sentiment)}}
+                                                                        </button>
+                                                                    </span>
+                                                                    <span class="opacity-25 ms-1">|</span>
+                                                                    <span class="ms-1">
+                                                                        <ng-container
+                                                                            *ngIf="article.isThumbsUp == false">
+                                                                            <img src="assets/icons/Like-mvp2.svg"
+                                                                                class="share-ic"
+                                                                                (click)="thumbsUpHandler(article)">
+                                                                        </ng-container>
+                                                                        <ng-container *ngIf="article.isThumbsUp">
+                                                                            <img src="assets/icons/Like-mvp2-fill.svg"
+                                                                                class="share-ic"
+                                                                                (click)="thumbsUpHandler(article)">
+                                                                        </ng-container>
+                                                                    </span>
+                                                                    <span class="opacity-25 ms-1">|</span>
+                                                                    <span class="ms-1">
+                                                                        <ng-container
+                                                                            *ngIf="article.isThumbsDown == false">
+                                                                            <img src="assets/icons/Dislike-mvp2.svg"
+                                                                                class="share-ic"
+                                                                                (click)="thumbsDownHandler(article)">
+                                                                        </ng-container>
+                                                                        <ng-container *ngIf="article.isThumbsDown">
+                                                                            <img src="assets/icons/Dislike-mvp2-fill.svg"
+                                                                                class="share-ic"
+                                                                                (click)="thumbsDownHandler(article)">
+                                                                        </ng-container>
+                                                                    </span>
+                                                                    <span class="opacity-25 ms-1">|</span>
+                                                                    <span class="ms-1"
+                                                                        (click)="commonService.copyUrl(article.news_url)">
+                                                                        <img src="assets/icons/Copy_Paste.svg"
+                                                                            placement="top" ngbTooltip="Copy url"
+                                                                            container="body" class="share-ic">
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="addonInfo">Client :
+                                                            {{article.client_name}}</span>
+                                                        <div>
+                                                            <span class="source-headline"
+                                                                (click)="commonService.goToLink(article.news_url)"
+                                                                placement="top" ngbTooltip="{{article.source_name}}"
+                                                                container="body">
+                                                                {{article.news_title}}
+                                                            </span>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <span><img src="{{article.favIcon}}"></span>
+                                                        </div>
+                                                        <div class="source-data"
+                                                            [ngClass]="{'truncate':!article.isActive}"
+                                                            [style.max-height.px]="!article.isActive ? maxLength:'none'">
+                                                            {{article.news_summary}}
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-0">
+                                                            <a href="_blank" class="showMore"
+                                                                (click)="showMore(i);$event.preventDefault()"
+                                                                *ngIf="article.isActive == false">
+                                                                Show more
+                                                            </a>
+                                                            <a href="_blank" class="showMore"
+                                                                (click)="showLess(i);$event.preventDefault()"
+                                                                *ngIf="article.isActive == true">
+                                                                Show less
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </ng-container>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="activeIndex == 1">
+                        <app-loader [isLoading]="showSummaryLoader"
+                            [loadingPlaceholderText]="'Fetching consolidated summary data'">
+                        </app-loader>
+                        <div class="px-1">
+                            <div *ngIf="showSummaryBanner">
+                                <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none"
+                                    role="alert">
+                                    <strong>{{summBannerText}}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                            <div *ngIf="keywordSummaryObj['consolidated_summary']">
+                                <strong class="search-text-tabs">{{model}}</strong>
+                                <div class="search-summary-tabs"
+                                    [innerHTML]="keywordSummaryObj?.['consolidated_summary']">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="activeIndex == 2">
+                        <app-loader [isLoading]="showSummaryLoader"
+                            [loadingPlaceholderText]="'Fetching key insights data'">
+                        </app-loader>
+                        <div class="px-1">
+                            <div *ngIf="showSummaryBanner">
+                                <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none"
+                                    role="alert">
+                                    <strong>{{summBannerText}}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                            <div *ngIf="keywordSummaryObj['key_insights']">
+                                <strong class="search-text-tabs">{{model}}</strong>
+                                <div class="search-summary-tabs" [innerHTML]="keywordSummaryObj?.['key_insights']">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="activeIndex == 3">
+                        <app-loader [isLoading]="showSummaryLoader"
+                            [loadingPlaceholderText]="'Fetching market report data'">
+                        </app-loader>
+                        <div class="px-1">
+                            <div *ngIf="showSummaryBanner">
+                                <div class="alert alert-warning alert-dismissible fade show mt-4 shadow-none"
+                                    role="alert">
+                                    <strong>{{summBannerText}}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                            <div *ngIf="keywordSummaryObj['market_report']">
+                                <strong class="search-text-tabs">{{model}}</strong>
+                                <div class="search-summary-tabs" [innerHTML]="keywordSummaryObj?.['market_report']">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

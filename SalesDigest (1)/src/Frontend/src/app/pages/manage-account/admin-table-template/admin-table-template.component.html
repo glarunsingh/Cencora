@@ -1,0 +1,104 @@
+<div class="row d-flex justify-content-between align-items-center mb-3">
+    <div class="col-md-6">
+        <div class="choose-text-box mt-2">
+            <div class="input-group flex-nowrap cust-height-32p">
+                <input type="text" class="form-control" placeholder="Search {{origin}}" aria-label="client name"
+                    aria-describedby="addon-wrapping" [(ngModel)]="searchKeyword"
+                    (ngModelChange)="generatePagination()">
+                <span><img src="assets/icons/input__button.svg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end">
+                <div class="custom-btn-cls me-2">
+                    <button class="btn btn-block btn-sm" (click)="addNewHandler()">
+                        {{addDynamicBtnText}}
+                        <img src="assets/icons/Plus icon.svg" class="p-1">
+                    </button>
+                </div>
+                <div class="ms-1">
+                    <b>Sort by :</b>
+                    <span class="ms-1" *ngIf="isSorted">
+                        <img src="assets/icons/arrow-down.svg" (click)="isSortedCheck()" class="favourite-fill">
+                    </span>
+                    <span class="ms-1" *ngIf="isSorted == false">
+                        <img src="assets/icons/arrow-right-latest.svg" (click)="isSortedCheck()" style="rotate: 90deg;"
+                            class="favourite-fill">
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="tableFixHead mb-2">
+    <table class="table text-wrap mb-0">
+        <thead class="table-headers">
+            <tr>
+                <ng-container *ngFor="let header of headersList">
+                    <th scope="col">
+                        <div class="float-left ps-1">{{header}}</div>
+                    </th>
+                </ng-container>
+            </tr>
+        </thead>
+        <tbody class="table-data">
+            <tr *ngFor="let item of tableRecords;let i=index">
+                <td class="ps-3 align-middle">{{item.sNo}}</td>
+                <td class="ps-3 align-middle td-texthover-effect" *ngIf="columnkey1">
+                    <div *ngIf="item.isEditable" class="choose-text-box">
+                        <input type="text" id="inputPassword-{{i}}" class="form-control-sm"
+                            [(ngModel)]="item[columnkey1]" autofocus>
+                    </div>
+                    <div *ngIf="!item.isEditable" class="text-elp mxw-200">
+                        <ng-container *ngIf="columnkey1 as key">
+                            {{item[columnkey1]}}
+                        </ng-container>
+                    </div>
+                </td>
+                <td class="ps-3 align-middle td-texthover-effect" *ngIf="columnkey2">
+                    <div *ngIf="item.isEditable" class="choose-text-box">
+                        <input type="text" id="inputPassword-{{i}}" class="form-control-sm"
+                            [(ngModel)]="item[columnkey2]" autofocus>
+                    </div>
+                    <div *ngIf="!item.isEditable" class="text-elp mxw-200">
+                        <ng-container *ngIf="columnkey2 as key">
+                            {{item[columnkey2]}}
+                        </ng-container>
+                    </div>
+                </td>
+                <td class="ps-3 align-middle">{{item.departmentName}}</td>
+                <td class="ps-3 align-middle">{{item.lastUpdatedBy}}</td>
+                <td class="ps-3 align-middle">{{item.lastUpdatedOn}}</td>
+                <td class="ps-3 align-middle">
+                    <div *ngIf="!item.isEditable">
+                        <img src="assets/icons/pencil-1.svg" class="favourite-nofill" (click)="editRowHandler(item)">
+                    </div>
+                </td>
+                <td class="ps-3 align-middle">
+                    <div>
+                        <img src="assets/icons/bin-1.svg" class="favourite-nofill" (click)="deleteRow(item)">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-2">
+        <div class="mt-2">
+            <nav>
+                <ul class="pagination pagination-sm justify-content-end">
+                    <li class="page-item me-0 prevBtn prevNextBtn" (click)="previousPage()"><a
+                            class="page-link">Previous</a></li>
+                    <li class="page-item custom-page-item" *ngFor="let page of pageNumbersList;let i = index"
+                        (click)="goToPage(page)">
+                        <a class="page-link custom-page-link wd50" [class.active]="currentPage === page">{{page}}</a>
+                    </li>
+                    <li class="page-item prevNextBtn" (click)="nextPage()"><a
+                            class="page-link nextBtn-bord-left">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

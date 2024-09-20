@@ -1,0 +1,37 @@
+<div class="modal-header">
+    <h1 class="title fs-5">
+        <div>
+            <span><img src="assets/icons/feedbackInfo_icon.svg" class="me-1"></span>
+            <span>Please help us with your feedback.</span>
+        </div>
+    </h1>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+    <p class="info-tags url">{{article.news_title}}</p>
+    <form [formGroup]="feedbackModalForm">
+        <p class="info-tags">Identify the challanges faced during experience</p>
+        <ng-container *ngFor="let item of challangesList;let i=index">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="preffered-{{i}}" [value]="item"
+                    formControlName="category">
+                <label class="form-check-label p-1" for="exampleRadios1">
+                    {{item}}
+                </label>
+            </div>
+        </ng-container>
+        <div *ngIf="isSubmitted && f['category']?.errors?.['required']" class="text-danger">Please select an option
+            button</div>
+        <p class="info-tags mt-3">This information will be used for performance improvisation.</p>
+        <div class="mb-3">
+            <input class="form-control form-control-lg" type="text"
+                placeholder="Give as much detail as possible. Do not include personal, sensitive info."
+                aria-label=".form-control-lg example" formControlName="comment">
+            <div *ngIf="isSubmitted && f['comment']?.errors?.['required']" class="text-danger">Comment is required</div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer custom-btn-cls">
+    <span class="cancelText" (click)="closeModal()">Cancel</span>
+    <button type="button" class="btn btn-block btn-sm" (click)="submitFeedback()">Submit</button>
+</div>

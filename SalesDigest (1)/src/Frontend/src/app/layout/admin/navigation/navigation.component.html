@@ -1,0 +1,79 @@
+<header class="fixed-top navbar-wrapper custom-pl-pr-pd3">
+    <div class="d-flex flex-column align-items-center flex-md-row mt-2">
+        <a class="d-flex align-items-center text-dark text-decoration-none">
+            <img src="assets/icons/cencora logo.svg" class="app-logo ms-2" [routerLink]="'/home'">
+            <span class="page-title">{{pageTitle}}</span>
+        </a>
+        <nav class="d-inline-flex mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none">
+                <a class="nav-link active" aria-current="page" [routerLink]="'/home'">
+                    <img src="assets/icons/home icon.svg" class="profile-icon">
+                </a>
+            </a>
+            <a class="me-3 py-2 text-dark text-decoration-none">
+                <a class="nav-link" (click)="openHelpModal()">
+                    <img src="assets/icons/help.svg" class="profile-icon">
+                </a>
+            </a>
+            <a class="py-1 pb-2 text-dark text-decoration-none">
+                <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="profile-avatar"><b>{{avatarInitials}}</b></span>
+                    <img src="assets/icons/arrow down icon.svg" class="profile-icon ms-1">
+                </a>
+                <ul class="dropdown-menu pos-left">
+                    <li><a class="dropdown-item" [routerLink]="'/manage-account'">Manage account</a></li>
+                    <li><a class="dropdown-item" (click)="logOut()">Sign out</a></li>
+                </ul>
+            </a>
+        </nav>
+    </div>
+</header>
+<!-- first version
+    <div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-wrapper custom-pl-pr-pd3">
+        <a class="navbar-brand me-auto" [routerLink]="'/home'">
+            <img src="assets/icons/cencora logo.svg" class="app-logo ms-2">
+            <span class="page-title">{{pageTitle}}</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link active" aria-current="page" [routerLink]="'/home'">
+                        <img src="assets/icons/home icon.svg" class="profile-icon">
+                    </a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link">
+                        <img src="assets/icons/notification icon.svg" class="profile-icon">
+                    </a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link">
+                        <img src="assets/icons/help.svg" class="profile-icon">
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="profile-avatar"><b>JS</b></span>
+                        <img src="assets/icons/arrow down icon.svg" class="profile-icon ms-1">
+                    </a>
+                    <ul class="dropdown-menu pos-left">
+                        <li><a class="dropdown-item" href="#">Manage account</a></li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg fixed-top mt-5 bg-white break-box-shadow p-0" >
+        <app-breaking-news></app-breaking-news>
+    </nav>
+    <ng-container *ngIf="curr_route!='/onboarding'">
+        <app-breaking-news-bar></app-breaking-news-bar>
+    </ng-container>
+</div> first version-->

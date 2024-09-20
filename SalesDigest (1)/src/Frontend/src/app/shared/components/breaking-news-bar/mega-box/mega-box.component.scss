@@ -1,0 +1,124 @@
+.mega-box {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 140px;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.breaking-news-img {
+    width: 436px;
+    height: 302px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    float: left;
+    border-radius: 4px;
+}
+
+.news-header {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24.96px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.summary-header {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.summary-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #3b3b3b;
+    max-height: 20%;
+    overflow: auto;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+
+.custom-pl-pr-pd2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.cust-news-padding {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.content {
+    overflow-y: auto;
+    max-height: calc(100vh - 150px);
+    min-height: 200px;
+    width: initial;
+    background-color: #ffffff;
+    padding: 25px;
+    // position: relative; /* Ensure position relative to use absolute positioning for arrows */
+
+    @media (max-width: 768px) {
+        padding: 15px;
+    }
+    overflow: scroll;
+}
+
+.cust-news-padding {
+    position: relative; /* Ensure relative positioning for the padding space */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Ensure arrows are above other content */
+
+    &:hover,
+    &:active {
+        background-color: lightgrey;
+        border-radius: 100%;
+    }
+}
+
+.arrow-left {
+    left: 10px; /* Adjust as needed */
+}
+
+.arrow-right {
+    right: 10px; /* Adjust as needed */
+    img {
+        rotate: -180deg;
+    }
+}
+
+.arrow img {
+    width: 100%; /* Ensure arrow icon fits inside the arrow div */
+    height: auto;
+    object-fit: contain;
+}
+
+.read-more {
+    color: #461e96;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cenc-color {
+    color: #461e96;
+}

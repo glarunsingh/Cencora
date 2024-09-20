@@ -1,0 +1,78 @@
+2024-07-29 18:28:08  chatbot.py  Line: 22  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 20:50:01  chatbot.py  Line: 22  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 21:17:28  chatbot.py  Line: 18  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 21:17:32  cosmos_function.py  Line: 35  ERROR  Function_Name: __init__  Unable to Connnect to Database - Line No: 30  Error: (Forbidden) Request originated from IP 116.74.225.118 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: cd9c1f65-4784-496b-912b-9b0220061a74, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Code: Forbidden
+Message: Request originated from IP 116.74.225.118 through public internet. This is blocked by your Cosmos DB account firewall settings. More info: https://aka.ms/cosmosdb-tsg-forbidden
+ActivityId: cd9c1f65-4784-496b-912b-9b0220061a74, documentdb-dotnet-sdk/2.14.0 Host/64-bit MicrosoftWindowsNT/10.0.20348.0
+Stack (most recent call last):
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP3\chatbot\chatbot.py", line 32, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP3\chatbot\chatbot.py", line 29, in main
+    extracted_data = await chatbot()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP3\chatbot\chatbot.py", line 20, in chatbot
+    db_ops = chatbotdb()
+  File "c:\Users\817840\OneDrive - Cognizant\Documents\GitHub\Cencora\MVP3\chatbot\utils\cosmos_function.py", line 35, in __init__
+    logger.error(f"Unable to Connnect to Database - Line No: {exc_tb.tb_lineno}  Error: {str(e)}", stack_info=True)
+2024-07-29 21:21:13  chatbot.py  Line: 18  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 21:37:09  chatbot.py  Line: 18  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 21:37:13  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-29 21:37:15  cosmos_function.py  Line: 71  ERROR  Function_Name: get_latest_news_content  Error querying the latest news content: (BadRequest) Cross partition query is required but disabled. Please set x-ms-documentdb-query-enablecrosspartition to true, specify x-ms-documentdb-partitionkey, or revise your query to avoid this exception.
+ActivityId: 6da5f59b-0930-40fd-b809-91985a521d78, Microsoft.Azure.Documents.Common/2.14.0
+Code: BadRequest
+Message: Cross partition query is required but disabled. Please set x-ms-documentdb-query-enablecrosspartition to true, specify x-ms-documentdb-partitionkey, or revise your query to avoid this exception.
+ActivityId: 6da5f59b-0930-40fd-b809-91985a521d78, Microsoft.Azure.Documents.Common/2.14.0
+2024-07-29 21:40:15  chatbot.py  Line: 18  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-29 21:40:19  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-29 21:40:21  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-07-31 14:44:47  chatbot.py  Line: 18  INFO  Function_Name: chatbot  Extracting information from HIMSS website
+2024-07-31 14:44:52  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-31 14:44:55  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-07-31 20:24:39  loader.py  Line: 74  INFO  Function_Name: <module>  Loading faiss with AVX512 support.
+2024-07-31 20:24:39  loader.py  Line: 79  INFO  Function_Name: <module>  Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2024-07-31 20:24:39  loader.py  Line: 86  INFO  Function_Name: <module>  Loading faiss with AVX2 support.
+2024-07-31 20:24:40  loader.py  Line: 88  INFO  Function_Name: <module>  Successfully loaded faiss with AVX2 support.
+2024-07-31 20:25:08  chatbot.py  Line: 30  INFO  Function_Name: chatbot  Extracting information from cosmosdb
+2024-07-31 20:25:10  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-31 20:25:12  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-07-31 20:41:03  loader.py  Line: 74  INFO  Function_Name: <module>  Loading faiss with AVX512 support.
+2024-07-31 20:41:03  loader.py  Line: 79  INFO  Function_Name: <module>  Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2024-07-31 20:41:03  loader.py  Line: 86  INFO  Function_Name: <module>  Loading faiss with AVX2 support.
+2024-07-31 20:41:03  loader.py  Line: 88  INFO  Function_Name: <module>  Successfully loaded faiss with AVX2 support.
+2024-07-31 20:41:32  chatbot.py  Line: 30  INFO  Function_Name: chatbot  Extracting information from cosmosdb
+2024-07-31 20:41:34  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-31 20:41:36  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-07-31 20:55:37  loader.py  Line: 74  INFO  Function_Name: <module>  Loading faiss with AVX512 support.
+2024-07-31 20:55:37  loader.py  Line: 79  INFO  Function_Name: <module>  Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2024-07-31 20:55:37  loader.py  Line: 86  INFO  Function_Name: <module>  Loading faiss with AVX2 support.
+2024-07-31 20:55:38  loader.py  Line: 88  INFO  Function_Name: <module>  Successfully loaded faiss with AVX2 support.
+2024-07-31 20:56:31  chatbot.py  Line: 30  INFO  Function_Name: chatbot  Extracting information from cosmosdb
+2024-07-31 20:56:33  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-07-31 20:56:38  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-08-01 12:14:41  loader.py  Line: 74  INFO  Function_Name: <module>  Loading faiss with AVX512 support.
+2024-08-01 12:14:42  loader.py  Line: 79  INFO  Function_Name: <module>  Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2024-08-01 12:14:42  loader.py  Line: 86  INFO  Function_Name: <module>  Loading faiss with AVX2 support.
+2024-08-01 12:14:42  loader.py  Line: 88  INFO  Function_Name: <module>  Successfully loaded faiss with AVX2 support.
+2024-08-01 12:15:11  chatbot.py  Line: 30  INFO  Function_Name: chatbot  Extracting information from cosmosdb
+2024-08-01 12:15:13  cosmos_function.py  Line: 53  INFO  Function_Name: get_latest_news_content  Querying for the latest news content in the database
+2024-08-01 12:15:15  cosmos_function.py  Line: 65  INFO  Function_Name: get_latest_news_content  Latest news content queried! Container: news_data	Database: keyaccount_digest_db
+2024-08-01 12:58:36  _base_client.py  Line: 1068  INFO  Function_Name: _retry_request  Retrying request to /embeddings in 0.923086 seconds

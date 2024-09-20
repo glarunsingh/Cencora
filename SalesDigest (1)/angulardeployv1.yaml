@@ -1,0 +1,120 @@
+parameters:
+- name: deployenvironments
+  displayName: Environments to deploy
+  type: stageList 
+  default: []
+- name: sonarCubeID 
+  displayName: If No Sonarqube, Use Empty String and Sonarqube will not execute
+  type: string
+  default: ''
+- name: projSourceDirectory
+  displayName: Path to Solution Source relative to project
+  type: string
+  default: ''
+- name: solnSourceDirectory
+  displayName: Path to Solution Source relative to project
+  type: string
+  default: ''
+- name: submitToCheckmarx
+  displayName: If No CheckMarx, Use false else true
+  type: boolean
+  default: false
+- name: output_location
+  displayName: output_location
+  type: string
+  default: ''
+- name: environmentpath
+  displayName: environmentpath
+  type: string
+  default: ''
+stages:
+
+
+- ${{ each stage in parameters.deployenvironments }}:
+  - stage: 'Release${{ stage.stage }}'
+    displayName: 'Release ${{ stage.stage }} for Project'  
+    
+    condition: succeeded()
+    jobs:
+      - deployment: 'Release${{ stage.stage }}'
+        displayName: 'Release ${{ stage.stage }}'
+        environment: '${{ stage.stage }}'
+        variables:
+          - group: ${{ stage.stage }}
+        pool:
+          vmImage: 'ubuntu-latest'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                  submodules: true
+                - task: FileTransform@1
+                  displayName: 'Update angular.json environment for ${{ stage.stage }}'
+                  inputs:
+                   folderPath: '$(System.DefaultWorkingDirectory)/${{ parameters.environmentpath }}'
+                   targetFiles: 'angular.json'
+                   fileType: json
+                - task: AzureStaticWebApp@0
+                  inputs:
+                    azure_static_web_apps_api_token: "$(STATIC_TOKEN)"
+                    cwd: '$(System.DefaultWorkingDirectory)/${{ parameters.environmentpath }}'
+                    app_location: ''
+                    api_location: ''
+                    output_location: '${{ parameters.output_location }}'
+
+- ${{ if ne(parameters.sonarCubeID,'') }}: 
+  - stage: SonarCube
+    displayName: Submit to Sonarcube
+    dependsOn: 'Release${{parameters.deployenvironments[0].stage}}'
+    condition: succeeded() 
+    variables:
+    - name: vmImage
+      value: 'windows-latest'
+    jobs:
+    - job: SonarQube
+      displayName: Submit to SonarQube
+      steps:
+      - task: SonarQubePrepare@5
+        displayName: 'Prepare SonarQube Env'
+        inputs:
+          SonarQube: 'EdgeSonarqubeCommon'
+          scannerMode: 'CLI'
+          configMode: 'manual'
+          cliProjectKey: '${{ parameters.sonarCubeID }}'
+          cliProjectName: '${{ parameters.sonarCubeID }}'
+          cliSources: ${{ parameters.solnSourceDirectory}}
+          
+      - task: SonarQubeAnalyze@5
+        displayName: "Run code analysis for $(System.TeamProject)"
+
+      - task: SonarQubePublish@5
+        displayName: "Publish sonarqube results for $(System.TeamProject)"
+        inputs:
+          pollingTimeoutSec: '300'
+
+- ${{ if ne(parameters.submitToCheckmarx,false) }}: 
+  - stage: CheckMarx
+    displayName: Submit to CheckMarx
+    dependsOn: 'Release${{parameters.deployenvironments[0].stage}}'
+    condition: succeeded() 
+    variables:
+    - name: vmImage
+      value: 'windows-latest'
+    jobs:
+    - job: CheckMarx
+      displayName: Submit to CheckMarx
+      
+      steps:
+      - task: Application security testing@2022
+        inputs:
+         projectName: '$(System.TeamProject)'
+         syncMode: false
+         enableProxy: false
+         enableSastScan: true
+         CheckmarxService: 'CheckmarxSASTConnection'
+         fullTeamName: 'CxServer'
+         fullScanCycle: '5'
+         comment: 'Az Devops $(System.TeamProject) Pipeline'
+         enableDependencyScan: false
+      

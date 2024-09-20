@@ -1,0 +1,62 @@
+<div class="modal-header">
+    <h1 class="addEditTitle fs-5">
+        <div>
+            <span> <img [src]="getImagePath(title)" class="me-1"></span>
+            <span>{{title}}</span>
+        </div>
+    </h1>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+</div>
+<div class="modal-body">
+    <ng-container *ngIf="adminClientDetails.type == 'add'">
+        <form [formGroup]="adminClientFormGrp" #f="ngForm">
+            <div formArrayName="items">
+                <div *ngFor="let item of adminClientGetControls().controls; let i = index">
+                    <div [formGroupName]="i" class="mt-1">
+                        <div class="row mt-2">
+                            <div class="col-5">
+                                <label for="inputEmail4" class="form-label">Client name</label>
+                                <input type="text" class="form-control mb-0" formControlName="clientName"
+                                    placeholder="Client name" aria-label="First name">
+                            </div>
+                            <div class="col-5">
+                                <label for="inputEmail5" class="form-label">Synonyms</label>
+                                <input type="text" class="form-control mb-0" formControlName="synonyms"
+                                    placeholder="Synonyms" aria-label="Last name">
+                            </div>
+                            <div class="col-2">
+                                <label class="form-label"></label>
+                                <div class="mt-1">
+                                    <span class="me-2"><img src="assets/icons/manage-add-row.svg"
+                                            (click)="adminClientAddNewRow()"></span>
+                                    <span *ngIf="i > 0"><img src="assets/icons/manage-row-delete.svg"
+                                            (click)="adminClientDeleteRow(i)"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ng-container>
+    <ng-container *ngIf="adminClientDetails.type == 'edit'">
+        <form [formGroup]="adminEditClientFormGroup" #f="ngForm">
+            <div class="row">
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Client name</label>
+                    <input type="text" class="form-control mb-0" formControlName="clientName" placeholder="Client name"
+                        aria-label="Client name">
+                </div>
+                <div class="col">
+                    <label for="inputEmail5" class="form-label">Synonyms</label>
+                    <input type="text" class="form-control mb-0" formControlName="synonyms" placeholder="Synonyms"
+                        aria-label="Synonyms">
+                </div>
+            </div>
+        </form>
+    </ng-container>
+</div>
+<div class="modal-footer custom-btn-cls">
+    <span class="cancelText" (click)="closeModal()">Cancel</span>
+    <button type="button" class="btn btn-block btn-sm" (click)="submitModal()">Submit</button>
+</div>

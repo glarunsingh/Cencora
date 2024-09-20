@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-between align-items-center min-ht-44p">
+    <div class="me-3 showing-results py-1">{{resultInfo}}</div>
+    <div>
+        <div class="d-flex justify-content-between align-items-center">
+            <span class="results-show-text px-1">Show</span>
+            <span [style.width.px]="50">
+                <!-- <select class="form-select-sm" aria-label="Default select example"
+                    (change)="updateRecordsPerPage($event)">
+                    <option hidden></option>
+                    <option *ngFor="let option of perPageOptions" [value]="option">{{option}}</option>
+                </select> -->
+                <app-custom-select (emitSelectedItem)="updateRecordsPerPage($event)" [options]="perPageOptions"
+                    placeholder="">
+                </app-custom-select>
+            </span>
+        </div>
+    </div>
+</div>

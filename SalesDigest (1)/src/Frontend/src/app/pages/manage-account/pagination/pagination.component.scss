@@ -1,0 +1,67 @@
+.page-link.disabled {
+    background-color: #e9ecef;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+.page-link.active {
+    background-color: #cacaca;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+.page-link {
+    width: fit-content;
+    text-align: center;
+    outline: none;
+    background-color: white;
+    color: #3b3b3b;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.wd50 {
+    width: 50px;
+}
+
+.page-item:not(:first-child) .custom-page-link {
+    border-left: 1px solid #cacaca;
+}
+
+.page-item:not(:last-child) .custom-page-link {
+    border-right: 1px solid #cacaca;
+}
+
+.page-item:first-child .custom-page-link {
+    border-left: none;
+}
+
+.page-item:first-child .custom-page-link {
+    border-right: none;
+}
+
+.prevBtn {
+    width: fit-content;
+}
+
+.prevNextBtn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+
+.nextBtn-bord-left {
+    border-left: 1px solid #cacaca;
+}
+
+// &:focus,
+// &:hover,
+// &:active:focus,
+// &.active:focus,
+// &.focus &:active.focus,
+// &.active.focus {
+//     outline: none;
+//     background-color: white;
+//     color: #3b3b3b;
+//     cursor: pointer;
+// }

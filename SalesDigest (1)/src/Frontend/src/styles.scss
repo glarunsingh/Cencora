@@ -1,0 +1,560 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "ngx-toastr/toastr";
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";
+@font-face {
+    font-family: cencoraGilory;
+    src: url(assets/fonts/Cencora-Gilroy-Regular.otf);
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "cencoraGilory";
+}
+
+@mixin button-style($background, $text-color, $border-color) {
+    background-color: $background;
+    color: $text-color;
+    border: 1px dotted $border-color;
+    border-radius: 4px;
+    &:hover,
+    &:focus {
+        background-color: $background;
+        color: $text-color;
+        border: 1px dotted $border-color;
+    }
+}
+
+// Additional mixin for active state
+@mixin button-active-style {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+html,
+body {
+    // margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fafafa;
+}
+
+// @media screen and (max-width:1500px){
+//     body{
+//         font-size: calc(1rem + 0.3vw);
+//     }
+// }
+
+// @media screen and (max-width:1200px){
+//     body{
+//         font-size: calc(1rem + 0.2vw);
+//     }
+// }
+
+// body {
+//     background-color: #fafafa;
+//     overflow-x: hidden;
+// }
+
+.basic-pd {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border: 5px solid #fff;
+    border-radius: 10rem;
+}
+::-webkit-scrollbar-track {
+    position: absolute;
+    right: -3rem;
+    top: -50rem;
+    background: transparent;
+}
+
+.filter-box {
+    width: auto;
+    max-height: 589px;
+    gap: 8px;
+    opacity: 0px;
+    margin-top: 11%;
+}
+
+.filter-header {
+    width: 76px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.filter-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.76px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.btn-active {
+    color: #461e96;
+    padding: 8px 20px;
+    border-radius: 0;
+    border-bottom: 3px solid #3b3b3b;
+    font-size: 24px;
+    font-weight: 700 !important;
+    line-height: 40px;
+    text-align: center;
+}
+
+/**comprehensive tabs*/
+.d-webkit {
+    display: -webkit-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    li {
+        cursor: pointer;
+        width: auto;
+        height: 40px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 18px;
+        padding: 8px 20px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        color: #3b3b3b;
+        background: white !important;
+        border-bottom: 1px solid #3b3b3b36;
+    }
+
+    .active {
+        border-bottom: 3px solid #461e96 !important;
+        font-weight: 700;
+    }
+
+    &::-webkit-scrollbar {
+        margin-top: 10px;
+        height: 0px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #461e96;
+    }
+}
+
+/**comprehensive tabs*/
+
+.custom-spinner-color {
+    color: #461e96;
+}
+
+.filter-item-container {
+    min-height: 24px;
+    .filters-item-box {
+        font-size: 14px;
+        width: auto;
+        text-wrap: nowrap;
+        height: auto;
+        padding: 4px;
+        gap: 10px;
+        border-radius: 3px;
+        opacity: 0px;
+        background-color: #ffffff;
+        color: #666666;
+        border: 1px solid #999999;
+        display: inline-block;
+        margin: 10px 10px 0px 0px;
+        // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        cursor: pointer;
+
+        .cross-icon {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+.article-ht-scr {
+    //min-height: 30vh;
+    //max-heigth:60vh;
+    min-height: calc((100vh - 2rem) / 2);
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.source-info {
+    opacity: 0px;
+    // margin-bottom: 1rem !important;
+}
+
+.source-headline {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.34px;
+    text-align: left;
+    color: #461e96;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.source-data {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #666666;
+    max-height: 200px;
+    overflow: auto;
+}
+
+// sentiment buttons
+
+.btn {
+    &.cust-sentiment-btn-neutral {
+        width: 70px;
+        padding: 1px;
+        @include button-style(#fff2d9, #a04223, #a04223);
+    }
+
+    &.cust-sentiment-btn-positive {
+        width: 70px;
+        padding: 1px;
+        @include button-style(#e5f2ed, #095f3b, #095f3b);
+    }
+
+    &.cust-sentiment-btn-negative {
+        width: 70px;
+        padding: 1px;
+        @include button-style(#fae5e8, #d0021b, #d0021b);
+    }
+
+    &.active {
+        @include button-active-style {
+            width: 70px;
+            padding: 1px;
+            @include button-style(#fff2d9, #a04223, #a04223);
+        }
+    }
+}
+
+// sentiment buttons
+
+.share-ic {
+    // width: 20px;
+    // height: 30px;
+    height: 18px;
+    width: 18px;
+    top: 1.5px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    color: #461e96;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .share-ic {
+        height: 17px;
+        width: 17px;
+        top: 1.5px;
+        left: 1px;
+        gap: 0px;
+        opacity: 0px;
+        color: #461e96;
+        cursor: pointer;
+    }
+}
+
+.download-ic {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*filters title,scroll and items*/
+
+.filterboxes-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.76px;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+.filters-box-scroll {
+    padding: 0px;
+    min-height: auto;
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+.filterboxes-items {
+    padding-top: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3b3b3b;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// @media only screen and (max-width: 1300px) {
+//     .filterboxes-items {
+//         padding-top: 4px;
+//         font-size: 12px;
+//         font-weight: 500;
+//         color: #3b3b3b;
+//         display: inline-block;
+//         vertical-align: middle;
+//         margin-top: -1px; /* Adjust alignment */
+//     }
+
+// }
+
+/*filters title,scroll and items*/
+
+/*card text show more show less*/
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.btn-download {
+    background-color: #461e96 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    height: 30px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    &:hover {
+        background-color: #461e96;
+        color: white;
+    }
+    &:active {
+        background-color: #461e96;
+        color: white;
+    }
+    &:focus {
+        background-color: #461e96;
+        color: white;
+    }
+}
+
+.showMore {
+    color: #461e96;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*card text show more show less*/
+
+.alert-warning {
+    background-color: #efefef;
+    color: #3b3b3b;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+}
+
+/**Date Box*/
+.date-section {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #efefef;
+    color: #3b3b3b;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .date-section {
+        font-size: 11.5px;
+        font-weight: 600;
+        background-color: #efefef;
+        color: #3b3b3b;
+        pointer-events: none;
+    }
+}
+
+/* Responsive images onboarding and home*/
+.image-fluid {
+    width: 101%;
+    height: auto;
+}
+
+/*search bar on filters*/
+.Cj5b5T {
+    padding: 0;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    height: 25px;
+    .zmbstL {
+        width: 22px;
+        height: 22px;
+        position: absolute;
+    }
+    .XPD6hh {
+        width: 100%;
+        border-width: 0 0 2px;
+        border-color: #461e96;
+        height: 20px;
+        font-size: 14px;
+        padding: 0 0 0 25px;
+        color: #878787;
+        outline: none;
+        position: relative;
+        bottom: 20px;
+    }
+
+    img {
+        position: relative;
+        padding: 0;
+        top: 10%;
+        z-index: 999;
+        height: 16px;
+        width: 16px;
+    }
+}
+/*search bar on filters*/
+
+/** search box*/
+.search-client-box {
+    width: 584px;
+    height: 61px;
+    gap: 8px;
+    opacity: 0px;
+
+    .client-search-text {
+        width: 584px;
+        height: 21px;
+        gap: 4px;
+        opacity: 0px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20.88px;
+        text-align: left;
+        color: #3b3b3b;
+    }
+
+    .choose-text-box {
+        width: 528px;
+        height: 32px;
+        gap: 4px;
+        opacity: 0px;
+        color: #666666;
+        border-color: #666666;
+
+        .form-control:focus {
+            border-color: #666666;
+            box-shadow: none;
+        }
+
+        img {
+            width: 3vw;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+}
+/** search box*/
+
+.favourite-nofill,
+.favourite-fill {
+    cursor: pointer;
+}
+
+/**text show on hover table cell*/
+.text-elp {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-elp:hover {
+    position: relative;
+    overflow: visible;
+    white-space: normal;
+    z-index: 1;
+    max-width: 100%;
+    background-color: #efefef;
+    color: #3b3b3b;
+    cursor: pointer;
+    transition: none;
+}
+/**text show on hover table cell*/
+.popover {
+    z-index: 1010; /* A value higher than 1010 that solves the problem */
+}
+
+/**tooltip*/
+.tooltip-inner {
+    background-color: #461e96 !important;
+    color: white !important;
+}
+
+.tooltip-arrow {
+    border-color: #461e96 !important;
+}
+
+/* For tooltip placement */
+.bs-tooltip-auto[x-placement^="auto"] .tooltip-arrow::before,
+.bs-tooltip-right .tooltip-arrow::before {
+    border-right-color: #461e96 !important;
+}
+
+.bs-tooltip-auto[x-placement^="right"] .tooltip-arrow::before,
+.bs-tooltip-right .tooltip-arrow::before {
+    border-right-color: #461e96 !important;
+}
+
+.bs-tooltip-auto[x-placement^="left"] .tooltip-arrow::before,
+.bs-tooltip-left .tooltip-arrow::before {
+    border-left-color: #461e96 !important;
+}
+
+.bs-tooltip-auto[x-placement^="top"] .tooltip-arrow::before,
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #461e96 !important;
+}
+
+.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::before,
+.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #461e96 !important;
+}
+
+/**tooltip*/
+
+.addonInfo {
+    color: #3b3b3b;
+    font-weight: 700;
+    font-size: 14px;
+}

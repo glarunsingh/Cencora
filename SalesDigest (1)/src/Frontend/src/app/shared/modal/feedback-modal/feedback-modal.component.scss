@@ -1,0 +1,77 @@
+.custom-btn-cls {
+    button {
+        background-color: #461e96;
+        color: white;
+        &:hover,
+        &:focus {
+            background-color: #461e96;
+            color: white;
+            border: 1px dotted #461e96;
+        }
+    }
+    background-color: #e8e8e8;
+}
+
+.btn-close {
+    box-shadow: none;
+}
+
+.title {
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+.cancelText {
+    color: #461e96;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.info-tags {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.url {
+    color: #461e96;
+}
+
+.form-check {
+    .form-check-input:focus {
+        box-shadow: none;
+    }
+
+    .form-check-input {
+        background-color: #ffffff;
+        background-image: url("../../../../assets/icons/Radio_unchecked.svg");
+        height: 20px;
+        width: 20px;
+    }
+
+    .form-check-input:checked {
+        background-color: #ffffff;
+        background-image: url("../../../../assets/icons/Radio_checked.svg");
+        height: 20px;
+        width: 20px;
+    }
+
+    .form-check-label {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: left;
+        color: #3b3b3b;
+    }
+}
+
+.form-control {
+    color: #999999;
+    font-size: 14px;
+    border-color: #3b3b3b;
+    box-shadow: none;
+    &:focus {
+        border-color: #3b3b3b;
+        box-shadow: none;
+    }
+}

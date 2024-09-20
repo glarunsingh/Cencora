@@ -1,0 +1,10 @@
+<nav>
+    <ul class="pagination pagination-sm justify-content-end">
+        <li class="page-item me-0 prevBtn prevNextBtn" (click)="prevPage()"><a class="page-link">Previous</a></li>
+        <li class="page-item custom-page-item" *ngFor="let page of pageNumbers;let i = index"
+            (click)="goToPage(page)">
+            <a class="page-link custom-page-link wd50" [class.active]="currentPage === page">{{page}}</a>
+        </li>
+        <li class="page-item prevNextBtn" (click)="nextPage()"><a class="page-link nextBtn-bord-left">Next</a></li>
+    </ul>
+</nav>

@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+      - task: Checkmarx AST@2
+        inputs:
+         CheckmarxService: 'CXONE-KeyAccounts'
+         projectName: 'ADO_HealthSystems_KeyAccountsDigest'
+         branchName: '$(Build.SourceBranchName)'
+         tenantName: 'cor'

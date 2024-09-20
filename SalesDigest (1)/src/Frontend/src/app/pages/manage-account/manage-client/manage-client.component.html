@@ -1,0 +1,101 @@
+<div class="mt-3">
+    <div class="client-search-header mb-2">
+        <span class="client-search-header"></span> Enter your preferred client name
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="choose-text-box">
+                <div class="input-group flex-nowrap cust-height-32p">
+                    <input type="text" class="form-control" placeholder="Search clients" aria-label="client name"
+                        aria-describedby="addon-wrapping" [(ngModel)]="searchClientText"
+                        (ngModelChange)="generatePagination()">
+                    <span><img src="assets/icons/input__button.svg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+            <b>Sort by :</b>
+            <span class="ms-1" *ngIf="isSorted">
+                <img src="assets/icons/arrow-down.svg" (click)="isSortedCheck()" class="favourite-fill">
+            </span>
+            <span class="ms-1" *ngIf="isSorted == false">
+                <img src="assets/icons/arrow-right-latest.svg" (click)="isSortedCheck()" style="rotate: 90deg;"
+                    class="favourite-fill">
+            </span>
+        </div>
+    </div>
+    <div *ngIf="showLoading">
+        <app-loader [isLoading]="showLoading" [loadingPlaceholderText]="'Fetching updated records....'">
+        </app-loader>
+    </div>
+    <div *ngIf="manageUserClientList.length">
+        <div class="tableFixHead">
+            <table class="table text-wrap mb-0">
+                <thead class="table-headers">
+                    <tr>
+                        <th scope="col">
+                            <div class="float-left ps-1">S.No</div>
+                        </th>
+                        <th scope="col">
+                            <div class="float-left ps-1">Client name</div>
+                        </th>
+                        <th scope="col">
+                            <div class="float-left ps-1">Synonyms</div>
+                        </th>
+                        <th scope="col">
+                            <div class="float-left ps-1">Mark as favorite</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="table-data">
+                    <tr *ngFor="let item of manageUserClientList| search : searchClientText">
+                        <td class="ps-3 align-middle">{{item.sNo}}</td>
+                        <td class="ps-3 align-middle">
+                            <div class="text-elp mxw-300">{{item.clientName}}</div>
+                        </td>
+                        <td class="ps-3 align-middle">
+                            <div class="text-elp mxw-300">{{item.synonims}}</div>
+                        </td>
+                        <td class="ps-3 align-middle">
+                            <div *ngIf="item.isFavorite" (click)="markOrDemarkFav(item)">
+                                <img src="assets/icons/onboarding-fav-fill.svg" class="favourite-nofill">
+                            </div>
+                            <div *ngIf="item.isFavorite == false" (click)="markOrDemarkFav(item)">
+                                <img src="assets/icons/onboarding-fav-nofill.svg" class="favourite-nofill">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-2">
+            <div class="d-flex justify-content-between">
+                <div class="consent-box mb-3">
+                    <div class="form-check custom-checkbox d-flex align-items-center">
+                        <input class="form-check-input" type="checkbox" id="flexCheckChecked" [(ngModel)]="email_notify"
+                            (ngModelChange)="updateUserProfile($event)">
+                        <label class="form-check-label" for="flexCheckChecked" checked="email_notify">
+                            <div class="ps-2 consent">
+                                I would like to receive a daily newsletter in my personal inbox.</div>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="pagination pagination-sm">
+                            <li class="page-item me-0 prevBtn prevNextBtn" (click)="previousPage()"><a
+                                    class="page-link">Previous</a></li>
+                            <li class="page-item custom-page-item" *ngFor="let page of pageNumbersList;let i = index"
+                                (click)="goToPage(page)">
+                                <a class="page-link custom-page-link wd50"
+                                    [class.active]="currentPage === page">{{page}}</a>
+                            </li>
+                            <li class="page-item prevNextBtn" (click)="nextPage()"><a
+                                    class="page-link nextBtn-bord-left">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

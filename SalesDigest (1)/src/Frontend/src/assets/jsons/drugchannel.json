@@ -1,0 +1,114 @@
+{
+    "success": true,
+    "message": "Data extracted for Drug Channel from DB",
+    "data": [
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/drug-channels-news-roundup-february.html",
+            "news_title": "Drug Channels News Roundup, February 2023: Mark Cuban vs. PBMs, MDs on Humira Biosimilars, States vs. PBMs, 340B Transparency, and Health Insurer Humor (?)",
+            "news_date": "2023-02-28T00:00:00.000000Z",
+            "news_summary": "The latest Drug Channels news roundup highlights key issues in the pharmaceutical industry, including Mark Cuban's anti-PBM strategy, physician opinions on Humira biosimilars, state regulations targeting PBMs, and HHS's confusion over 340B transparency. Mark Cuban's interview at the AAM Annual Meeting discusses the U.S. drug channel and vertically integrated companies. Cardinal Health's 2023 Biosimilars Report reveals physician preferences for Humira biosimilars. States are increasingly legislating PBM oversight, though federal guidance remains uncertain. The Inflation Reduction Act exempts manufacturers from inflation rebates on 340B-eligible Medicare Part D drugs, prompting HHS to seek public comments on identifying such claims. Lastly, The Onion humorously critiques UnitedHealthcare's policies."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/exclusive-report-manufacturers-identify.html",
+            "news_title": "Exclusive Report: Manufacturers Identify the Three Critical Drivers of Hub Success",
+            "news_date": "2023-02-24T00:00:00.000000Z",
+            "news_summary": "Matt Hall, President of Patient Solutions at CareMetx, shares insights from CareMetx’s new survey on patient support services for specialty pharmaceuticals. The survey, involving over 100 participants from various pharmaceutical roles, highlights the growing need for patient-centric solutions. Key findings include the importance of therapy initiation, adherence, and patient satisfaction. Three critical drivers of value for patient services emerged: a holistic view of therapy initiation, integrated solutions to minimize administrative pain points, and data that supports actionable insights. The comprehensive 2022 Report - Patient Services Trends offers detailed results and best practices for optimizing patient services programs. Download the report for more information."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/copay-accumulator-and-maximizer-update.html",
+            "news_title": "Copay Accumulator and Maximizer Update: Adoption Plateaus as Insurers Battle Patients Over Copay Support",
+            "news_date": "2023-02-22T00:00:00.000000Z",
+            "news_summary": "The adoption of copay accumulators and maximizers in commercial health plans has plateaued, with maximizers now more prevalent than accumulators. These benefit designs, affecting patients on specialty drugs for conditions like autoimmune diseases and cancer, redirect manufacturer copay support funds to insurers and PBMs, often increasing patients' out-of-pocket costs. This has led to growing patient dissatisfaction, legislative action, and manufacturer pushback. Maximizers, which set patient costs to match copay support limits, are particularly favored by PBMs for their profitability. Despite resistance, these programs are likely to persist, potentially leading to more complex and ethically questionable benefit designs."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/available-for-preorder-2023-economic.html",
+            "news_title": "Available for Preorder: The 2023 Economic Report on U.S. Pharmacies and Pharmacy Benefit Managers",
+            "news_date": "2023-02-21T00:00:00.000000Z",
+            "news_summary": "On March 14, 2023, Drug Channels Institute will release the 14th edition of \"The 2023 Economic Report on U.S. Pharmacies and Pharmacy Benefit Managers.\" This comprehensive, 480+ page report includes 12 chapters, 241 exhibits, and 900+ endnotes, offering an in-depth analysis of the U.S. drug pricing, reimbursement, and dispensing system. Preorders are available at discounted prices, with early access provided before the release date. The report features updated market data, new industry trends, and an analysis of the Inflation Reduction Act of 2022. Special pricing is valid through April 3, 2023. For more details, a free pre-publication overview is available for download."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/improve-access-affordability-and-brand.html",
+            "news_title": "Improve Access, Affordability, and Brand Performance With GoodRx’s Point-of-Sale Rebate Programs",
+            "news_date": "2023-02-17T00:00:00.000000Z",
+            "news_summary": "Jim Longley, Head of Commercial, Pharma Manufacturer Solutions at GoodRx, discusses GoodRx Assist, a point-of-sale (POS) rebate program aimed at helping cash-paying patients afford brand-name medications. The program addresses the financial challenges patients face due to high-deductible health plans and rising prescription costs. GoodRx Assist offers customized cash rebates, improving patient adherence and access to medications by lowering out-of-pocket expenses. The program has shown impressive results, such as a 2.7x increase in cash claims for a diabetes medical device and a significant reduction in reversal rates for branded birth control. GoodRx Assist complements existing savings programs and cannot be used with commercial or government insurance."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/exclusive-profiling-manufacturers.html",
+            "news_title": "Exclusive: Profiling Manufacturers’ Limited and Exclusive Pharmacy Networks for Specialty Drugs",
+            "news_date": "2023-02-14T00:00:00.000000Z",
+            "news_summary": "This article explores the relationships between specialty drug manufacturers and the pharmacies in their limited and exclusive networks. Using data from IPD Analytics, it examines 290 specialty drugs and reveals that the average network includes five pharmacies, though sizes vary widely. About 28% of these drugs have exclusive networks with a single pharmacy, while others range from 2 to 25 pharmacies. The largest pharmacy benefit managers (PBMs) like CVS Health and Express Scripts dominate access, but smaller and independent pharmacies also play significant roles. The article highlights the impact of PBM and plan sponsor strategies on pharmacy access and previews further insights in an upcoming economic report."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/the-top-indicators-that-hub-launch-will.html",
+            "news_title": "The Top Indicators That a Hub Launch Will Succeed: Discovery and Partnership",
+            "news_date": "2023-02-10T00:00:00.000000Z",
+            "news_summary": "Lauren Cole, Senior VP of Launch Excellence at ConnectiveRx, discusses key success factors for launching or transitioning a patient hub. She emphasizes the importance of a strategic discovery process, where the hub partner leads and asks insightful questions to understand the brand's goals. Effective partnerships require deep industry knowledge, collaboration, and a consultative approach to design tailored solutions. Cole warns against underestimating the complexity of hub development and highlights the need for transparent communication to ensure successful outcomes. For more insights, Cole will participate in a free online panel on April 4th and speak at Informa Connect’s conference on March 20-22."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/the-warped-incentives-behind-amgens.html",
+            "news_title": "The Warped Incentives Behind Amgen’s Humira Biosimilar Pricing–And What We Can Learn from Semglee and Repatha",
+            "news_date": "2023-02-07T00:00:00.000000Z",
+            "news_summary": "Amgen has launched Amjevita, the first non-interchangeable biosimilar of Humira, offering both high-list/high-rebate and low-list/low-rebate versions. This dual-pricing strategy aims to navigate the complex U.S. market, where pharmacy benefit managers (PBMs) prefer high-list prices to negotiate larger rebates. Historically, PBMs and plan sponsors have favored higher-priced biosimilars, leading to higher out-of-pocket costs for patients. Amgen's approach mirrors previous strategies seen with insulin biosimilars and its own PCSK9 inhibitor, Repatha. Despite the potential for lower-cost options, PBMs have been vague about their formulary decisions for Amjevita. The upcoming wave of Humira biosimilars will introduce further market complexities, potentially driving significant savings but also challenging PBM pricing control."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/02/informa-connects-access-usa.html",
+            "news_title": "Informa Connect’s Access USA",
+            "news_date": "2023-02-06T00:00:00.000000Z",
+            "news_summary": "Informa Connect’s Access USA is a hybrid event taking place from March 20-23, 2023, at the Philadelphia Marriott Downtown. The event combines three industry-leading conferences—Patient Assistance & Access Programs (PAP), Hub and Specialty Pharmacy Models East, and Rare Disease Innovation & Partnership Summit—into one week of collaborative discussions aimed at improving patient access to care. Attendees, including bio/pharma manufacturers, non-profits, hospitals, health clinics, PBMs, specialty pharmacies, academics, and solution providers, will have the opportunity to network, learn, and establish partnerships. Key content highlights include industry updates, equity in healthcare, FDA updates on rare diseases, and policy addresses. Use promo code 23AUSA10 for a 10% discount on registration."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/drug-channels-news-roundup-january-2023.html",
+            "news_title": "Drug Channels News Roundup, January 2023: My $0.02 on Amazon & OptumRx, PBMs vs. AFPs, WSJ on 340B, Accumulators & Maximizers, and Tipping Culture",
+            "news_date": "2023-01-31T00:00:00.000000Z",
+            "news_summary": "Eagles Super Bowl fever has hit Philadelphia, with police preparing by greasing light poles. Key news highlights include Amazon's launch of RxPass, offering unlimited generic prescriptions for $5 monthly to Prime members, though with significant limitations. OptumRx introduced Price Edge, comparing out-of-pocket costs with direct-to-consumer pricing, revealing that 10% of prescriptions could be cheaper without OptumRx. The article also critiques alternative funding programs that exclude specialty drug coverage, pushing patients to charitable foundations. A Wall Street Journal expose reveals abuses in the 340B Drug Pricing Program, highlighting a lack of transparency and fraud. Additionally, employers are increasingly using patient assistance programs to reduce their own costs. Lastly, there's a humorous nod to tipping culture potentially infiltrating healthcare."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/the-evolution-of-medical-benefit.html",
+            "news_title": "The Evolution of Medical Benefit Contracting: How Pharma Can Prepare",
+            "news_date": "2023-01-27T00:00:00.000000Z",
+            "news_summary": "Saket Patel, a consultant at MMIT, discusses strategies for market access and contracting for medical benefit products amid the launch of pharmacy benefit biosimilars. He emphasizes the need for aggressive contracting and cost minimization due to competitive pressures from biosimilars. Patel highlights the impact of tiered PBM designs and IDN formularies on drug utilization and market access. He advises manufacturers to negotiate with both large and small payers, quantify their product's financial value, and leverage creative contracting methods like value-based agreements. Patel also underscores the importance of automating formulary and medical policy validation to prevent overpayment."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/the-state-of-employers-pharmacy.html",
+            "news_title": "The State of Employers’ Pharmacy Benefits: A Review of 2022 and the 2023 Outlook for Copay Programs",
+            "news_date": "2023-01-24T00:00:00.000000Z",
+            "news_summary": "The article reviews employer-sponsored prescription drug coverage for 2023, highlighting trends and future expectations. It examines data from the 2022 Kaiser Family Foundation Employer Health Benefits Survey, noting increased use of coinsurance for specialty and fourth-tier drugs, which raises patients' out-of-pocket costs. This shift contributes to the controversy over copay accumulator adjustments and copay maximizers, with anticipated declines in employer savings and PBM profits potentially leading to stricter specialty drug benefits. The article also discusses the prevalence of high-deductible health plans (HDHPs) and their impact on cost-sharing structures, emphasizing the financial burden on patients due to higher copayments and coinsurance rates. Additionally, it touches on the role of pharmaceutical manufacturers' copayment offset programs and the response from payers. The piece concludes with a cautionary note about the potential for less generous specialty drug benefits and the ethical concerns surrounding alternative funding programs."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/informa-connects-pap-patient-assistance.html",
+            "news_title": "Informa Connect’s PAP – Patient Assistance & Access Programs | Part of Access USA",
+            "news_date": "2023-01-23T00:00:00.000000Z",
+            "news_summary": "Informa Connect’s PAP – Patient Assistance & Access Programs event will be held from March 20-22, 2023, at the Philadelphia Marriott Downtown. This hybrid event aims to address the growing demand for patient assistance by bringing together key stakeholders to discuss strategies for improving prescription access and affordability. Attendees will benefit from networking opportunities, expert insights, and customizable tracks on legal policy, patient adherence, and technology. The event is part of Access USA, which includes three industry-leading conferences and expects over 600 participants. Use promocode 23DCPAP10 for a 10% registration discount."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/harnessing-data-to-improve-patient.html",
+            "news_title": "Harnessing Data to Improve Patient Access and Optimize Gross-to-Net",
+            "news_date": "2023-01-20T00:00:00.000000Z",
+            "news_summary": "Andrew Duncan, VP of Business Operations and Analytics at PHIL, discusses the importance of a data-driven strategy for life science manufacturers to enhance patient access, adherence, and optimize gross-to-net (GTN). He highlights the challenges of tracking prescription data through traditional retail channels, which often result in high rates of prescription abandonment and substitution. Duncan advocates for leveraging specialty pharmacies and comprehensive data analytics to gain better visibility and control over the prescription fulfillment process. Key metrics to track include new scripts, access program enrollment, prior authorization rates, and pharmacy reimbursement rates. By understanding these metrics, manufacturers can improve patient outcomes, streamline prior authorization processes, and optimize GTN across the product lifecycle. PHIL’s platform offers extensive data capture and analytics to support these goals, ensuring seamless patient access and effective program adjustments."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/vertical-integration-in-healthcare-2023.html",
+            "news_title": "Vertical Integration in Healthcare: 2023 Outlook for the Seven Major Players (Video)",
+            "news_date": "2023-01-17T00:00:00.000000Z",
+            "news_summary": "Consolidation has unified major insurer/PBM/specialty pharmacy/provider organizations in U.S. drug channels, with over half of U.S. healthcare spending managed by Blue Cross Blue Shield, Centene, Cigna, CVS Health, Elevance Health, Humana, and United Health Group. A brief video clip reviews these entities and their 2023 positioning, highlighting ongoing vertical strategy changes. For more detailed insights, viewers can purchase a replay of the full 90-minute Drug Channels Outlook 2023 webinar or register for upcoming webinars. Additional resources include a downloadable vertical integration chart, which needs updating due to IngenioRx’s rebranding as CarelonRx."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/a-new-point-of-prescribing-solution-to.html",
+            "news_title": "A New Point-of-Prescribing Solution to Help Increase Prescribing Accuracy, Speed to Therapy and Patient Adherence",
+            "news_date": "2023-01-13T00:00:00.000000Z",
+            "news_summary": "Clay Courville, Chief Product Officer at CoverMyMeds, addresses the persistent issue of medication errors and introduces CoverMyMeds' Provider Medication Alerts (PMA) solution. This technology aims to enhance prescribing accuracy, reduce administrative burdens, and improve patient adherence by delivering critical messaging at key points in the provider workflow. Despite progress in reducing medical errors, thousands of Americans still die annually due to such mistakes. PMA connects pharma messaging with providers in real-time, flagging potential errors and providing vital updates, thereby preventing errors and improving patient outcomes. The solution also educates patients on proper medication use, addressing adherence challenges. This innovative approach promises to streamline the prescribing process and enhance patient safety."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/the-big-three-pbms-2023-formulary.html",
+            "news_title": "The Big Three PBMs’ 2023 Formulary Exclusions: Observations on Insulin, Humira, and Biosimilars",
+            "news_date": "2023-01-10T00:00:00.000000Z",
+            "news_summary": "In 2023, the three largest pharmacy benefit managers (PBMs)—Caremark (CVS Health), Express Scripts (Cigna), and OptumRx (United Health Group)—have increased the number of drugs excluded from their standard formularies to about 600 products each. The growth in exclusions has slowed due to the high number of drugs already excluded. Exclusions are used by PBMs to negotiate deeper rebates from manufacturers, impacting drug prices and patient access. Key takeaways include the continued expansion of exclusions, slow adoption of biosimilar insulins, complex management of provider-administered biosimilars, and preparations for Humira biosimilars. Exclusions can lead to non-medical switching and affect patient out-of-pocket costs and access to therapies. Research on the patient impact of these exclusions is limited but suggests potential adverse outcomes."
+        },
+        {
+            "news_url": "https://www.drugchannels.net/2023/01/brand-name-drug-prices-fell-for-fifth.html",
+            "news_title": "Brand-Name Drug Prices Fell for the Fifth Consecutive Year—And Plummeted After Adjusting for Inflation",
+            "news_date": "2023-01-04T00:00:00.000000Z",
+            "news_summary": "In 2022, net prices for brand-name drugs decreased for the fifth consecutive year, dropping nearly 9% after adjusting for inflation. This trend is expected to continue due to upcoming changes in Medicare and Medicaid. Despite political rhetoric, prescription drug spending remains a small and stable portion of overall U.S. healthcare expenditures. Data from SSR Health, a leading source, shows that while list prices have grown modestly, net prices have consistently declined due to rebates and discounts. The \"gross-to-net bubble\" describes the growing gap between list and net prices, driven by various factors including PBM industry practices and government policies. Upcoming Medicare changes will further pressure net prices. Contrary to popular belief, pharmaceuticals account for about 15% of U.S. healthcare spending, a figure comparable to other countries. The article emphasizes the importance of relying on factual data over political narratives."
+        }
+    ]
+}

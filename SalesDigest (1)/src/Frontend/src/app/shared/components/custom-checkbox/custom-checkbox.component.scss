@@ -1,0 +1,30 @@
+.reset-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 11.6px;
+    text-align: left;
+    color: #461e96;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    border-color: #8a8a8a;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #ffffff;
+    background-image: url("../../../../assets/icons/checkbox_checked.svg");
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+

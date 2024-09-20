@@ -1,0 +1,16 @@
+<div class="modal-header">
+    <h1 class="addEditTitle fs-5">
+        <div>
+            <span><img src="assets/icons/bin-1.svg" class="me-1"></span>
+            <span>Confirm delete</span>
+        </div>
+    </h1>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+</div>
+<div class="modal-body">
+    <h6>Are you sure want to delete <b>{{deleteConfirmDetails.data.fieldName}}</b>&nbsp;?</h6>
+</div>
+<div class="modal-footer custom-btn-cls">
+    <span class="cancelText" (click)="closeModal()">Cancel</span>
+    <button type="button" class="btn btn-block btn-sm" (click)="confirmDelete()">Delete</button>
+</div>

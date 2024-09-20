@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-6 d-flex justify-content-start">
+        <span class="filterboxes-title">{{title}}</span>
+    </div>
+</div>
+<div class="row px-3 py-1">
+    <div class="Cj5b5T" *ngIf="isFilterEnabled">
+        <img src="assets/icons/find.svg" alt="">
+        <input type="text" class="XPD6hh" placeholder="Search" [(ngModel)]="searchItem" autofocus>
+    </div>
+    <div class="filters-box-scroll px-0">
+        <div *ngIf="showLoading">
+            <app-loader [isLoading]="showLoading" [loadingPlaceholderText]="'Fetching items...'"></app-loader>
+        </div>
+        <div *ngIf="radioItemsList?.length">
+            <div class="form-check" *ngFor="let item of radioItemsList! | search: searchItem;let i = index">
+                <input class="form-check-input" type="radio" [(ngModel)]="selectedTimeFrame"
+                    (ngModelChange)="changeTimeFrame($event)" name="radiogroup-{{i}}" id="preffered-{{i}}"
+                    [value]="item">
+                <label class="form-check-label" for="flexRadioDefault-{{i}}">
+                    <div class="ps-1 filterboxes-items"> {{item}}</div>
+                </label>
+            </div>
+        </div>
+        <div *ngIf="showLoading == false && isEmpty">
+            <p>No items to display</p>
+        </div>
+        <!-- <div *ngIf="radioItemsList?.length;then content else other_content">here is ignored</div>
+        <ng-template #content>
+            <div class="form-check" *ngFor="let item of radioItemsList! | search: searchItem;let i = index">
+                <input class="form-check-input" type="radio" [(ngModel)]="selectedTimeFrame"
+                    (ngModelChange)="changeTimeFrame($event)" name="radiogroup-{{i}}" id="preffered-{{i}}"
+                    [value]="item">
+                <label class="form-check-label" for="flexRadioDefault-{{i}}">
+                    <div class="ps-1 filterboxes-items"> {{item}}</div>
+                </label>
+            </div>
+        </ng-template>
+        <ng-template #other_content>
+            <app-loader [isLoading]="radioItemsList?.length?false:true" [loadingPlaceholderText]="'Fetching items...'">
+            </app-loader>
+        </ng-template> -->
+    </div>
+</div>
